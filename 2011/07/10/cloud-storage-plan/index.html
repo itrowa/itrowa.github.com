@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>假期云存储方案（试行） - dynamii实验室</title>
+  <meta name="author" content="杜罗华">
+
+  
+  <meta name="description" content="最近终于回家了，这个暑假的主要任务是为了考研看完一堆厚厚的书。在电脑方面，我就不想老是折腾我那个14英寸的笔记本了，因为家里面还有性能强悍得多的台式机，另外我还可能转战于多个基地进行作战，携带这个装备是件很累的事情，有没有办法能减轻我的负担呢？ 于是我想到了搁置很久没有用的云存储服务。自己的东西， &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://itrowa.github.com/2011/07/10/cloud-storage-plan">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="dynamii实验室" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-31173648-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">dynamii实验室</a></h1>
+  
+    <h2>以有涯随无涯，殆矣</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:itrowa.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Root</a></li>
+  <li><a href="/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">假期云存储方案（试行）</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-10T00:00:00+08:00" pubdate data-updated="true">Jul 10<span>th</span>, 2011</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>最近终于回家了，这个暑假的主要任务是为了考研看完一堆厚厚的书。在电脑方面，我就不想老是折腾我那个14英寸的笔记本了，因为家里面还有性能强悍得多的台式机，另外我还可能转战于多个基地进行作战，携带这个装备是件很累的事情，有没有办法能减轻我的负担呢？</p>
+
+<p>于是我想到了搁置很久没有用的云存储服务。自己的东西，说穿了也就是一堆数据比较重要，比如一些经常要查看的文档，onenote笔记，KeePass数据库等，其它的图片，音乐等倒是其次的。总结起来：</p>
+
+<blockquote>这次使用云存储是为了满足最低要求的数据同步。</blockquote>
+
+
+<p>我也很想让云存储做更多的事情，无奈云存储技术还不是非常先进，我觉得无法把他用作更复杂的用途。</p>
+
+<p>以前我一直使用的是金山快盘，考虑到它容量比较大，连接速度还不赖，可以把同步的目录虚拟成一个磁盘来使用，我认为还是不错的。首先我要备份要放入云存储的数据，以防万一；另外，一旦使用云存储后，<strong>主要的工作目录就放在这个同步目录中比较好，否则，一旦管理不恰当，可能会在不同的计算机中留下很多份不同版本的文件副本</strong>。但是要把工作目录移动到快盘里面，我还真有些不习惯，因为一些文件的管理方式又和我以前的目录结构发生了一点冲突。这是个值得商榷的问题啊。最后，<strong>我认为应当根据数据改动的频度来建立不同目录，</strong>比如，不常改动的，音乐，软件等放在一个目录；经常改动的文档，笔记等，放在另外一个目录。生活中往往是这些又小又改动得频繁的数据需要同步，而那些比较“静态”的数据，并不是时时用得着。（金山快盘还有个“选择性同步”的功能，按照这个思路可以把这个功能发挥得很好）</p>
+
+<p>根据以上的一些指导性原则，我在我的快盘中建立了如下的目录结构：</p>
+
+<ul>
+    <li>Lib （主要存储静态的文件）</li>
+<ul>
+    <li>音乐</li>
+    <li>图片</li>
+    <li>软件</li>
+</ul>
+    <li>var（主要存储改动频率大的文件，例如onenote笔记，KeePass数据等）</li>
+<ul>
+    <li>onenote</li>
+    <li>KeePass</li>
+</ul>
+    <li>Work（存储改动频率大的文件，其实也是“工作目录”，例如放一些考研资料）</li>
+<ul>
+    <li>项目1</li>
+    <li>项目2</li>
+</ul>
+</ul>
+
+
+<p>下面再来讲一下使用时应注意的要点。</p>
+
+<p>1.诸如onenote之流的文件存储位置，就必须得移动到快盘中了，KeePass的也是如此。同理工作目录也要移动到快盘中去，以后这些东西就全部放在快盘中，而不要留在本机的其它地方，以免搞错了。至于软件图片等，改动频率也不大，同步要求也不高，拷贝一个副本到KeePass中也是可以的吧。</p>
+
+<p>2.到了一台新计算机，如果应急的话可以使用快盘的“选择性同步”，就可以不同步Lib目录了（这个目录往往很大）。</p>
+
+<p>写到这里本文也差不多结束了，多天的试用让我得到了如下结论：</p>
+
+<ol>
+    <li>云存储在技术上还不算成熟，文件同步了，可是软件呢？设置呢？这些都没有跟上。</li>
+    <li>云存储过度依赖Internet，虽说这几乎是限制这项宏伟项目的唯一要素，但是要网速变得更快，这是最难的。</li>
+</ol>
+
+
+<ul></ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">杜罗华</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-10T00:00:00+08:00" pubdate data-updated="true">Jul 10<span>th</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://itrowa.github.com/2011/07/10/cloud-storage-plan/" data-via="" data-counturl="http://itrowa.github.com/2011/07/10/cloud-storage-plan/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2011/07/09/welcome-to-k-on/" title="Previous Post: 欢迎来到轻音部喵？">&laquo; 欢迎来到轻音部喵？</a>
+      
+      
+        <a class="basic-alignment right" href="/2011/08/01/fly-plane/" title="Next Post: 首飞KT板双翼3D机">首飞KT板双翼3D机 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/05/08/my-notebook/">我是笔记控！我正在使用的电子笔记本和纸质笔记本</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/05/05/comment-on-beijing-love-story/">人生的选择，小评北京爱情故事</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/05/02/latex-and-word-who-is-better/">LaTeX与Word（源代码与所见即所得）谁更好？</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/29/leave-rss-reader-alone/">为什么应该远离RSS阅读器？</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/25/coming-home-to-wordpress/">我回来了，回到WordPress了</a>
+      </li>
+    
+  </ul>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - 杜罗华 
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'dynamii';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://itrowa.github.com/2011/07/10/cloud-storage-plan/';
+        var disqus_url = 'http://itrowa.github.com/2011/07/10/cloud-storage-plan/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>迁移到了MediaTemple - dynamii实验室</title>
+  <meta name="author" content="杜罗华">
+
+  
+  <meta name="description" content="今天我很高兴地宣布我已经把自己的主机迁移到了MediaTemple。没错，就是那个超级尊贵级主机。这样就再也不怕我原来的主机贩子再动流氓手脚了。 由于种种原因，我在淘宝上那家Dreamhost代理商买的那主机让我感觉非常不理想，不仅不提供SSH方便管理，甚至连操作域名绑定的后台也没有， &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://itrowa.github.com/2009/11/03/migrate-to-mediatemple">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="dynamii实验室" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-31173648-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">dynamii实验室</a></h1>
+  
+    <h2>以有涯随无涯，殆矣</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:itrowa.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Root</a></li>
+  <li><a href="/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">迁移到了MediaTemple</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-11-03T00:00:00+08:00" pubdate data-updated="true">Nov 3<span>rd</span>, 2009</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><img class="alignnone size-full wp-image-217" title="(MT)" src="http://trowa.org/wp-content/media/2009/11/black-mt-bug__42c5eac.gif" alt="(MT)" width="250" height="140" /></p>
+
+<p>今天我很高兴地宣布我已经把自己的主机迁移到了MediaTemple。没错，就是那个超级尊贵级主机。这样就再也不怕我原来的主机贩子再动<a href="http://trowa.org/archive/232.html">流氓手脚</a>了。</p>
+
+<p>由于种种原因，我在淘宝上那家Dreamhost代理商买的那主机让我感觉非常不理想，不仅不提供SSH方便管理，甚至连操作域名绑定的后台也没有，也无法管理自己的数据库，无法知道磁盘使用量（事实上我连我买的是多大的空间都无法得知），无法获晓流量状况。上次Blog变得一片空白的时候，去问他们客服，他们懒洋洋的，让我去重装，可我连清空数据库的权限都没有，更不能直接rm -rf然后重新上传文件，你要我去把服务器砸了不成？后来没办法，也给我重装了。这个年代，无法想象如此庞大的WordPress一个文件一个文件地用FTP传上去会浪费一个人多少的时间。</p>
+
+<p>我先连上去把老服器的东西打包，数据库备份好，使用<span style="text-decoration: line-through;">豪华</span>奢华级的Plesk后台面板绑定好域名，同时登录我域名的控制面板重新设定A记录，建好数据库，然后远程Shell登录，用PSFTP上传好东西，把wp-config设置好，华丽地打开首页，哇！成功了。</p>
+
+<p>再次呼吁Blogger们选购Host的时候，一定要警惕虚拟主机中的猫腻，别像我一样，买了个Dreamhost的裸机。</p>
+
+<p><img id="myFxSearchImg" style="border: medium none; position: absolute; z-index: 2147483647; opacity: 0.6; display: none;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADsElEQVR4nK2VTW9VVRSGn33OPgWpYLARbKWhQlCHTogoSkjEkQwclEQcNJEwlfgD/AM6NBo1xjhx5LyJ0cYEDHGkJqhtBGKUpm3SFii3vb2956wPB/t+9raEgSs52fuus89613rftdcNH8/c9q9++oe/Vzb5P+3McyNcfm2CcPj9af9w6gwjTwzvethx3Bx3x8xwd1wNM8dMcTNUHTfFLPnX6nVmZpeIYwf3cWD/PhbrvlPkblAzVFurKS6GmmGqqComaS+qmBoTI0Ncu3mXuGvWnrJ+ZSxweDgnkHf8ndVTdbiT3M7cQp2Z31dRTecHAfqydp4ejhwazh6Zezfnu98E1WIQwB3crEuJ2Y45PBTAQUVR9X4At66AppoEVO1Q8sgAOKJJjw6Am6OquDmvHskZ3R87gW+vlHz98zpmiqphkkRVbQtsfPTOC30lJKFbFTgp83bWh7Zx/uX1B6w3hI3NkkZTqEpBRDBRzG2AQHcwcYwEkOGkTERREbLQ/8HxJwuW7zdYrzfZ2iopy4qqEspKaDYravVm33k1R91Q69FA1VBRzFIVvXbx5AgXT44A8MWP81yfu0utIR2aVK3vfCnGrcUNxp8a7gKYKiLCvY2SUvo/aNtnM3e49ucK9S3p0aDdaT0UAVsKi2tVi6IWwNL9JvdqTdihaz79/l+u/rHMxmaJVMLkS2OoKKLWacdeE3IsSxctc2D5Qcl6vUlVVgNt+fkPPcFFmTw1xruvT7SCd7nuVhDQvECzJH90h0azRKoKFRkAmP5lKTWAGRdefoZL554FQNUxB92WvYeA5UN4PtSqwB2phKqsqMpBgAunRhFR3j49zuU3jnX8k6fHEQKXzh1jbmGDuYU6s4t1rt6socUeLLZHhYO2AHSHmzt19ihTZ48O8Hzl/AmunD/BjTvrvPfNX3hWsNpwJCvwYm+ngug4UilSCSq6k8YPtxDwfA+WRawIWFbgscDiULcCEaWqBFOlrLazurupOSHLqGnEKJAY8TwBEHumqUirAjNm52vEPPRV4p01XXMPAQhUBjcWm9QZwijwokgAeYHlHYA06KR1cT6ZvoV56pDUJQEjw0KeaMgj1hPEY4vz2A4eW0/e1qA7KtQdsxTYAG0H3iG4xyK1Y+xm7XmEPOJZDiENzLi2WZHngeOjj2Pe+sMg4GRYyLAsx7ME4FnsyTD9pr0PEc8zPGRAwKXBkYOPEd96cZRvf11g9MDe7e3R4Z4Q+vyEnn3P4t0XzK/W+ODN5/kPfRLewAJVEQ0AAAAASUVORK5CYII%3D" alt="" width="24" height="24" /></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">杜罗华</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-11-03T00:00:00+08:00" pubdate data-updated="true">Nov 3<span>rd</span>, 2009</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://itrowa.github.com/2009/11/03/migrate-to-mediatemple/" data-via="" data-counturl="http://itrowa.github.com/2009/11/03/migrate-to-mediatemple/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2009/11/03/dohostus-a-garbage/" title="Previous Post: 尚雅国际实在是一家无良淘宝店">&laquo; 尚雅国际实在是一家无良淘宝店</a>
+      
+      
+        <a class="basic-alignment right" href="/2009/11/06/ubi-crashes/" title="Next Post: 经济萧条，Ubi 都申请破产保护">经济萧条，Ubi 都申请破产保护 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/05/08/my-notebook/">我是笔记控！我正在使用的电子笔记本和纸质笔记本</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/05/05/comment-on-beijing-love-story/">人生的选择，小评北京爱情故事</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/05/02/latex-and-word-who-is-better/">LaTeX与Word（源代码与所见即所得）谁更好？</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/29/leave-rss-reader-alone/">为什么应该远离RSS阅读器？</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/25/coming-home-to-wordpress/">我回来了，回到WordPress了</a>
+      </li>
+    
+  </ul>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - 杜罗华 
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'dynamii';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://itrowa.github.com/2009/11/03/migrate-to-mediatemple/';
+        var disqus_url = 'http://itrowa.github.com/2009/11/03/migrate-to-mediatemple/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

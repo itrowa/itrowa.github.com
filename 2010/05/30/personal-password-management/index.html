@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>也谈谈个人密码管理 - dynamii实验室</title>
+  <meta name="author" content="杜罗华">
+
+  
+  <meta name="description" content="和个人音乐库的管理一样，现在网站论坛多如牛毛的情况下，管理账户和密码——这个本来不是问题的事情，却变成了大麻烦。 痛苦的密码无处不在 当我读初中的时候，那时候唯一需要记的账户密码名，就是我的QQ号了。即使到了高中后，有了自己的电脑，帐号密码仍然不需要什么“管理”的技巧。但是随着时间的推移， &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://itrowa.github.com/2010/05/30/personal-password-management">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="dynamii实验室" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-31173648-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">dynamii实验室</a></h1>
+  
+    <h2>以有涯随无涯，殆矣</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:itrowa.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Root</a></li>
+  <li><a href="/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">也谈谈个人密码管理</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-30T00:00:00+08:00" pubdate data-updated="true">May 30<span>th</span>, 2010</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><!--        @page { margin: 2cm }       P { margin-bottom: 0.21cm }         A:link { so-language: zxx } -->
+
+
+
+
+<!--        @page { margin: 2cm }       P { margin-bottom: 0.21cm }         A:link { so-language: zxx } -->
+
+
+<p lang="zh-CN">和个人音乐库的管理一样，现在网站论坛多如牛毛的情况下，管理账户和密码——这个本来不是问题的事情，却变成了大麻烦。</p>
+
+
+
+
+<h2 lang="zh-CN">痛苦的密码无处不在</h2>
+
+
+<p lang="zh-CN">当我读初中的时候，那时候唯一需要记的账户密码名，就是我的<span style="font-family: Times New Roman,serif;">QQ</span>号了。即使到了高中后，有了自己的电脑，帐号密码仍然不需要什么“管理”的技巧。但是随着时间的推移，我渐渐有了自己的<span style="font-family: Times New Roman,serif;">Blog</span>，有了自己的<span style="font-family: Times New Roman,serif;">Google Account</span>，有了自己的网上银行，有了各种各样重要性不同的网站账户。根据网上盛传的密码设置的常识，密码问题开始凸显：</p>
+
+
+
+
+<ol>
+    <li>
+<p lang="zh-CN">不能所有的账户都使用同一个密码。这意味着我必须针对不同的账户记住不同的密码。</p>
+</li>
+    <li>
+<p lang="zh-CN">定期修改密码。这意味着我要定期记住新的密码。</p>
+</li>
+    <li>
+<p lang="zh-CN">密码的随机性和复杂性要满足一定的要求。这样记忆的难度会明显增大。</p>
+</li>
+</ol>
+
+
+<p lang="zh-CN">为了保证一定的安全性，管理和记忆各种各样的密码就成了一个大难题！</p>
+
+
+<p lang="zh-CN">当然，在我们普通用户为了管理凭据而伤心的时候，开发者们也在为之付出努力。老一代的账户理念，例如<span style="font-family: Times New Roman,serif;">QQ</span>等，用户名都只是一个随机的纯数字，程序员的脑子也太直了吧？到了后来，很多网站的用户名才允许自由起名而不是自动分配，这下总算可以有一种人性化的<span style="font-family: Times New Roman,serif;">ID</span>理念了。但是，在账户的验证没上，这两个玩意儿其实并无多大新意，都是靠输入用户名和密码的方式来完成验证。</p>
+
+
+<p lang="zh-CN">于是，再后来，一种<span style="font-family: Times New Roman,serif;">叫<a href="http://openid.net.cn/">OpenID</a> </span>的新方式诞生了。<span style="font-family: Times New Roman,serif;">OpenID</span>旨在提供一叫种比传统登录方式 更人性化的身份认证方式。用户杜罗华认为，这东西未免有脱裤子放屁之嫌：原来我可以在各自的网站登录，现在登录时却要跳到另一个地方去，认证后再跳回来，这难免对广大的小白和爷爷奶奶们是种精神上的打击，想象一下，当你登录的时候，蹦出来的是一堆专业的术语解释<span style="font-family: Times New Roman,serif;">OpenID</span>系统，除了饥饿党以外，谁还会兴致勃勃地理解这些晦涩的意义呢？<span style="font-family: Times New Roman,serif;">OpenID</span>的认证还需要每个网站来支持。兼容性也有待考证。事实上我都完全不看好这个工程——毕竟推出那么多年了，知道这玩意的人还真是百里挑一……</p>
+
+
+<p lang="zh-CN">看起来网络时代中，每个人的虚拟资产，要在很长一段时间内被既落后但成熟的“用户名<span style="font-family: Times New Roman,serif;">+</span>密码”方式守护着了。既然要管理密码，那还是索性将密码管理得有声有色一点：既安全，又便于记忆，这才是密码管理的目标。</p>
+
+
+
+
+<h2 lang="zh-CN">我的方案</h2>
+
+
+<p lang="zh-CN">对于我来说，结合了网络上各种说法和自己的经验，我有如下几招，可以将密码管理变得不再那么痛苦：</p>
+
+
+
+
+<ol>
+    <li>
+<p lang="zh-CN">保证密码复杂性。就这点来说，尽量使用联想，比如要用“<span style="font-family: Times New Roman,serif;">3</span>月<span style="font-family: Times New Roman,serif;">22</span>日出外郊游”来帮助记忆，那么也就是取出<span style="font-family: Times New Roman,serif;">3  22  suburban</span>这几个词，拼起来，就有了“<span style="font-family: Times New Roman,serif;">322suburban”</span>，”<span style="font-family: Times New Roman,serif;">3.22SubuRban”</span>，“<span style="font-family: Times New Roman,serif;">su322burban”</span>等词。大小写改变一下，加入一些数字，颠倒一下顺序，一般的暴力破解往往就不奏效了。</p>
+</li>
+    <li>
+<p lang="zh-CN">不同的账户需要不同的密码，这方面，可以给要管理的账户归类一下，哪个是最重要的？哪个是不怎么重要的？然后不怎么重要的账户就用一点比较简单的密码吧，甚至是同一个密码也行，那些重要的，自己再仔细思量。</p>
+</li>
+</ol>
+
+
+<p lang="zh-CN">密码强度要多强才足够？这里我提供几张密码破解的时间表以供参考：</p>
+
+
+<p lang="zh-CN"><a href="http://trowa.org/wp-content/media/2010/05/纯数字.jpg"><img class="alignnone size-full wp-image-686" title="纯数字" src="http://trowa.org/wp-content/media/2010/05/纯数字.jpg" alt="纯数字" width="461" height="104" /></a></p>
+
+
+<p lang="zh-CN">&nbsp;</p>
+
+
+<p lang="zh-CN"><a href="http://trowa.org/wp-content/media/2010/05/仅大写或小写字母.jpg"><img class="alignnone size-full wp-image-692" title="仅大写或小写字母" src="http://trowa.org/wp-content/media/2010/05/仅大写或小写字母.jpg" alt="仅大写或小写字母" width="459" height="188" /></a></p>
+
+
+<p lang="zh-CN"><a href="http://trowa.org/wp-content/media/2010/05/大小写字母混合.jpg"><img class="alignnone size-full wp-image-693" title="大小写字母混合" src="http://trowa.org/wp-content/media/2010/05/大小写字母混合.jpg" alt="大小写字母混合" width="461" height="159" /></a></p>
+
+
+<p lang="zh-CN"><a href="http://trowa.org/wp-content/media/2010/05/大小写字母+数字.jpg"><img class="alignnone size-full wp-image-694" title="大小写字母+数字" src="http://trowa.org/wp-content/media/2010/05/大小写字母+数字.jpg" alt="大小写字母+数字" width="459" height="139" /></a></p>
+
+
+<p lang="zh-CN">&nbsp;</p>
+
+
+<p lang="zh-CN"><em>这里<span style="font-family: Times New Roman,serif;">Class </span>的<span style="font-family: Times New Roman,serif;">ABC</span>等是指用于破解的计算机的处理能力：</em></p>
+
+
+<p lang="zh-CN"><em><span style="font-family: Times New Roman,serif;">A</span>级：<span style="font-family: Times New Roman,serif;">10,000 Passwords/sec</span>－－在<span style="font-family: Times New Roman,serif;">Pentium 100</span>上破解<span style="font-family: Times New Roman,serif;">Office</span>密码的速度</em></p>
+
+
+<p lang="zh-CN"><em><span style="font-family: Times New Roman,serif;">B</span>级：<span style="font-family: Times New Roman,serif;">100,000 Passwords/sec</span>－－在<span style="font-family: Times New Roman,serif;">Pentium 100</span>上破解<span style="font-family: Times New Roman,serif;">Windows Password Cache (.PWL Files)</span>的速度</em></p>
+
+
+<p lang="zh-CN"><em><span style="font-family: Times New Roman,serif;">C</span>级：<span style="font-family: Times New Roman,serif;">1,000,000 Passwords/sec</span>－－在<span style="font-family: Times New Roman,serif;">Pentium 100</span>上破解<span style="font-family: Times New Roman,serif;">ZIP</span>或<span style="font-family: Times New Roman,serif;">ARJ</span>压缩文档的速度</em></p>
+
+
+<p lang="zh-CN"><em><span style="font-family: Times New Roman,serif;">D</span>级：<span style="font-family: Times New Roman,serif;">10,000,000 Passwords/sec</span>－－双核心处理器<span style="font-family: Times New Roman,serif;">PC</span></em></p>
+
+
+<p lang="zh-CN"><em><span style="font-family: Times New Roman,serif;">E</span>级：<span style="font-family: Times New Roman,serif;">100,000,000 Passwords/sec</span>－－工作站级破解，或多个<span style="font-family: Times New Roman,serif;">PC</span>协同破解</em></p>
+
+
+<p lang="zh-CN"><em><span style="font-family: Times New Roman,serif;">F</span>级：<span style="font-family: Times New Roman,serif;">1,000,000,000 Passwords/sec</span>－－大型计算机网络<span style="font-family: Times New Roman,serif;">/</span>超级计算机</em></p>
+
+
+<p lang="zh-CN">分析表中数据来看，我认为<strong>使用<span style="font-family: Times New Roman,serif;">8</span>位的大小写字母<span style="font-family: Times New Roman,serif;">+</span>数字是比较保险的</strong>。</p>
+
+
+
+
+<h2 lang="zh-CN">最后……</h2>
+
+
+<p lang="zh-CN">我再提供一种管理密码的终极技巧：那就是使用密码管理软件——<span style="font-family: Times New Roman,serif;">Keepass</span>。</p>
+
+
+<p lang="zh-CN">它能满足管理密码的几个最痛苦的需求：</p>
+
+
+
+
+<ol>
+    <li><span style="font-family: Times New Roman,serif;"> </span>记忆各种各样的密码。（好像废话）<span style="font-family: Times New Roman,serif;"> </span></li>
+    <li><span style="font-family: Times New Roman,serif;"> </span>安全性。<span style="font-family: Times New Roman,serif;"> </span></li>
+    <li><span style="font-family: Times New Roman,serif;"> </span>对<span style="font-family: Times New Roman,serif;">Mac</span>系统和<span style="font-family: Times New Roman,serif;">Linux</span>，或者手机系统，例如<span style="font-family: Times New Roman,serif;">Blackberry</span>等也能提供支持。它是跨平台的。</li>
+</ol>
+
+
+<p lang="zh-CN"><span style="font-family: Times New Roman,serif;">Keepass</span>的工作理念如下：你存储在<span style="font-family: Times New Roman,serif;">Keepass</span>中所有的密码将存储在一个可以由<span style="font-family: Times New Roman,serif;">Keepass</span>认证、管理的数据库文件中，被放在电脑上的某处，它采用<span style="font-family: Times New Roman,serif;">AES-256</span>方式加密以保证足够的安全性。密码数据库文件的认证可以采用<strong>密码</strong>认证或<strong>密码</strong><span style="font-family: Times New Roman,serif;"><strong>+</strong></span><strong>密匙文件</strong>认证两种方式。</p>
+
+
+<p lang="zh-CN">举个例子，使用<span style="font-family: Times New Roman,serif;">Keepass</span>管理密码时，将你的每一个网站账户和密码储存在<span style="font-family: Times New Roman,serif;">Keepass</span>中即可。<span style="font-family: Times New Roman,serif;">Keepass</span>也可以生成非常复杂的随机密码，可以包括键盘上都没有的特殊字符<span style="font-family: Times New Roman,serif;">-_-|||</span>比如这种：</p>
+
+
+<p lang="zh-CN"><span style="font-family: Times New Roman,serif;">ê?%~R7</span>￠<span style="font-family: Times New Roman,serif;">^?ò??H}y?ùv+</span></p>
+
+
+<p lang="zh-CN">当然了，你记不住这么复杂的密码没关系，<span style="font-family: Times New Roman,serif;">Keepass</span>会帮你记在数据库文件中的。你只需记住打开数据库需要的主密码就行了。</p>
+
+
+<p lang="zh-CN">为了安全，可以设置主密码<span style="font-family: Times New Roman,serif;">+</span>密匙文件的认证方式 。这样打开<span style="font-family: Times New Roman,serif;">Keepass</span>的时候必须同时输入密码，然后提供一个密匙文件，才可进入。平时的时候可以把这个密匙文件放到不容易被察觉的地方。这样，即使攻击者盗取到你的主密码，没有密匙，它也没法登陆，只有老老实实去破解<span style="font-family: Times New Roman,serif;">AES-256</span>加密的数据库……</p>
+
+
+<p lang="zh-CN">我选择把密匙文件放到一块面积<span style="font-family: Times New Roman,serif;">2</span>平方厘米不到的<span style="font-family: Times New Roman,serif;">MicroSD</span>卡里面，放到安全的地方。</p>
+
+
+<p lang="zh-CN"><a href="../wp-content/media/2010/05/PNY_MicroSD.jpg"><img title="PNY_MicroSD" src="../wp-content/media/2010/05/PNY_MicroSD.jpg" alt="MicroSD卡……" width="140" height="104" /></a></p>
+
+
+<p lang="zh-CN">需要进行认证时，再拿出来插入电脑里面。是不是听起来有点拉风？没错，因为《越狱》里<span style="font-family: Times New Roman,serif;">Scylla Card Holders</span>也是这么干的：</p>
+
+
+<p lang="zh-CN"><a href="http://trowa.org/wp-content/media/2010/05/Scylla-Card.jpeg"><img class="alignnone size-full wp-image-696" title="Scylla Card" src="http://trowa.org/wp-content/media/2010/05/Scylla-Card.jpeg" alt="Scylla Card" width="461" height="263" /></a></p>
+
+
+<p lang="zh-CN">可惜最后卡还是被聪明绝顶的<span style="font-family: Times New Roman,serif;">Michael</span>偷了……</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">杜罗华</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-30T00:00:00+08:00" pubdate data-updated="true">May 30<span>th</span>, 2010</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://itrowa.github.com/2010/05/30/personal-password-management/" data-via="" data-counturl="http://itrowa.github.com/2010/05/30/personal-password-management/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2010/05/16/my-digi-music-management-2/" title="Previous Post: 我的数字音乐库管理经验（二）">&laquo; 我的数字音乐库管理经验（二）</a>
+      
+      
+        <a class="basic-alignment right" href="/2010/06/06/about-trowa-studio-documentary/" title="Next Post: Trowa Studio的人文关怀">Trowa Studio的人文关怀 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/05/08/my-notebook/">我是笔记控！我正在使用的电子笔记本和纸质笔记本</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/05/05/comment-on-beijing-love-story/">人生的选择，小评北京爱情故事</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/05/02/latex-and-word-who-is-better/">LaTeX与Word（源代码与所见即所得）谁更好？</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/29/leave-rss-reader-alone/">为什么应该远离RSS阅读器？</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/25/coming-home-to-wordpress/">我回来了，回到WordPress了</a>
+      </li>
+    
+  </ul>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - 杜罗华 
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'dynamii';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://itrowa.github.com/2010/05/30/personal-password-management/';
+        var disqus_url = 'http://itrowa.github.com/2010/05/30/personal-password-management/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

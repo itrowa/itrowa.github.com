@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: aviation | dynamii实验室]]></title>
+  <link href="http://itrowa.github.com/categories/aviation/atom.xml" rel="self"/>
+  <link href="http://itrowa.github.com/"/>
+  <updated>2012-05-11T11:05:39+08:00</updated>
+  <id>http://itrowa.github.com/</id>
+  <author>
+    <name><![CDATA[杜罗华]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[自己动手，维修赛钛客 Cyborg X]]></title>
+    <link href="http://itrowa.github.com/2012/02/23/repair-my-cyborg-x/"/>
+    <updated>2012-02-23T00:00:00+08:00</updated>
+    <id>http://itrowa.github.com/2012/02/23/repair-my-cyborg-x</id>
+    <content type="html"><![CDATA[<p>赛钛客的摇杆实在是太坑爹了。我的赛钛客摇杆仅服役一年多，就出现了如下症状：Z轴拧不到头，没法回中；还有跳舵现象。当时的我沮丧万分，难道这个300多元的东西只能玩一年多？后来由于忙着干别的事，摇杆被扔一边去了。</p>
+
+
+<p>今年寒假的时候我猛然又想起了这个摇杆，遂想在网上搜寻下解决方案，不出所料，万能的Google啊，一下子搜到了好多相关信息。根据我的判断，Cyborg X杆的Z轴故障绝对不是个案了，更有人反映送修一次后没几个月又出现故障的…… 而这个故障的根本原因就是那蹩脚脑残的Z轴电位器设计！！废话少说，让我先剖开摇杆的外壳，看看电位器究竟是啥样的吧~</p>
+
+
+<p><span><img src="http://m3.img.libdd.com/farm3/147/E155FD59D64AFB58FF25AAEA39DCA393_400_267.jpg" width="400" height="267"></span><br /></p>
+
+
+<p>快看哪，中间那陀黄色的像[哔--]一样的东西就是电位器了，旁边还有像鼻涕一样的白色凝固物体就是热熔胶，工厂装配的时候，先把电位器卡在座子上，在打点“鼻涕”，凝固以后就能使用了，看到了这个情形的你，还能像原来那样淡定地猛力蹂躏你的摇杆吗 - -||</p>
+
+
+<p>接下来，小心翼翼地把热熔胶剥离，如下图<span><img src="http://m3.img.libdd.com/farm3/16/4F2A2C5374CC9FBAD2EC5A33254B4610_400_377.jpg" width="400" height="377"></span></p>
+
+
+<p>再把电位器也给扯下来<span><img src="http://m1.img.libdd.com/farm3/98/A63CB017F7B8C2D986E36942CA99B162_400_335.jpg" width="400" height="335"></span></p>
+
+
+<p>热熔胶这种东西怎么可能固定得住需要猛力摇动的Z轴电位器呢，经常使用摇杆的话，这玩意儿两下子就会经不住折腾，表面虽然看起来还是固定的，其实已经松动了。接下来仔细用心地将电位器给重新安装回去，并重新上胶，看起来就像这样：</p>
+
+
+<p><span><img src="http://m1.img.libdd.com/farm3/119/5DC95474388156FD5BD05E42EDCDD777_400_423.jpg" width="400" height="423"></span><br /></p>
+
+
+<p>等个几分钟让胶水完全冷却才可重新使用Z轴。</p>
+
+
+<p>把壳体封上，重新插上电脑，嘿嘿，一切仿佛恢复了原状。</p>
+
+
+<p>最后鄙视一下赛钛客公司，你们设计的产品竟然就是这种工艺，让人心寒...</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[败家子的航模玩法]]></title>
+    <link href="http://itrowa.github.com/2011/11/11/a-model-airplane-playboy/"/>
+    <updated>2011-11-11T00:00:00+08:00</updated>
+    <id>http://itrowa.github.com/2011/11/11/a-model-airplane-playboy</id>
+    <content type="html"><![CDATA[<p><img src="http://trowa.org/wp-content/media/2011/04/20110423190.jpg" alt="舒适的飞行过后" /></p>
+
+<p>今年春天，我用我挖到的第一桶金买了一大堆航模装备，从此走上了不归的模型路……</p>
+
+<p>我的第一架飞机，MD塞斯纳老版，平凸翼型，升力很好，速度很慢，很耐用。看着自己的模型翱翔天际，整个人心情都舒坦了，事情本来应该向如此美好的方向发展，但...</p>
+
+<p>我竟然把这架飞机卖了，去买了一架电动滑翔机，原因是在飞行了一个月后，我认为自己飞行技术已经十分了得，飞腻了！</p>
+
+<p>换就换吧，开心就好。于是。。。</p>
+
+<p style="text-align: center;"><a href="http://s1198.photobucket.com/albums/aa450/itrowa/?action=view&amp;current=a278707e.jpg" target="_blank"><img class="aligncenter" style="border-style: initial; border-color: initial; border-width: 0px;" src="http://i1198.photobucket.com/albums/aa450/itrowa/a278707e.jpg" alt="Photobucket" width="383" height="197" border="0" /></a></p>
+
+
+<p>麻烦慢慢就来了。这架飞机坠毁以后，我有些伤心有些沮丧，还决心化悲愤为力量，“为什么自己读了那么多年书，还驾驭不好这堆泡沫板呢？”这样的我想到，于是便下定决心考研究生，决定一辈子搞飞机了。这都是后话。</p>
+
+<p>暑假来了，在家里面又多了一家KT板双翼机，飞了一个星期的样子，最后因为学习忙，搁置了。</p>
+
+<p><a href="http://trowa.org/wp-content/media/2011/08/20110729429.jpg"><img class="aligncenter size-medium wp-image-1154" title="双翼3D机安装完成图" src="http://trowa.org/wp-content/media/2011/08/20110729429-300x225.jpg" alt="" width="300" height="225" /></a></p>
+
+<p>总结起来，是自己太浮躁，导致这么多飞机，没有那一架飞机真正挖掘到它所有的潜力，玩透的。当然还有其它很多原因，我觉得，如何选择一架飞机？总体的因素可以总结一下列在这里：</p>
+
+<ol>
+    <li><strong>总预算是多少？</strong>这个应该是最根本的问题，电动的塞斯纳300元搞定，但是油机这个钱只能买个发动机。</li>
+    <li><strong>是否有足够的的场地？</strong>这个是第二应该考虑的问题。其实在飞第一架飞机时我就发现，每次去找一条没车的公路当跑道实在非常辛苦，浪费了半天才飞了一小会儿，这也是我卖掉它的原因之一。如果去场地花的时间太多，携带飞机太麻烦，也非常影响飞行的心情。飞机对场地环境的要求也不一样，塞斯纳需要平坦的跑道，然而滑翔机速度很快，往往需要较好的净空条件。</li>
+    <li><strong>是否有足够的时间、精力？</strong>飞机上结构越简单维护越方便，多一个部件就意味着多一个麻烦，我的KT机就是因为没时间飞所以搁置了。如果追求方便，直升机是个不错的选择。</li>
+    <li><strong>飞机的寿命？</strong>一般很长，但是表面会有磨损，飞2个月看起来就很旧了，不过性能下降得不明显。</li>
+</ol>
+
+
+<p>最重要的一点是，玩什么都不能太浮躁了，这个难啊，贪嗔痴，不善根，早就深入人心扎根了，如果航模是种修行，那我的路才刚刚开始。</p>
+
+<p><span class="Apple-style-span" style="font-size: 14px; line-height: 21px;">
+</span></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[首飞KT板双翼3D机]]></title>
+    <link href="http://itrowa.github.com/2011/08/01/fly-plane/"/>
+    <updated>2011-08-01T00:00:00+08:00</updated>
+    <id>http://itrowa.github.com/2011/08/01/fly-plane</id>
+    <content type="html"><![CDATA[<p>这次暑假装了两架飞机，第一架飞机是塞斯纳，被朋友飞炸了，现在躺在家等待维修，第二架干脆弄了一架F3P的3D机，机身材料是KT板的，主要是想着便宜些，事实上组装下来也便宜不了多少，反倒花了不少时间。</p>
+
+<p><a href="http://trowa.org/wp-content/media/2011/08/20110729429.jpg"><img class="aligncenter size-full wp-image-1154" title="双翼3D机安装完成图" src="http://trowa.org/wp-content/media/2011/08/20110729429.jpg" alt="" width="1024" height="768" /></a>第一次试飞的时候，泡沫胶还没干透就拿出去了，结果可想而知....后来回来加固了一下电机座，打上泡沫胶粘合木质电机座和后面的泡沫，等待24小时后才能达到最大强度！</p>
+
+<p><a href="http://trowa.org/wp-content/media/2011/08/20110731441.jpg"><img class="aligncenter size-full wp-image-1156" title="加固了电机座！" src="http://trowa.org/wp-content/media/2011/08/20110731441.jpg" alt="" width="1024" height="768" /></a>开始的时候，是对这种板砖一样的飞机没什么好感的，但是当我亲自飞了过后，发现这样的飞机我竟然非常喜欢，毕竟是第一次接触这样灵活的机型，感觉相当刺激，其次组装的成本并不高，属于比较廉价但是能得到很多快乐的飞机！</p>
+
+<p>最后是视频！请女朋友拍的！前几次还把握不大好飞机性能，后面发现，这种3D飞机，转向使用方向舵才有效。</p>
+
+<object width="480" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://player.youku.com/player.php/sid/XMjkwNTI3MzMy/v.swf" /><param name="allowfullscreen" value="true" /><param name="quality" value="high" /><param name="allowscriptaccess" value="always" /><embed width="480" height="400" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XMjkwNTI3MzMy/v.swf" allowfullscreen="true" quality="high" allowscriptaccess="always" /></object>
+
+
+
+
+<object width="480" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://player.youku.com/player.php/sid/XMjkwNTI5NDky/v.swf" /><param name="allowfullscreen" value="true" /><param name="quality" value="high" /><param name="allowscriptaccess" value="always" /><embed width="480" height="400" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XMjkwNTI5NDky/v.swf" allowfullscreen="true" quality="high" allowscriptaccess="always" /></object>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[入手了IMAX B6智能充电器！]]></title>
+    <link href="http://itrowa.github.com/2011/05/07/imax-b6-charger/"/>
+    <updated>2011-05-07T00:00:00+08:00</updated>
+    <id>http://itrowa.github.com/2011/05/07/imax-b6-charger</id>
+    <content type="html"><![CDATA[<p><a href="http://trowa.org/wp-content/media/2011/05/晕.png"><img class="alignnone size-full wp-image-1053" title="B6入手了" src="http://trowa.org/wp-content/media/2011/05/晕.png" alt="" width="946" height="702" /></a></p>
+
+<p>其实我也没有想到我会这么快就买如此之高价格的充电器，诱因是我原来的充电器莫名其妙地工作不正常，把我的锂聚合物电池充坏了一点儿（主要是电压不平衡，还有过充，这对锂电池是致命的！！），这样算账的话，损失的就不止是价格便宜的简易充了，还要搭上比充电器还贵的电池，还可能引发事故</p>
+
+<p>考虑到这些因素，我果断买了这款B6充电器。这外星产物般的外壳似乎在向路人们宣告它不平常的功能：</p>
+
+<ol>
+    <li>当作普通的锂电池充电器用（不会过充，而且可以选择充电电流），还可以对比较新潮的磷酸铁锂进行充电</li>
+    <li><strong>平衡充</strong>功能，从2S~6S(Serial)，航模串联的电池组单节特性不是非常一致，所以需要照顾每一节电池进行充电，防止某一节充爆了另外一节却没充满。</li>
+    <li>充镍氢电池，1S~15S，不过不能照顾单体。</li>
+    <li>放电功能</li>
+    <li>存储用户数据，好像必要不是特别大</li>
+</ol>
+
+
+<p>其实在买它之前我也考虑过自己制作充电器，不过经验还不足，手边材料不够，所以杯具了……以后经验足了，我会DIY的。</p>
+
+<p><a href="http://trowa.org/wp-content/media/2011/05/20110507210.jpg"><img class="alignnone size-large wp-image-1054" title="B6充电器" src="http://trowa.org/wp-content/media/2011/05/20110507210-768x1024.jpg" alt="" width="640" height="853" /></a></p>
+
+<p>成品充电器还是比较省心，这个充电速度较上个快了不少，充电的精度也蛮不错的。一般锂电池充满电电压是4.20V，±0.2V我都可以接受，所以B6也满足这个需求了！最后想说的是，可能想省钱是件好事情，但是有可能因此花了更多的钱……电动航模，一个好的充电器还是比较重要的！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[我钟爱的特技飞机 - ultimate系列]]></title>
+    <link href="http://itrowa.github.com/2011/04/29/ultimate-plane/"/>
+    <updated>2011-04-29T00:00:00+08:00</updated>
+    <id>http://itrowa.github.com/2011/04/29/ultimate-plane</id>
+    <content type="html"><![CDATA[<p>随着时间的推移和技术的进步，我逐渐感受到我的练习机 - 塞斯纳正在变得越来越没有挑战性，一个月前我看到这架飞机还是热血沸腾，到了现在即使是它在天上飞，我都能双手脱开遥控去发短信了。</p>
+
+<p>所以我得物色下一架飞机了，我打算考虑滑翔机或者特技飞机。之所以选择滑翔机，是因为它比较休闲，而且省电，能让人去真正亲近自然去感受气流的魔力，至于特技飞机，每个人看到它心情都会燃起来的，驾驶这样的飞机也更加具有挑战性。</p>
+
+<p>在网上断断续续找了很久，一直没发现漂亮的特技机机型，另外现在的航模机身材料看上去都比较“劣质”，所以不少亲自摸到实机的人都难免会发出“坑爹啊”这样的感叹，很多飞机不仅采用泡沫材质，设计上看上去也有些山寨，难免被人当作玩具，所以目前的很多“热门”特技机型并非我所爱，直到我发现了它……</p>
+
+<p><a href="http://trowa.org/wp-content/media/2011/04/ultimate20-300snapsondownline.jpg"><img class="alignright size-medium wp-image-1036" title="ultimate20-300snapsondownline" src="http://trowa.org/wp-content/media/2011/04/ultimate20-300snapsondownline-149x300.jpg" alt="" width="149" height="300" /></a>那就是Ultimate系列双翼特技机。这种型号的飞机是从首架专门的特技机型Pitts Special改良而来，外形相当复古（我对于这样的东西是没啥抗拒力的），不过气动性能看起来还是非常不错，但是不知道对于没接触过特技飞行的人来说会不会太难飞。</p>
+
+<p>这架飞机的航模版本有电动和油动两种规格，生产厂家也不止一个，看电动版本的Ultimate对于动力配置的要求并不高，好歹可以省下预算，不过这些成品飞机的开模看上去并不是非常好看，如果我有充足的时间，自己打造一架可能会更加好。</p>
+
+<p>虽然被这架飞机很有爱，但是我现在没有一点打算购入的想法……空闲时间实在不多，航模目前也仅是在考研途中放松心情的一剂良药。</p>
+
+<p>最后上一个飞行视频，从Youtube上挖出来的，现在打上了讨厌的优酷标签。</p>
+
+<p><embed src="http://player.youku.com/player.php/sid/XMjYyODYyNjY0/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed></p>
+]]></content>
+  </entry>
+  
+</feed>
