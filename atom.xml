@@ -4,7 +4,7 @@
   <title><![CDATA[dynamii实验室]]></title>
   <link href="http://dynamii.tk/atom.xml" rel="self"/>
   <link href="http://dynamii.tk/"/>
-  <updated>2012-05-31T12:15:03+08:00</updated>
+  <updated>2012-06-05T13:00:10+08:00</updated>
   <id>http://dynamii.tk/</id>
   <author>
     <name><![CDATA[杜罗华]]></name>
@@ -12,6 +12,54 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Window 8 微软膝盖中箭！]]></title>
+    <link href="http://dynamii.tk/2012/06/04/window-8-test-run/"/>
+    <updated>2012-06-04T22:48:00+08:00</updated>
+    <id>http://dynamii.tk/2012/06/04/window-8-test-run</id>
+    <content type="html"><![CDATA[<p>windows 8 RP版在儿童节发布了, 我也试着下载了一份安装到了我的移动硬盘上。跑了不到两个小时，我便发现我的吐槽欲是如此地强烈， 所以我还是在RP中窥视一下未来我们数字生活的样子吧~</p>
+
+<p>Windows 8 新增了一项叫做Windows to Go 的功能，旨在让windows安装在U盘或者移动硬盘里面并可以启动任何电脑。</p>
+
+<blockquote><p>Windows to Go允许企业IT部门在移动磁盘中创建一个便携Windows系统，而且不会影响主Windows系统。借助 Windows To Go，用户可以随时随地(无论工作场所还是家中)通过任何 PC(无论是否联网)启动,就像随身携带了一台可靠的企业 PC。Windows to go的强大功能可以在PC端和平板端流畅使用，并且数据完全基于云端。这意味着员工可以在不牺牲工作效率的前提下轻装上阵，IT 部门可以顺应“带上自己的 PC”这一潮流，同时企业也可以在保持安全性的前提下允许临时员工访问企业环境。</p></blockquote>
+
+<p>要创建便携的windows 8也非常简单，只要在一个可启动的磁盘设备里面用微软的imagex.exe来部署安装镜像就OK。具体说起来，我是按照这个教程完成我的安装的：<a href="http://bbs.pcbeta.com/viewthread-992689-1-1.html">http://bbs.pcbeta.com/viewthread-992689-1-1.html</a></p>
+
+<p>这次安装windows的速度比上次安装win7还要快，目击15min左右，但这岂不是更快地让我看到那个蛋疼的平板界面？比起这个，还是先用指头来数一下win8给我的好印象，除了windows to go之外，IE10的速度快，相当快！可以和chrome媲美。“传统桌面”玻璃质感消失了，微软在win8中发展了它的Metro化塑料界面，密度较高的玻璃变成了密度较低的塑料，怪不得系统轻快了不少！</p>
+
+<p>还是迫不及待让蛋疼的主角start君登场吧。这可是只有在平板电脑上才能出现的功能，现在我们windows用户想不看见它都难了！一按下windows键电脑就会从桌面和任务栏翻到这个瓷砖块铺成的Start上，在电脑里面打开PDF，双击一首音乐，打开一段视频，系统都会非常卖力地翻回Metro的平板界面，毕竟这是微软寄予厚望的新尝试！</p>
+
+<p>全屏的界面，全浸式的体验，真棒！</p>
+
+<p><img src="https://public.bay.livefilestore.com/y1puHJm6bMCCyltEd4suHsNBquzuMjm3Xvwe3dyFX71Ix-Bcwk6brGv1sFMacz8gR8SaA7Co1SBRKiGs4k4TS5Jww/2012_06_windows-8-test-run_01.png?psid=1" alt="新版的开始菜单" />
+新版的Start菜单</p>
+
+<p><img src="https://public.bay.livefilestore.com/y1p-E2TG1UfsD3xyu5ZQ0sAtwcOSabsP_n4VM1PS8IQRJxG5wkASbVq8E9W8m8QIDryrKkvfSq_EEHW6HAITVfWOQ/2012_06_windows-8-test-run_02.png?psid=1" alt="浏览新闻，很有一种读报纸的感觉" />
+浏览新闻，很有一种读报纸的感觉</p>
+
+<p><img src="https://public.bay.livefilestore.com/y1ptIuzNWdGw2cRdysdz-RTVcdUwlBwuGXOb_0DuhvC0PE2BEZfNW8noWIMu0BQFF8tzEiDduzwVjUCD27p4EAaEQ/2012_06_windows-8-test-run_03.png?psid=1" alt="音乐应用" />
+音乐应用会索引用户在“库”中的音乐文件</p>
+
+<p>问题是我还要同时干别的事情，于是我还得从Metro翻回到传统桌面，待会要切歌时又要重新翻回来，然后又翻回去，Oh，我的眼睛！</p>
+
+<p>本来图形界面的电脑就是在进化的过程中才发明了任务栏，窗口化等设定，这样电脑用起来才更方便，但现在微软好像在给我们说，用着27英寸的显示器全屏听音乐那才叫厉害！</p>
+
+<p>真厉害。但是Metro界面真的很棒吗？我觉得这玩意儿实在算不上漂亮，只是浪费宝贵的显示器面积罢了，我看到win8的第一眼，我在疑惑，为什么微软把windows 3.0的配色给用上了？</p>
+
+<p>糟糕的是微软准备慢慢让这套界面替换掉微软之前的那一套Aero界面，看看文件打开方式的设置窗口，我在想，这真的不是windows 3.0！</p>
+
+<p>（高能注意，非战斗人员请回避！）</p>
+
+<p><img src="https://public.bay.livefilestore.com/y1p5jFGGKjGbOFY3tiKhN_PHz4YUzHTxBciiCyA-FVRHOccN6KHpkJoyLu2YpP8wf19sARRAKgvhJcf5rQ7YPJqag/2012_06_windows-8-test-run_04.png?psid=1" alt="文件关联菜单" /></p>
+
+<p>我不得不怀疑一下微软这次是不是膝盖中箭了，弄了这么一套融合的系统。用着传统PC的人是绝对不会喜欢切换到平板界面去做事的，用平板电脑的人，同样也不会膝盖中箭打开传统桌面用指头去戳那些按钮和菜单。按我的看法，这个系统没法吸引传统的PC用户也没法得到平板电脑用户的认同，最终系统会像某些版本的windows一样躺在版本库里面睡大觉！</p>
+
+<p>微软看起来好像在发明一种汽车，它附带了一个摩托车模式，但以后搞不好微软发明的就是摩托车，附带汽车功能了。 平板和传统电脑的融合是个大趋势，想想看现在的电脑其实真的很难用，老妈这种Lv的角色连USB传文件，下载东西都完全找不着北，更别提别的高级玩法了。</p>
+
+<p>说到底，以应用为核心的电脑以后的发展肯定会超过以文件系统为核心的电脑，想想看，日常中要使用文件系统的时候，只有编程的时候，处理Photoshop图片的时候，ACG党打包拖音乐和动画的时候，痛苦地把CD抓轨压缩成mp3的时候~ 看起来要接触文件系统的机会还是挺多的！但对于上网听歌等情况，去戳那些应用的确也够了。现在看来平板的重要性和实用性还没有进化到那种理想的程度。微软这一发来得太猛了，平板怎么能和传统界面生硬地融合在一起呢？微软应该解雇现在开发Metro界面的这一帮设计师，然后弄一套更加漂亮成熟的平板界面，并继续改善Windows的库功能、资源管理器，多媒体功能，（想想苹果的iTunes多么美好），而且提供完全在传统PC上用户可以认可的方式的操作。这样同一个系统，当在按PC方式操作的时候，看起来和传统界面没什么两样，但是切换到平板模式，就是完全意义上的平板电脑，再结合Windows to Go，走到哪玩到哪，结合云端同步，各种设备通杀，这样才是真正强大的Windows！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[整理收藏夹想到的]]></title>
@@ -517,19 +565,6 @@
 
 <p>这样下来这个破手机除了塞班那些莫名其妙的弱点以外，还是很够用了。</p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[照片]]></title>
-    <link href="http://dynamii.tk/2012/03/29/a-photo/"/>
-    <updated>2012-03-29T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/03/29/a-photo</id>
-    <content type="html"><![CDATA[<p>刷系统了！！</p>
-
-<p>刷机详细内容请见<a href="http://bbs.dospy.com/thread-7521947-1-245-1.html">http://bbs.dospy.com/thread-7521947-1-245-1.html</a></p>
-
-<p><img src="http://m2.img.libdd.com/farm3/177/7A956FCD99179614EFCE922A5E7EB6B1_500_333.jpg"></p>
 ]]></content>
   </entry>
   
