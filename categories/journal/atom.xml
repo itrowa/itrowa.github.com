@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: journal | dynamii实验室]]></title>
-  <link href="http://dynamii.tk/categories/journal/atom.xml" rel="self"/>
-  <link href="http://dynamii.tk/"/>
-  <updated>2012-06-13T22:23:01+08:00</updated>
-  <id>http://dynamii.tk/</id>
+  <title><![CDATA[Category: journal | dynamii研究所]]></title>
+  <link href="http://dynamii.org/categories/journal/atom.xml" rel="self"/>
+  <link href="http://dynamii.org/"/>
+  <updated>2012-06-13T22:26:58+08:00</updated>
+  <id>http://dynamii.org/</id>
   <author>
     <name><![CDATA[杜罗华]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[RTS游戏的世界观]]></title>
-    <link href="http://dynamii.tk/2012/05/28/rts-games/"/>
+    <link href="http://dynamii.org/2012/05/28/rts-games/"/>
     <updated>2012-05-28T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/28/rts-games</id>
+    <id>http://dynamii.org/2012/05/28/rts-games</id>
     <content type="html"><![CDATA[<p>两个星期前我正准备重新玩一下魔兽争霸3，正当我双击了图标，看着那熟悉的，沉重的链条菜单从画面上方落下时，那会是一种激情的开始？亦或是枯燥与繁琐的重现？在按动了一些按钮后，我的心里想到的并不是我要选什么种族，使用什么战术和套路，相反，在一丝不安和费解中，我退出了这个游戏。</p>
 
 <p><img src="https://public.bay.livefilestore.com/y1psBC6btfm-ifgmW2QoJ4owboz4hhGF56GXoMHWac7q3f-kKQaDqBQj1iIn3iQ4_nsbAnXr8klc15I6jz92Qn9nw/warcraft_shot.jpg?psid=1" alt="魔兽争霸3" />
@@ -46,9 +46,9 @@
   
   <entry>
     <title type="html"><![CDATA[消息两则，搬迁到octopress和Fate Zero]]></title>
-    <link href="http://dynamii.tk/2012/05/14/migrating-and-fate-zero/"/>
+    <link href="http://dynamii.org/2012/05/14/migrating-and-fate-zero/"/>
     <updated>2012-05-14T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/14/migrating-and-fate-zero</id>
+    <id>http://dynamii.org/2012/05/14/migrating-and-fate-zero</id>
     <content type="html"><![CDATA[<h2>Octopress</h2>
 
 <p>这几天我把网站的程序换成了基于ruby的静态建站程序<a href="http://octopress.org">Octopress</a>并且把它托管到了GitHub上。在什么都要动态化的今天，为什么还要弄一个静态化的程序？我有自己的答案，不能认为静态化的网站就代表落后，事实上，在我看来octopress可不是一般的程序，它的很多理念都是很超前的！</p>
@@ -81,9 +81,9 @@
   
   <entry>
     <title type="html"><![CDATA[我是笔记控！我正在使用的电子笔记本和纸质笔记本]]></title>
-    <link href="http://dynamii.tk/2012/05/08/my-notebook/"/>
+    <link href="http://dynamii.org/2012/05/08/my-notebook/"/>
     <updated>2012-05-08T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/08/my-notebook</id>
+    <id>http://dynamii.org/2012/05/08/my-notebook</id>
     <content type="html"><![CDATA[<p>在大约半年前把自己的笔记软件onenote换成了Evernote，原因是上次寒假回家的时候，我不得不和家里面人抢电脑用，结果我必须在电脑之间折腾来折腾去的。离开了自己的电脑真的感觉什么都不习惯，我原来的好多资料又都存在了onenote上面，onenote废柴啊，使用同步功能，却从来都没有同步成功过，还给我无端多复制了几份笔记本，换吧！</p>
 
 <p><img src="https://public.bay.livefilestore.com/y1pYqdQg_yG8P2z0mqt4bzCBlP9IBctS3vJ5YDl78GbhkYNHYYMPPy7i5BukUomCzBMI7Tv8hpZPgfo0Z3stH0K5A/evernote_screen.jpg?psid=1" alt="Evernote" /></p>
@@ -133,9 +133,9 @@
   
   <entry>
     <title type="html"><![CDATA[LaTeX与Word（源代码与所见即所得）谁更好？]]></title>
-    <link href="http://dynamii.tk/2012/05/02/latex-and-word-who-is-better/"/>
+    <link href="http://dynamii.org/2012/05/02/latex-and-word-who-is-better/"/>
     <updated>2012-05-02T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/02/latex-and-word-who-is-better</id>
+    <id>http://dynamii.org/2012/05/02/latex-and-word-who-is-better</id>
     <content type="html"><![CDATA[<p>我还记得几周前我曾经狂热地表示了我对LaTex或者Markdown这种标记语法的支持(<a href="http://dynamii.tk/2012/04/12/word-latex-%e5%92%8cdocbook/">#</a>)，甚至还扬言一定要建立一个只能写标记语言的博客，于是我在毕业设计的文献翻译环节中开始了我的实践。</p>
 
 <p>我的这篇文献翻译，公式相当的多，上标下标，矩阵……该有的东西都有了，开心的我一边儿查询LaTeX语法，一边照着敲代码，心想，哈哈，LaTeX和Markdown就是爽，纯键盘就把我要的公式敲完了，如果是用Word，我还必须用该死的鼠标来做上下标，那将多么影响翻译的效率啊。</p>
@@ -170,9 +170,9 @@
   
   <entry>
     <title type="html"><![CDATA[为什么应该远离RSS阅读器？]]></title>
-    <link href="http://dynamii.tk/2012/04/29/leave-rss-reader-alone/"/>
+    <link href="http://dynamii.org/2012/04/29/leave-rss-reader-alone/"/>
     <updated>2012-04-29T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/29/leave-rss-reader-alone</id>
+    <id>http://dynamii.org/2012/04/29/leave-rss-reader-alone</id>
     <content type="html"><![CDATA[<p>注意我说的RSS阅读器是指那种仅仅只能带来更新内容的RSS阅读器。</p>
 
 <p>最近一段时间我退订了大部分了RSS源并且访问Google阅读器的次数也越来越少了，现在我的RSS阅读器里面只剩下很少的，而且更新频率很低而且内容比较稳定的feed了。起初，大家理所当然地认为RSS就是为了提高阅读效率而设计的，读者在一个程序里面就能浏览到最新的资讯。这个愿景可是相当美好，但是每次使用一段时间就会让人忍不住吐槽。</p>

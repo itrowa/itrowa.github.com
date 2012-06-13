@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[dynamii实验室]]></title>
-  <link href="http://dynamii.tk/atom.xml" rel="self"/>
-  <link href="http://dynamii.tk/"/>
-  <updated>2012-06-13T22:23:01+08:00</updated>
-  <id>http://dynamii.tk/</id>
+  <title><![CDATA[dynamii研究所]]></title>
+  <link href="http://dynamii.org/atom.xml" rel="self"/>
+  <link href="http://dynamii.org/"/>
+  <updated>2012-06-13T22:26:58+08:00</updated>
+  <id>http://dynamii.org/</id>
   <author>
     <name><![CDATA[杜罗华]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Window 8 微软膝盖中箭！]]></title>
-    <link href="http://dynamii.tk/2012/06/04/window-8-test-run/"/>
+    <link href="http://dynamii.org/2012/06/04/window-8-test-run/"/>
     <updated>2012-06-04T22:48:00+08:00</updated>
-    <id>http://dynamii.tk/2012/06/04/window-8-test-run</id>
+    <id>http://dynamii.org/2012/06/04/window-8-test-run</id>
     <content type="html"><![CDATA[<p>windows 8 RP版在儿童节发布了, 我也试着下载了一份安装到了我的移动硬盘上。跑了不到两个小时，我便发现我的吐槽欲是如此地强烈， 所以我还是在RP中窥视一下未来我们数字生活的样子吧~</p>
 
 <p>Windows 8 新增了一项叫做Windows to Go 的功能，旨在让windows安装在U盘或者移动硬盘里面并可以启动任何电脑。</p>
@@ -63,9 +63,9 @@
   
   <entry>
     <title type="html"><![CDATA[整理收藏夹想到的]]></title>
-    <link href="http://dynamii.tk/2012/05/30/web-browser-note/"/>
+    <link href="http://dynamii.org/2012/05/30/web-browser-note/"/>
     <updated>2012-05-30T19:46:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/30/web-browser-note</id>
+    <id>http://dynamii.org/2012/05/30/web-browser-note</id>
     <content type="html"><![CDATA[<p>毕业论文也要进入尾声了，留下一点时间我整理了一下Chrome里面的收藏夹。</p>
 
 <p>在整理收藏夹的同时，我就在想，多年网上挖坟的沉淀只换来了一堆堆不知道还能不能打开的链接吗？看来我已经搞错了浏览器书签的真正功能了。网站本身是没有寿命的，但是维护网站的人却是实实在在地活着，交换新鲜空气，也在不断演化着自己的思想，有一天他的意识足以把网站毁灭的话，那网站也就真正消失了。</p>
@@ -85,9 +85,9 @@
   
   <entry>
     <title type="html"><![CDATA[RTS游戏的世界观]]></title>
-    <link href="http://dynamii.tk/2012/05/28/rts-games/"/>
+    <link href="http://dynamii.org/2012/05/28/rts-games/"/>
     <updated>2012-05-28T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/28/rts-games</id>
+    <id>http://dynamii.org/2012/05/28/rts-games</id>
     <content type="html"><![CDATA[<p>两个星期前我正准备重新玩一下魔兽争霸3，正当我双击了图标，看着那熟悉的，沉重的链条菜单从画面上方落下时，那会是一种激情的开始？亦或是枯燥与繁琐的重现？在按动了一些按钮后，我的心里想到的并不是我要选什么种族，使用什么战术和套路，相反，在一丝不安和费解中，我退出了这个游戏。</p>
 
 <p><img src="https://public.bay.livefilestore.com/y1psBC6btfm-ifgmW2QoJ4owboz4hhGF56GXoMHWac7q3f-kKQaDqBQj1iIn3iQ4_nsbAnXr8klc15I6jz92Qn9nw/warcraft_shot.jpg?psid=1" alt="魔兽争霸3" />
@@ -116,9 +116,9 @@
   
   <entry>
     <title type="html"><![CDATA[消息两则，搬迁到octopress和Fate Zero]]></title>
-    <link href="http://dynamii.tk/2012/05/14/migrating-and-fate-zero/"/>
+    <link href="http://dynamii.org/2012/05/14/migrating-and-fate-zero/"/>
     <updated>2012-05-14T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/14/migrating-and-fate-zero</id>
+    <id>http://dynamii.org/2012/05/14/migrating-and-fate-zero</id>
     <content type="html"><![CDATA[<h2>Octopress</h2>
 
 <p>这几天我把网站的程序换成了基于ruby的静态建站程序<a href="http://octopress.org">Octopress</a>并且把它托管到了GitHub上。在什么都要动态化的今天，为什么还要弄一个静态化的程序？我有自己的答案，不能认为静态化的网站就代表落后，事实上，在我看来octopress可不是一般的程序，它的很多理念都是很超前的！</p>
@@ -151,9 +151,9 @@
   
   <entry>
     <title type="html"><![CDATA[我是笔记控！我正在使用的电子笔记本和纸质笔记本]]></title>
-    <link href="http://dynamii.tk/2012/05/08/my-notebook/"/>
+    <link href="http://dynamii.org/2012/05/08/my-notebook/"/>
     <updated>2012-05-08T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/08/my-notebook</id>
+    <id>http://dynamii.org/2012/05/08/my-notebook</id>
     <content type="html"><![CDATA[<p>在大约半年前把自己的笔记软件onenote换成了Evernote，原因是上次寒假回家的时候，我不得不和家里面人抢电脑用，结果我必须在电脑之间折腾来折腾去的。离开了自己的电脑真的感觉什么都不习惯，我原来的好多资料又都存在了onenote上面，onenote废柴啊，使用同步功能，却从来都没有同步成功过，还给我无端多复制了几份笔记本，换吧！</p>
 
 <p><img src="https://public.bay.livefilestore.com/y1pYqdQg_yG8P2z0mqt4bzCBlP9IBctS3vJ5YDl78GbhkYNHYYMPPy7i5BukUomCzBMI7Tv8hpZPgfo0Z3stH0K5A/evernote_screen.jpg?psid=1" alt="Evernote" /></p>
@@ -203,9 +203,9 @@
   
   <entry>
     <title type="html"><![CDATA[人生的选择，小评北京爱情故事]]></title>
-    <link href="http://dynamii.tk/2012/05/05/comment-on-beijing-love-story/"/>
+    <link href="http://dynamii.org/2012/05/05/comment-on-beijing-love-story/"/>
     <updated>2012-05-05T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/05/comment-on-beijing-love-story</id>
+    <id>http://dynamii.org/2012/05/05/comment-on-beijing-love-story</id>
     <content type="html"><![CDATA[<p><img src="https://public.bay.livefilestore.com/y1pbAO0x0f9fJ5-2vnyF6_nVPguqxMBiMq7_r1kdIIjiZp2lGXdsqHvVW5HgTqlDVxuAUdMi0nHvHuNnxRfJd8NHg/ZJTV.Bei.Jing.Love.Story.Ep39.HDTV.720p.x264-CHDTV-shot0003.jpg" alt="北京爱情故事" /></p>
 
 <p>北京爱情故事写的是一群在北京上学，一起奋斗一起生活的兄弟和姐妹们的故事，虽然我对这些演员感到很不熟悉，但作为一个将要大学毕业了的小青年，我能看得出来，这些故事熟悉得让人觉得亲切，也熟悉得让人觉得可怕，因为，这看上去就是自己的故事，自己发生过的事，未来即将要发生的事。</p>
@@ -238,9 +238,9 @@
   
   <entry>
     <title type="html"><![CDATA[LaTeX与Word（源代码与所见即所得）谁更好？]]></title>
-    <link href="http://dynamii.tk/2012/05/02/latex-and-word-who-is-better/"/>
+    <link href="http://dynamii.org/2012/05/02/latex-and-word-who-is-better/"/>
     <updated>2012-05-02T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/05/02/latex-and-word-who-is-better</id>
+    <id>http://dynamii.org/2012/05/02/latex-and-word-who-is-better</id>
     <content type="html"><![CDATA[<p>我还记得几周前我曾经狂热地表示了我对LaTex或者Markdown这种标记语法的支持(<a href="http://dynamii.tk/2012/04/12/word-latex-%e5%92%8cdocbook/">#</a>)，甚至还扬言一定要建立一个只能写标记语言的博客，于是我在毕业设计的文献翻译环节中开始了我的实践。</p>
 
 <p>我的这篇文献翻译，公式相当的多，上标下标，矩阵……该有的东西都有了，开心的我一边儿查询LaTeX语法，一边照着敲代码，心想，哈哈，LaTeX和Markdown就是爽，纯键盘就把我要的公式敲完了，如果是用Word，我还必须用该死的鼠标来做上下标，那将多么影响翻译的效率啊。</p>
@@ -275,9 +275,9 @@
   
   <entry>
     <title type="html"><![CDATA[为什么应该远离RSS阅读器？]]></title>
-    <link href="http://dynamii.tk/2012/04/29/leave-rss-reader-alone/"/>
+    <link href="http://dynamii.org/2012/04/29/leave-rss-reader-alone/"/>
     <updated>2012-04-29T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/29/leave-rss-reader-alone</id>
+    <id>http://dynamii.org/2012/04/29/leave-rss-reader-alone</id>
     <content type="html"><![CDATA[<p>注意我说的RSS阅读器是指那种仅仅只能带来更新内容的RSS阅读器。</p>
 
 <p>最近一段时间我退订了大部分了RSS源并且访问Google阅读器的次数也越来越少了，现在我的RSS阅读器里面只剩下很少的，而且更新频率很低而且内容比较稳定的feed了。起初，大家理所当然地认为RSS就是为了提高阅读效率而设计的，读者在一个程序里面就能浏览到最新的资讯。这个愿景可是相当美好，但是每次使用一段时间就会让人忍不住吐槽。</p>
@@ -304,9 +304,9 @@
   
   <entry>
     <title type="html"><![CDATA[我回来了，回到WordPress了]]></title>
-    <link href="http://dynamii.tk/2012/04/25/coming-home-to-wordpress/"/>
+    <link href="http://dynamii.org/2012/04/25/coming-home-to-wordpress/"/>
     <updated>2012-04-25T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/25/coming-home-to-wordpress</id>
+    <id>http://dynamii.org/2012/04/25/coming-home-to-wordpress</id>
     <content type="html"><![CDATA[<p>最近在网上读了一篇文章《<a href="http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/">为什么你应该（从现在开始就）写博客</a>》，我意识到我不应该继续在点点网上碎碎念了，而应该正儿八经地继续写博客，所以从现在开始这个Blog将继续恢复使用WordPress平台。</p>
 
 <p>之所以继续使用了WordPress，是因为我要索引以前的所有文章，还要为这些文章写一些总结，能够方便做到这么灵活的，也非WordPress莫属了，现在我想要提出自己对于博客的定义——Blog三要素，他们分别是</p>
@@ -327,9 +327,9 @@
   
   <entry>
     <title type="html"><![CDATA[Word, LaTeX, 和DocBook]]></title>
-    <link href="http://dynamii.tk/2012/04/12/word-latex-docbook/"/>
+    <link href="http://dynamii.org/2012/04/12/word-latex-docbook/"/>
     <updated>2012-04-12T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/12/word-latex-docbook</id>
+    <id>http://dynamii.org/2012/04/12/word-latex-docbook</id>
     <content type="html"><![CDATA[<p>这是三种撰写文档的强大工具，Microsoft的Word，这个大多数人都知道，在中国的办公室里面部署得最为普遍，简单易用，方便上手，可是要精通就比较困难了，这个“难” 主要难在对排版的把握上，若是写一篇10000字以下的文章尚好把握，若是要写10万字左右的书，可能就比较痛苦了，当然，如果熟练通晓了Word的核心，应该也是难事，只是感觉Word关于排版的那些概念很混乱，很麻烦！</p>
 
 
@@ -355,9 +355,9 @@
   
   <entry>
     <title type="html"><![CDATA[推荐一本书 《选择的艺术》]]></title>
-    <link href="http://dynamii.tk/2012/04/12/recommend-a-book/"/>
+    <link href="http://dynamii.org/2012/04/12/recommend-a-book/"/>
     <updated>2012-04-12T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/12/recommend-a-book</id>
+    <id>http://dynamii.org/2012/04/12/recommend-a-book</id>
     <content type="html"><![CDATA[<p><span><img src="http://m1.img.libdd.com/farm3/203/14740831FE800426E157C2974C9CC0CB_400_153.jpg" width="400" height="153"></span><br /></p>
 
 
@@ -379,9 +379,9 @@
   
   <entry>
     <title type="html"><![CDATA[国外有黑客破解了尼康一些机型的视频功能]]></title>
-    <link href="http://dynamii.tk/2012/04/11/some-nikon-camera-hacked/"/>
+    <link href="http://dynamii.org/2012/04/11/some-nikon-camera-hacked/"/>
     <updated>2012-04-11T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/11/some-nikon-camera-hacked</id>
+    <id>http://dynamii.org/2012/04/11/some-nikon-camera-hacked</id>
     <content type="html"><![CDATA[<p>由于某些利益因素一般单反上的录像都有功能限制：单个视频最长只能到29分29秒，不得超过30分钟，但是最近国外的黑客破解了这个限制，现在D3100，D5100，D7000的录像时间好像不会有啥限制了~</p>
 
 
@@ -395,9 +395,9 @@
   
   <entry>
     <title type="html"><![CDATA[照片]]></title>
-    <link href="http://dynamii.tk/2012/04/10/photo/"/>
+    <link href="http://dynamii.org/2012/04/10/photo/"/>
     <updated>2012-04-10T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/10/photo</id>
+    <id>http://dynamii.org/2012/04/10/photo</id>
     <content type="html"><![CDATA[<p><p>这是肿么回事儿，为啥我一给我的PS装外挂插件就打不开Raw格式了&#8230;&#8230;.?难道是老天不让我开外挂吗&#8230;.</p></p>
 
 
@@ -408,9 +408,9 @@
   
   <entry>
     <title type="html"><![CDATA[色彩敏感的人，伤不起啊。]]></title>
-    <link href="http://dynamii.tk/2012/04/08/sensitive-about-color/"/>
+    <link href="http://dynamii.org/2012/04/08/sensitive-about-color/"/>
     <updated>2012-04-08T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/08/sensitive-about-color</id>
+    <id>http://dynamii.org/2012/04/08/sensitive-about-color</id>
     <content type="html"><![CDATA[<p>买了相机咔嚓了那么久现在终于开始正儿八经地思考如何“摄影”的问题了，简单的说，以前是拿着机器就乱拍一通，现在要开始考虑光线-曝光、取景-构图、色彩等问题了，今天我想先引入一个很严重的问题——色彩问题。</p>
 
 
@@ -460,9 +460,9 @@
   
   <entry>
     <title type="html"><![CDATA[英语越来越差了]]></title>
-    <link href="http://dynamii.tk/2012/04/08/english-pool/"/>
+    <link href="http://dynamii.org/2012/04/08/english-pool/"/>
     <updated>2012-04-08T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/08/english-pool</id>
+    <id>http://dynamii.org/2012/04/08/english-pool</id>
     <content type="html"><![CDATA[<p>背的单词越多，英语却越来越差？明明过了四六级，却感觉还不如高中能表达？</p>
 
 
@@ -476,9 +476,9 @@
   
   <entry>
     <title type="html"><![CDATA[每一个用尼康机器的人都在纠结中渡过……【元首的愤怒-D90的毁灭】]]></title>
-    <link href="http://dynamii.tk/2012/04/04/a-video/"/>
+    <link href="http://dynamii.org/2012/04/04/a-video/"/>
     <updated>2012-04-04T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/04/a-video</id>
+    <id>http://dynamii.org/2012/04/04/a-video</id>
     <content type="html"><![CDATA[<p><a href="http://itrowa.diandian.com/post/2012-04-05/17737492"><img src="http://g2.ykimg.com/0100641F464D9C700D53C90161898E27C1513E-0CAE-CDC6-4DBE-4A8D5DBFE6FF"></a></p>
 
 
@@ -489,9 +489,9 @@
   
   <entry>
     <title type="html"><![CDATA[照片]]></title>
-    <link href="http://dynamii.tk/2012/04/01/just-a-photo/"/>
+    <link href="http://dynamii.org/2012/04/01/just-a-photo/"/>
     <updated>2012-04-01T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/04/01/just-a-photo</id>
+    <id>http://dynamii.org/2012/04/01/just-a-photo</id>
     <content type="html"><![CDATA[<p>杜甫很忙，我笑抽了</p>
 
 <p><img src="http://m2.img.libdd.com/farm3/148/21E6F8E1704E43F11B3C5CF5B5E4CD94_500_588.jpg"></p>
@@ -504,9 +504,9 @@
   
   <entry>
     <title type="html"><![CDATA[又开始想念WordPress了！]]></title>
-    <link href="http://dynamii.tk/2012/03/31/missing-wordpress/"/>
+    <link href="http://dynamii.org/2012/03/31/missing-wordpress/"/>
     <updated>2012-03-31T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/03/31/missing-wordpress</id>
+    <id>http://dynamii.org/2012/03/31/missing-wordpress</id>
     <content type="html"><![CDATA[<p>点点网提供的功能其实还够用吧，虽然不知怎的，总觉得点点网是个半成品，话说开发人员都在干什么呢？</p>
 
 
@@ -523,9 +523,9 @@
   
   <entry>
     <title type="html"><![CDATA[面试笔记]]></title>
-    <link href="http://dynamii.tk/2012/03/31/interview-note/"/>
+    <link href="http://dynamii.org/2012/03/31/interview-note/"/>
     <updated>2012-03-31T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/03/31/interview-note</id>
+    <id>http://dynamii.org/2012/03/31/interview-note</id>
     <content type="html"><![CDATA[<p>昨天回来以后熬夜把《杀手：血钱》给爆机了，今天起床发现，关于昨天去应聘的事情还是好多问题没有想明白，遂度娘了一下。</p>
 
 
@@ -551,9 +551,9 @@
   
   <entry>
     <title type="html"><![CDATA[这次的刷机解决了几个问题...]]></title>
-    <link href="http://dynamii.tk/2012/03/29/nokia-5800-firm-update-result/"/>
+    <link href="http://dynamii.org/2012/03/29/nokia-5800-firm-update-result/"/>
     <updated>2012-03-29T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/03/29/nokia-5800-firm-update-result</id>
+    <id>http://dynamii.org/2012/03/29/nokia-5800-firm-update-result</id>
     <content type="html"><![CDATA[<p>首先是原来死笨的播放器居然会把装的其他软件的一些提示音效也给收录进来……这是音乐播放器好不好！！现在的系统只会索引E:Music下面的音乐。</p>
 
 

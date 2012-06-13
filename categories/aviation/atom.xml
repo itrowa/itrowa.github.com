@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: aviation | dynamii实验室]]></title>
-  <link href="http://dynamii.tk/categories/aviation/atom.xml" rel="self"/>
-  <link href="http://dynamii.tk/"/>
-  <updated>2012-06-13T22:23:01+08:00</updated>
-  <id>http://dynamii.tk/</id>
+  <title><![CDATA[Category: aviation | dynamii研究所]]></title>
+  <link href="http://dynamii.org/categories/aviation/atom.xml" rel="self"/>
+  <link href="http://dynamii.org/"/>
+  <updated>2012-06-13T22:26:58+08:00</updated>
+  <id>http://dynamii.org/</id>
   <author>
     <name><![CDATA[杜罗华]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[自己动手，维修赛钛客 Cyborg X]]></title>
-    <link href="http://dynamii.tk/2012/02/23/repair-my-cyborg-x/"/>
+    <link href="http://dynamii.org/2012/02/23/repair-my-cyborg-x/"/>
     <updated>2012-02-23T00:00:00+08:00</updated>
-    <id>http://dynamii.tk/2012/02/23/repair-my-cyborg-x</id>
+    <id>http://dynamii.org/2012/02/23/repair-my-cyborg-x</id>
     <content type="html"><![CDATA[<p>赛钛客的摇杆实在是太坑爹了。我的赛钛客摇杆仅服役一年多，就出现了如下症状：Z轴拧不到头，没法回中；还有跳舵现象。当时的我沮丧万分，难道这个300多元的东西只能玩一年多？后来由于忙着干别的事，摇杆被扔一边去了。</p>
 
 
