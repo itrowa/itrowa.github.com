@@ -206,10 +206,18 @@
     </url>
     <url>
         <loc>http://dynamii.org/</loc>
-        <lastmod>2012-06-05T12:59:27+08:00</lastmod>
+        <lastmod>2012-06-14T02:30:41+08:00</lastmod>
     </url>
     <url>
         <loc>http://dynamii.org/sets/</loc>
         <lastmod>2012-05-17T00:08:48+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dynamii.org/sets/kindle/</loc>
+        <lastmod>2012-06-14T01:46:38+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dynamii.org/sets/vimrc/</loc>
+        <lastmod>2012-06-14T01:54:08+08:00</lastmod>
     </url>
 </urlset>

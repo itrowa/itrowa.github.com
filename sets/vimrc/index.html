@@ -5,11 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>这次的刷机解决了几个问题... - dynamii研究所</title>
+  <title>.vimrc - dynamii研究所</title>
   <meta name="author" content="杜罗华">
 
   
-  <meta name="description" content="首先是原来死笨的播放器居然会把装的其他软件的一些提示音效也给收录进来……这是音乐播放器好不好！！现在的系统只会索引E:Music下面的音乐。 其次，图片、视频等，现在也有制定的索引目录了，不会再把装的软件的bmp素材也给索引进来了。   这样下来这个破手机除了塞班那些莫名其妙的弱点以外， &hellip;">
+  <meta name="description" content=".vimrc May 15th, 2012 我使用Windows系统，因此_vimrc文件放在C:\Users\Trowa\下。 " Environment =&gt; Windows 7 with GUI
+" 当使用命令行或者在linux下时本文件可能不适用!
+"
+set &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dynamii.org/2012/03/29/nokia-5800-firm-update-result">
+  <link rel="canonical" href="http://dynamii.org/sets/vimrc">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -76,15 +79,85 @@
   <div id="main">
     <div id="content">
       <div>
-<article class="hentry" role="article">
+<article role="article">
   
   <header>
-    
-      <h1 class="entry-title">这次的刷机解决了几个问题...</h1>
-    
-    
+    <h1 class="entry-title">.vimrc</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-15T09:56:00+08:00" pubdate data-updated="true">May 15<span>th</span>, 2012</time></p>
+  </header>
+  
+  <p>我使用Windows系统，因此<code>_vimrc</code>文件放在<code>C:\Users\Trowa\</code>下。</p>
+
+<pre><code>" Environment =&gt; Windows 7 with GUI
+" 当使用命令行或者在linux下时本文件可能不适用!
+"
+set nocompatible
+
+" 编码设定
+" vim内部工作在utf-8上
+set encoding=utf-8
+" 新建文件默认为utf-8无bom
+set fileencoding=ucs-bom
+" 打开文件时的编码猜测顺序
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1 
+
+filetype plugin indent on
+syntax on
+
+set nu
+set tabstop=4
+
+" 显示当前光标的行列信息
+set ruler
+
+" 删掉Gui的工具栏
+set guioptions-=T
+
+" 设置窗口大小
+set lines=40
+set columns=120
+
+" 鼠标遵循windows规则
+behave mswin
+
+" 设置界面为英文避免菜单扯不下来的问题
+set langmenu=en_US
+let $LANG='en_US'
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+
+colorscheme molokai
+
+" 字体
+" guifont是英文字体 gfw是双字节(东亚汉字字体)
+set guifont=DejaVu_Sans_Mono:h10:cANSI
+set guifontwide=Yahei_Mono:h10
+
+" 快捷键
+map &lt;C-TAB&gt; :tabNext&lt;CR&gt;
+map &lt;C-T&gt; :tabnew&lt;CR&gt;
+map &lt;C-W&gt; :tabc&lt;CR&gt;
+</code></pre>
+
+<p>配色方案molokai可以在？？找到。</p>
+
+  
+    <footer>
       <p class="meta">
         
+        
 
 
 
@@ -96,70 +169,19 @@
   
 
 
-<time datetime="2012-03-29T00:00:00+08:00" pubdate data-updated="true">Mar 29<span>th</span>, 2012</time>
-        
-         | <a href="#disqus_thread">Comments</a>
+<time datetime="2012-05-15T09:56:00+08:00" pubdate data-updated="true">May 15<span>th</span>, 2012</time>
         
       </p>
-    
-  </header>
-
-
-<div class="entry-content"><p>首先是原来死笨的播放器居然会把装的其他软件的一些提示音效也给收录进来……这是音乐播放器好不好！！现在的系统只会索引E:Music下面的音乐。</p>
-
-
-<p>其次，图片、视频等，现在也有制定的索引目录了，不会再把装的软件的bmp素材也给索引进来了。</p>
-
-
-<p> </p>
-
-
-<p>这样下来这个破手机除了塞班那些莫名其妙的弱点以外，还是很够用了。</p>
-
-</div>
-
-
-  <footer>
-    <p class="meta">
       
-  
-
-<span class="byline author vcard">Posted by <span class="fn">杜罗华</span></span>
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-29T00:00:00+08:00" pubdate data-updated="true">Mar 29<span>th</span>, 2012</time>
-      
-
-
-    </p>
-    
-      <div class="sharing">
+        <div class="sharing">
   
   
   
 </div>
 
-    
-    <p class="meta">
       
-        <a class="basic-alignment left" href="/2012/03/29/a-photo/" title="Previous Post: 照片">&laquo; 照片</a>
-      
-      
-        <a class="basic-alignment right" href="/2012/03/31/interview-note/" title="Next Post: 面试笔记">面试笔记 &raquo;</a>
-      
-    </p>
-  </footer>
+    </footer>
+  
 </article>
 
   <section>
@@ -218,11 +240,11 @@
       
         
         // var disqus_developer = 1;
-        //var disqus_identifier = 'http://dynamii.org/2012/03/29/nokia-5800-firm-update-result/';
-        //var disqus_identifier = '16 http://dynamii.org/?p=16';
-        var disqus_identifier = '16 http://dynamii.org/?p=16';
+        //var disqus_identifier = 'http://dynamii.org/sets/vimrc/index.html';
+        //var disqus_identifier = 'http://dynamii.org/sets/vimrc/index.html';
+        var disqus_identifier = 'http://dynamii.org/sets/vimrc/index.html';
 
-		var disqus_url = 'http://dynamii.org/2012/03/29/nokia-5800-firm-update-result/';
+		var disqus_url = 'http://dynamii.org/sets/vimrc/index.html';
         var disqus_script = 'embed.js';
       
     (function () {
