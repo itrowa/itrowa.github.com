@@ -29,6 +29,39 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -117,21 +150,28 @@
 
 <p>既然相机系统已经敲定，更进一步的是选择相机的品牌了。经调查发现，成熟而且市场占有率大的单反品牌为佳能和尼康。另一个后起之秀是Sony，曾经动心，但深思熟虑后发现，一个相机品牌的技术积累应该还是要些时间的，因此还是放弃。</p>
 
-<p>而佳能和尼康又该如何选择呢？网上有诸多的文章和口水战，我有幸都一一拜读了，不过意义不大，真正的关键因素，也是最血淋淋的现实，是质量和价格。价格太高，买不起，说什么也白搭；质量不行，起码自己就没有掏钱的欲望，使用起来也不满意。最近的几天我在各大卖场都去体验了一番，结合之前的调查，得到的结论是：5000元左右，入门的几个机器，至少在做工上，佳能是稍逊风骚，但是佳能在视频拍摄上又更胜一筹（尤其是可以在录制视频时调节快门速度和光圈等&#8230;达到了专业级摄像机的水平）。但转念一想，视频拍摄虽好，但毕竟使用的次数没有拍照的时候多。佳能的机器在拍视频时不能自动追焦，专业人士指出，“真正的高档货是不需要自动对焦的”，因此都是弄一个类似跟焦器的东西，再加上三脚架，稳定器等。。。我等不是专业人士，也无福消受这等高档货，也买不起那么昂贵的配件，因此佳能也基本被我放弃了。</p>
+<p>而佳能和尼康又该如何选择呢？网上有诸多的文章和口水战，我有幸都一一拜读了，不过意义不大，真正的关键因素，也是最血淋淋的现实，是质量和价格。价格太高，买不起，说什么也白搭；质量不行，起码自己就没有掏钱的欲望，使用起来也不满意。最近的几天我在各大卖场都去体验了一番，结合之前的调查，得到的结论是：5000元左右，入门的几个机器，至少在做工上，佳能是稍逊风骚，但是佳能在视频拍摄上又更胜一筹（尤其是可以在录制视频时调节快门速度和光圈等…达到了专业级摄像机的水平）。但转念一想，视频拍摄虽好，但毕竟使用的次数没有拍照的时候多。佳能的机器在拍视频时不能自动追焦，专业人士指出，“真正的高档货是不需要自动对焦的”，因此都是弄一个类似跟焦器的东西，再加上三脚架，稳定器等。。。我等不是专业人士，也无福消受这等高档货，也买不起那么昂贵的配件，因此佳能也基本被我放弃了。</p>
 
 <p>偶读<a href="http://iphoto.blog.163.com/">清韵</a>Blog，发现里面的文章对我来说很受用，也感觉到尼康的低端机器确实做工良好，因此对尼康颇有好感。我还列出了选择尼康的几个原因：</p>
 
 <ol>
-<li><p>根据自己手机拍照的情况来看，自己应该拍风光更多，据说尼康适合干这个；</p></li>
-<li><p>我需要质量稳定的机器，网上有不少关于佳能质量问题的文章，将信将疑，宁可信其有，不可信其无吧！</p></li>
-<li><p>更喜欢尼康的机器的外观、设计等</p></li>
-<li><p>视频支持自动追焦。不能调手动快门和光圈等确实是个遗憾，但是，我觉得生活中80%的情况是一般的拍摄记录，自己的一大嗜好是在户外拍灰机，以前用手机就录了不少视频，因而自动追焦比手动光圈快门更有实际用处。</p></li>
+  <li>
+    <p>根据自己手机拍照的情况来看，自己应该拍风光更多，据说尼康适合干这个；</p>
+  </li>
+  <li>
+    <p>我需要质量稳定的机器，网上有不少关于佳能质量问题的文章，将信将疑，宁可信其有，不可信其无吧！</p>
+  </li>
+  <li>
+    <p>更喜欢尼康的机器的外观、设计等</p>
+  </li>
+  <li>
+    <p>视频支持自动追焦。不能调手动快门和光圈等确实是个遗憾，但是，我觉得生活中80%的情况是一般的拍摄记录，自己的一大嗜好是在户外拍灰机，以前用手机就录了不少视频，因而自动追焦比手动光圈快门更有实际用处。</p>
+  </li>
 </ol>
-
 
 <p>自己的预算（也完全说是老妈的预算）其实并不算高，多亏了技术进步，现在的单反价格已经下落到了一个比较能接受的程度了，而尼康价格最低的一个，也就是D3100，在了解了这么多信息以后，自己也觉得非常满意，因此，目标就初步锁定它了。现在 唯一的希望是它不要涨价太快啊。</p>
 
-<p>&nbsp;</p>
+<p> </p>
 </div>
 
 
@@ -199,6 +239,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -212,10 +256,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

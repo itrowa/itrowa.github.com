@@ -9,7 +9,8 @@
   <meta name="author" content="杜罗华">
 
   
-  <meta name="description" content="赛钛客的摇杆实在是太坑爹了。我的赛钛客摇杆仅服役一年多，就出现了如下症状：Z轴拧不到头，没法回中；还有跳舵现象。当时的我沮丧万分，难道这个300多元的东西只能玩一年多？后来由于忙着干别的事，摇杆被扔一边去了。 今年寒假的时候我猛然又想起了这个摇杆，遂想在网上搜寻下解决方案，不出所料， &hellip;">
+  <meta name="description" content="赛钛客的摇杆实在是太坑爹了。我的赛钛客摇杆仅服役一年多，就出现了如下症状：Z轴拧不到头，没法回中；还有跳舵现象。当时的我沮丧万分，难道这个300多元的东西只能玩一年多？后来由于忙着干别的事，摇杆被扔一边去了。
+今年寒假的时候我猛然又想起了这个摇杆，遂想在网上搜寻下解决方案，不出所料， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -28,6 +29,39 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
   
   <script type="text/javascript">
@@ -106,37 +140,16 @@
 
 
 <div class="entry-content"><p>赛钛客的摇杆实在是太坑爹了。我的赛钛客摇杆仅服役一年多，就出现了如下症状：Z轴拧不到头，没法回中；还有跳舵现象。当时的我沮丧万分，难道这个300多元的东西只能玩一年多？后来由于忙着干别的事，摇杆被扔一边去了。</p>
-
-
 <p>今年寒假的时候我猛然又想起了这个摇杆，遂想在网上搜寻下解决方案，不出所料，万能的Google啊，一下子搜到了好多相关信息。根据我的判断，Cyborg X杆的Z轴故障绝对不是个案了，更有人反映送修一次后没几个月又出现故障的…… 而这个故障的根本原因就是那蹩脚脑残的Z轴电位器设计！！废话少说，让我先剖开摇杆的外壳，看看电位器究竟是啥样的吧~</p>
-
-
-<p><span><img src="http://m3.img.libdd.com/farm3/147/E155FD59D64AFB58FF25AAEA39DCA393_400_267.jpg" width="400" height="267"></span><br /></p>
-
-
+<p><span><img src="http://m3.img.libdd.com/farm3/147/E155FD59D64AFB58FF25AAEA39DCA393_400_267.jpg" width="400" height="267" /></span><br /></p>
 <p>快看哪，中间那陀黄色的像[哔&#8211;]一样的东西就是电位器了，旁边还有像鼻涕一样的白色凝固物体就是热熔胶，工厂装配的时候，先把电位器卡在座子上，在打点“鼻涕”，凝固以后就能使用了，看到了这个情形的你，还能像原来那样淡定地猛力蹂躏你的摇杆吗 - -||</p>
-
-
-<p>接下来，小心翼翼地把热熔胶剥离，如下图<span><img src="http://m3.img.libdd.com/farm3/16/4F2A2C5374CC9FBAD2EC5A33254B4610_400_377.jpg" width="400" height="377"></span></p>
-
-
-<p>再把电位器也给扯下来<span><img src="http://m1.img.libdd.com/farm3/98/A63CB017F7B8C2D986E36942CA99B162_400_335.jpg" width="400" height="335"></span></p>
-
-
+<p>接下来，小心翼翼地把热熔胶剥离，如下图<span><img src="http://m3.img.libdd.com/farm3/16/4F2A2C5374CC9FBAD2EC5A33254B4610_400_377.jpg" width="400" height="377" /></span></p>
+<p>再把电位器也给扯下来<span><img src="http://m1.img.libdd.com/farm3/98/A63CB017F7B8C2D986E36942CA99B162_400_335.jpg" width="400" height="335" /></span></p>
 <p>热熔胶这种东西怎么可能固定得住需要猛力摇动的Z轴电位器呢，经常使用摇杆的话，这玩意儿两下子就会经不住折腾，表面虽然看起来还是固定的，其实已经松动了。接下来仔细用心地将电位器给重新安装回去，并重新上胶，看起来就像这样：</p>
-
-
-<p><span><img src="http://m1.img.libdd.com/farm3/119/5DC95474388156FD5BD05E42EDCDD777_400_423.jpg" width="400" height="423"></span><br /></p>
-
-
+<p><span><img src="http://m1.img.libdd.com/farm3/119/5DC95474388156FD5BD05E42EDCDD777_400_423.jpg" width="400" height="423" /></span><br /></p>
 <p>等个几分钟让胶水完全冷却才可重新使用Z轴。</p>
-
-
 <p>把壳体封上，重新插上电脑，嘿嘿，一切仿佛恢复了原状。</p>
-
-
 <p>最后鄙视一下赛钛客公司，你们设计的产品竟然就是这种工艺，让人心寒&#8230;</p>
-
 </div>
 
 
@@ -204,6 +217,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -217,10 +234,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

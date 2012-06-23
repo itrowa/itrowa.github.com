@@ -29,6 +29,39 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -109,7 +142,7 @@
 
 <p>北京爱情故事写的是一群在北京上学，一起奋斗一起生活的兄弟和姐妹们的故事，虽然我对这些演员感到很不熟悉，但作为一个将要大学毕业了的小青年，我能看得出来，这些故事熟悉得让人觉得亲切，也熟悉得让人觉得可怕，因为，这看上去就是自己的故事，自己发生过的事，未来即将要发生的事。</p>
 
-<p>吴魏在他的日记本里面写到，“我的弟弟吴狄，&#8230;..，他对我说他爱上了同班的一个女孩子，他幼稚的想法让我仿佛看到了曾经的自己 。当一个男人什么都没有的时候，他该拿什么说爱呢？”</p>
+<p>吴魏在他的日记本里面写到，“我的弟弟吴狄，…..，他对我说他爱上了同班的一个女孩子，他幼稚的想法让我仿佛看到了曾经的自己 。当一个男人什么都没有的时候，他该拿什么说爱呢？”</p>
 
 <p>这句话仿佛也点醒了那个幼稚的自己。吴魏无疑是非常富有远见的，他留学时身无分文，尽管他的恋爱对象小伍，从来不会嫌弃他是一个穷光蛋，吴魏并没有陷入可以在今天得到的甜蜜，而是果断地掐断所有的儿女情长，开始为了男人的事业而奋斗，直到最后，他坐到了轮椅上……</p>
 
@@ -199,6 +232,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -212,10 +249,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

@@ -29,6 +29,39 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -106,10 +139,7 @@
 
 
 <div class="entry-content"><p>Your time is limited, so don&#39;t waste it living someone else&#39;s life. Don&#39;t be trapped by dogma, which is living with the results of other people&#39;s thinking. Don&#39;t let the noise of  others&#39; opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.</p>
-
-
 <p>你们的时间有限，所以不要把时间浪费在别人的生活里。不要被条条框框束缚，否则你就会生活在他人思考的结果里。不要让他人的观点所发出的噪音淹没你内心的声音。最为重要的是，要有遵从你的内心和直觉的勇气，它们可能已经知道你其实想成为一个怎么样的人。其他事物都是次要的。</p>
-
 </div>
 
 
@@ -171,6 +201,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -184,10 +218,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

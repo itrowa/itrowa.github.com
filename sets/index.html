@@ -9,7 +9,7 @@
   <meta name="author" content="杜罗华">
 
   
-  <meta name="description" content="Sets May 15th, 2012 网站推荐 网易公开课 新浪公开课 爱课程 May 15th, 2012 Comments Please enable JavaScript to view the comments powered by Disqus. Recent Posts 临时日志 &hellip;">
+  <meta name="description" content="Sets May 15th, 2012 网站推荐 网易公开课 新浪公开课 爱课程 May 15th, 2012 Comments Please enable JavaScript to view the comments powered by Disqus. Recent Posts &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -28,6 +28,39 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
   
   <script type="text/javascript">
@@ -95,7 +128,7 @@
 <time datetime="2012-05-15T09:56:00+08:00" pubdate data-updated="true">May 15<span>th</span>, 2012</time></p>
   </header>
   
-  <h2>网站推荐</h2>
+  <h2 id="section">网站推荐</h2>
 
 <p><a href="http://open.163.com/">网易公开课</a></p>
 
@@ -149,6 +182,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -162,10 +199,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

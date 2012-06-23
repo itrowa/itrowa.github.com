@@ -9,7 +9,11 @@
   <meta name="author" content="杜罗华">
 
   
-  <meta name="description" content="在高中的教室里，初中班主任拿着我的考研数学试卷， “HH啊，怎么会这个样子啊，不像是你的卷子啊！是不是答题卡涂错了啊？” 我接过试卷，半晌不发一言。 窗外透蓝的天空刹那间被染成了琉璃色，我大惊，猛地一下弹起来，原来，我还在大学的校园，学校的寝室里，窗外是麻雀在叽叽喳喳。 ">
+  <meta name="description" content="在高中的教室里，初中班主任拿着我的考研数学试卷，
+“HH啊，怎么会这个样子啊，不像是你的卷子啊！是不是答题卡涂错了啊？”
+我接过试卷，半晌不发一言。
+窗外透蓝的天空刹那间被染成了琉璃色，我大惊，猛地一下弹起来，原来，我还在大学的校园，学校的寝室里，窗外是麻雀在叽叽喳喳。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -28,6 +32,39 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
   
   <script type="text/javascript">
@@ -106,16 +143,9 @@
 
 
 <div class="entry-content"><p>在高中的教室里，初中班主任拿着我的考研数学试卷，</p>
-
-
 <p>“HH啊，怎么会这个样子啊，不像是你的卷子啊！是不是答题卡涂错了啊？”</p>
-
-
 <p>我接过试卷，半晌不发一言。</p>
-
-
 <p>窗外透蓝的天空刹那间被染成了琉璃色，我大惊，猛地一下弹起来，原来，我还在大学的校园，学校的寝室里，窗外是麻雀在叽叽喳喳。</p>
-
 </div>
 
 
@@ -177,6 +207,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -190,10 +224,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

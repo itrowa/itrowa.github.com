@@ -29,6 +29,39 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -106,25 +139,12 @@
 
 
 <div class="entry-content"><p>这是三种撰写文档的强大工具，Microsoft的Word，这个大多数人都知道，在中国的办公室里面部署得最为普遍，简单易用，方便上手，可是要精通就比较困难了，这个“难” 主要难在对排版的把握上，若是写一篇10000字以下的文章尚好把握，若是要写10万字左右的书，可能就比较痛苦了，当然，如果熟练通晓了Word的核心，应该也是难事，只是感觉Word关于排版的那些概念很混乱，很麻烦！</p>
-
-
 <p>LaTeX，国外搞科研的基本都在用这个写，它的理念和Word完全不一样，Word属于所见即所得式的，LaTeX是你要先写好“源代码”，像公式等，都必须以特定的语法写出来，做列表，写标题，节号等都要遵循语法规范，最后再由一格引擎来生成最终可以看到的文档。虽然看起来麻烦些，但是LaTeX对于排版来说是非常强大的，对数学公式的支持也是其它软件比较劣势一些的。</p>
-
-
 <p>最后是DocBook，这个听说的人恐怕更少了。但事实上，这已经在计算机领域成为了文档撰写的规范了。DocBook最显著的特征大概就是网络分享吧，早些时候自己会接触到一些计算机的“书籍”，当然是网上发布的HTML格式，奇怪的是，这些书籍并不像普通Blog文章一样有密密麻麻花哨的排版，也不同于Wikipedia那样一篇文章拉满一页，而是有大目录，有小章节，点击目录还可以在不同的页面，不同的章节跳转，观察其排版，简洁舒适没有多余的元素，样式全部通过CSS来渲染，在浏览器中查看最终效果，太赞了！这一定是用某种强悍的程序生成的。它就是<a href="http://www.worldhello.net/doc/docbook_howto/">DocBook</a>。</p>
-
-
 <p>写“源码”的方式我是非常喜欢的，以前使用WordPress的时候，我是很厌倦了插入一张图片还要点开那个插入工具，慢慢地操作……插入代码、列表等等，都要通过自带的工具，否则你就直接去写HTML标记吧，那是给人写的吗？ Wiki程序完全可以写“源码”，他们将那些标记称之为“Wiki语法”，有点类似于在论坛上发帖使用BBcode的那种感觉，混论坛的人都知道，即时型的编辑器往往不那么好用，如果会一点BBcode，那么插入图片和简单的排版会快上很多！所以我便逐渐习惯了写markup的生活了。</p>
-
-
 <p>无奈的是WordPress与这样的理念是背道而驰的，我是打算在WordPress平台上写一万字左右的文章的，但是WordPress控制排版的能力太差了，差就差吧，要实现一些功能偏偏还要插件，太花哨了，不适合我。我想找一款Wiki程序，但是Wiki是面向多用户的，一个人用的话很浪费，理念也对不上。说穿了，我就是想找一个Blog，写文章的时候，可以直接用某种标记控制排版，仅此而已。</p>
-
-
 <p>现在找到的程序有：<strong>Octopress</strong>， 似乎是Ruby平台的，写文章使用Markup标记，发布静态网页，好像可以免费托管到GigHub上面，这个很符合我的要求。<strong>TypeEcho</strong> ，似乎已经有一年多没更新了。原来我用过一次，基本的Blog功能都有，但是不知道写文章的时候能不能用那啥标记？我不想直接写HTML标记的啊。其它的，没了……至于Wiki程序，都支持标记语法的。</p>
-
-
 <p>话说点点网的编辑器真蛋疼啊，不兼容我的QQ输入法，输入的时候老出一些奇怪的拼音标记，而且事先在记事本里面写好再粘贴回来，段落就会全部消失，这是干嘛啊？</p>
-
 </div>
 
 
@@ -186,6 +206,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -199,10 +223,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

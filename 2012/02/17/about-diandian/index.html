@@ -29,6 +29,39 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -109,7 +142,14 @@
 
 <p>在几天的试用过后，我感觉轻博客这个概念是比博客或微博更加成熟的概念。对于博客来说，满页都是长篇大论，写着很累；而微博呢，把思维剪短得太碎片了，而且我用了几个月的新浪微博，这个微博用户群给我的感觉实在是非常糟糕，大批的权贵人士掌握了微博社会的话语权，而真正的草根阶级的声音却被淹没在无数的转发当中……</p>
 
-<p>相比之下点点网这样的网站给人比较安定的感觉。它看起来很有博客的范儿，你也能真正当它作为一个博客来使，但它使用起来又比博客简单多了，写字？发图？只需要几下子就能搞定了。但我觉得更吸引我的是它的模版，真的是很Fashion，摄影师或者什么文艺青年小清新之类的，随便按两下快门往点点上一扔，就是个精美的图片杂志了- -||</p>
+<table>
+  <tbody>
+    <tr>
+      <td>相比之下点点网这样的网站给人比较安定的感觉。它看起来很有博客的范儿，你也能真正当它作为一个博客来使，但它使用起来又比博客简单多了，写字？发图？只需要几下子就能搞定了。但我觉得更吸引我的是它的模版，真的是很Fashion，摄影师或者什么文艺青年小清新之类的，随便按两下快门往点点上一扔，就是个精美的图片杂志了- -</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
 <p>不过，我觉得点点网还有一些地方做得至少是不那么符合自己的口味，</p>
 
@@ -181,6 +221,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -194,10 +238,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

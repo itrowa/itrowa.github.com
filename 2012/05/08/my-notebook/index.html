@@ -29,6 +29,39 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -109,7 +142,7 @@
 
 <p><img src="https://public.bay.livefilestore.com/y1pYqdQg_yG8P2z0mqt4bzCBlP9IBctS3vJ5YDl78GbhkYNHYYMPPy7i5BukUomCzBMI7Tv8hpZPgfo0Z3stH0K5A/evernote_screen.jpg?psid=1" alt="Evernote" /></p>
 
-<p>Evernote的云端同步就比onenote给力多了，而且很少出错，所以我现在几乎完全放弃了onenote。我在Evernote里面建立了四个笔记本，分别是Inbox，Memo和Archive以及&#8221;摘录&#8221;。</p>
+<p>Evernote的云端同步就比onenote给力多了，而且很少出错，所以我现在几乎完全放弃了onenote。我在Evernote里面建立了四个笔记本，分别是Inbox，Memo和Archive以及”摘录”。</p>
 
 <p>当我要干某件事情要搜集资料，那我就在inbox笔记本里面建立一篇文章，把看到的链接，有用的文字片段、自己的想法，图片全部放在这篇文章里。事情完成以后，再稍微把它整理一下，移动到Archive里面。</p>
 
@@ -140,13 +173,12 @@
 <p>这两天频繁在网上搜索类似玩本子的内容，发现了不少好网站，让我来推荐一下吧</p>
 
 <ul>
-<li><a href="http://www.moleskiner.net/">打造用中文谱写的Moleskine传奇</a></li>
-<li><a href="ttp://www.gtdlife.com/">时间管理行动家</a></li>
-<li><a href="http://www.looseleaf.cn/">活页DIY会所</a></li>
-<li><a href="http://www.dgtle.com/portal.php?mod=list&amp;amp;catid=11">数字尾巴 - 文具控</a></li>
-<li><a href="http://www.wenfangjushe.com/">文具房舍</a></li>
+  <li><a href="http://www.moleskiner.net/">打造用中文谱写的Moleskine传奇</a></li>
+  <li><a href="ttp://www.gtdlife.com/">时间管理行动家</a></li>
+  <li><a href="http://www.looseleaf.cn/">活页DIY会所</a></li>
+  <li><a href="http://www.dgtle.com/portal.php?mod=list&amp;catid=11">数字尾巴 - 文具控</a></li>
+  <li><a href="http://www.wenfangjushe.com/">文具房舍</a></li>
 </ul>
-
 
 <p>最近还读了一些关于如何写笔记如何管理自己的书，很多还是写得很不错的，改天有空也写个读书心得吧。</p>
 </div>
@@ -216,6 +248,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -229,10 +265,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

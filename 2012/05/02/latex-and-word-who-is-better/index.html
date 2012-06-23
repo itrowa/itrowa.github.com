@@ -29,6 +29,39 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -126,14 +159,11 @@
 <p>这便是我得到的答案——MathType了。使用这玩意儿就可以轻松把LaTeX格式的公式转换成Word里面的公式对象，这算是部分解决了公式输入和查看的矛盾，这样，文章排版还是拿给傻乎乎的Word来做，但是公式的输入可以用MathType来搞定。</p>
 
 <p>这儿有文章可以参考下~</p>
-
 <ul>
-    <li><a href="http://hi.baidu.com/mecfan/blog/item/a6e0d0083dc2718fd1581b87.html">http://hi.baidu.com/mecfan/blog/item/a6e0d0083dc2718fd1581b87.html</a> MathType转化为LaTeX公式语言 图解教程（转载）</li>
-    <li><a href="http://hi.baidu.com/xuzuozhou/blog/item/030d9c8ba3c41d739e2fb44f.html">http://hi.baidu.com/xuzuozhou/blog/item/030d9c8ba3c41d739e2fb44f.html</a> [转]使用MathType输入数学公式的技巧</li>
+	<li><a href="http://hi.baidu.com/mecfan/blog/item/a6e0d0083dc2718fd1581b87.html">http://hi.baidu.com/mecfan/blog/item/a6e0d0083dc2718fd1581b87.html</a> MathType转化为LaTeX公式语言 图解教程（转载）</li>
+	<li><a href="http://hi.baidu.com/xuzuozhou/blog/item/030d9c8ba3c41d739e2fb44f.html">http://hi.baidu.com/xuzuozhou/blog/item/030d9c8ba3c41d739e2fb44f.html</a> [转]使用MathType输入数学公式的技巧</li>
 </ul>
-
-
-<p>&nbsp;</p>
+<p> </p>
 </div>
 
 
@@ -201,6 +231,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -214,10 +248,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

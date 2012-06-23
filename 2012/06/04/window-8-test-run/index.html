@@ -29,6 +29,39 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -109,7 +142,9 @@
 
 <p>Windows 8 新增了一项叫做Windows to Go 的功能，旨在让windows安装在U盘或者移动硬盘里面并可以启动任何电脑。</p>
 
-<blockquote><p>Windows to Go允许企业IT部门在移动磁盘中创建一个便携Windows系统，而且不会影响主Windows系统。借助 Windows To Go，用户可以随时随地(无论工作场所还是家中)通过任何 PC(无论是否联网)启动,就像随身携带了一台可靠的企业 PC。Windows to go的强大功能可以在PC端和平板端流畅使用，并且数据完全基于云端。这意味着员工可以在不牺牲工作效率的前提下轻装上阵，IT 部门可以顺应“带上自己的 PC”这一潮流，同时企业也可以在保持安全性的前提下允许临时员工访问企业环境。</p></blockquote>
+<blockquote>
+  <p>Windows to Go允许企业IT部门在移动磁盘中创建一个便携Windows系统，而且不会影响主Windows系统。借助 Windows To Go，用户可以随时随地(无论工作场所还是家中)通过任何 PC(无论是否联网)启动,就像随身携带了一台可靠的企业 PC。Windows to go的强大功能可以在PC端和平板端流畅使用，并且数据完全基于云端。这意味着员工可以在不牺牲工作效率的前提下轻装上阵，IT 部门可以顺应“带上自己的 PC”这一潮流，同时企业也可以在保持安全性的前提下允许临时员工访问企业环境。</p>
+</blockquote>
 
 <p>要创建便携的windows 8也非常简单，只要在一个可启动的磁盘设备里面用微软的imagex.exe来部署安装镜像就OK。具体说起来，我是按照这个教程完成我的安装的：<a href="http://bbs.pcbeta.com/viewthread-992689-1-1.html">http://bbs.pcbeta.com/viewthread-992689-1-1.html</a></p>
 
@@ -206,6 +241,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -219,10 +258,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

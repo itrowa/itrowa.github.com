@@ -9,7 +9,9 @@
   <meta name="author" content="杜罗华">
 
   
-  <meta name="description" content="点点网提供的功能其实还够用吧，虽然不知怎的，总觉得点点网是个半成品，话说开发人员都在干什么呢？ 外来的陌生人没法在这里评论，这是点点网的一个缺点吧（当然社区性质的网站也只能这样了），Blog的意义就是交流，现在，这个交流的功能我感觉有些折扣。 当初放弃WordPress是因为这玩意儿太复杂了， &hellip;">
+  <meta name="description" content="点点网提供的功能其实还够用吧，虽然不知怎的，总觉得点点网是个半成品，话说开发人员都在干什么呢？
+外来的陌生人没法在这里评论，这是点点网的一个缺点吧（当然社区性质的网站也只能这样了），Blog的意义就是交流，现在，这个交流的功能我感觉有些折扣。
+当初放弃WordPress是因为这玩意儿太复杂了， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -28,6 +30,39 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
   
   <script type="text/javascript">
@@ -106,16 +141,9 @@
 
 
 <div class="entry-content"><p>点点网提供的功能其实还够用吧，虽然不知怎的，总觉得点点网是个半成品，话说开发人员都在干什么呢？</p>
-
-
 <p>外来的陌生人没法在这里评论，这是点点网的一个缺点吧（当然社区性质的网站也只能这样了），Blog的意义就是交流，现在，这个交流的功能我感觉有些折扣。</p>
-
-
 <p>当初放弃WordPress是因为这玩意儿太复杂了，一不小心就可能落进一个瞎折腾的怪圈……所以我才需要换一种生活方式。在放弃WordPress加入点点之前，我也曾找过别的一些Blog程序项目，比较喜欢的有typecho吧，看起来很简洁很像一个Blog的样子，但是这个项目几乎一年多没有更新了，不知道现在的开发团队是不是太忙了啊&#8230;?</p>
-
-
 <p>脱离了WordPressN个月了，我感觉自己的状态应该比较理想了吧，我对Blog的要求很很简单，首先是快，稳定，然后呢，能找到几个适合自己的模版，我是在懒得动手修改或者是写主题了，很麻烦得。最后嘛，程序方面，功能合适就足够，WordPress那个搞法实在是太臃肿太夸张了，当年我是WordPress忠实的Fans，现在，我只能说一句，WordPress，曾经是，最好的Blog程序吧。</p>
-
 </div>
 
 
@@ -177,6 +205,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -190,10 +222,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>

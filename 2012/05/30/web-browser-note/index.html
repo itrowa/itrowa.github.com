@@ -29,6 +29,39 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -112,11 +145,10 @@
 <p>所以我要把书签里面的东西从几百个减少到不到50个，我只要留下现在经常能访问的，这就足够了，至于某些文章，链接，资源，下载地址可以把它们真正转移到Evernote里面，这样同步起来更方便。这样下来，浏览器内的书签对于我来说作用就是：</p>
 
 <ul>
-<li>收藏最常访问的网站</li>
-<li>收藏最近正在看的（但还没看完的）文章，或者正在下载还没下完的的动画片..称之为<code>暂存区</code>？</li>
-<li>没有了</li>
+  <li>收藏最常访问的网站</li>
+  <li>收藏最近正在看的（但还没看完的）文章，或者正在下载还没下完的的动画片..称之为<code>暂存区</code>？</li>
+  <li>没有了</li>
 </ul>
-
 
 <p>那些不经常访问又要收藏的网站，要收藏的帖子或者链接等，全部塞进Evernote吧，哪天方便了还能直接成批地复制出来分享。Evernote的同步功能的确是一个杀手锏。帮助我们生活得越来越好的工具已经越来越多了，不留情面地淘汰掉旧有习惯和古老的工具才能让人晚上能睡得更香吧。撒花~</p>
 </div>
@@ -180,6 +212,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/06/22/my-kindle-touch/">我的Kindle Touch</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/06/16/douban-temp/">临时日志</a>
       </li>
     
@@ -193,10 +229,6 @@
     
       <li class="post">
         <a href="/2012/06/04/window-8-test-run/">Window 8 微软膝盖中箭！</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/05/30/web-browser-note/">整理收藏夹想到的</a>
       </li>
     
   </ul>
