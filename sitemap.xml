@@ -1,6 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://dynamii.org/2009/05/29/breath-stroke-diary/</loc>
+        <lastmod>2012-07-16T21:07:16+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dynamii.org/2010/06/12/useful-freestyle-skill/</loc>
+        <lastmod>2012-07-16T21:10:17+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://dynamii.org/2012/01/11/coming-from-classroom/</loc>
         <lastmod>2012-05-09T22:17:22+08:00</lastmod>
     </url>
@@ -210,11 +218,11 @@
     </url>
     <url>
         <loc>http://dynamii.org/archives/</loc>
-        <lastmod>2012-07-12T00:52:01+08:00</lastmod>
+        <lastmod>2012-07-16T21:10:17+08:00</lastmod>
     </url>
     <url>
         <loc>http://dynamii.org/</loc>
-        <lastmod>2012-07-12T00:52:29+08:00</lastmod>
+        <lastmod>2012-07-16T23:19:46+08:00</lastmod>
     </url>
     <url>
         <loc>http://dynamii.org/sets/</loc>
@@ -223,6 +231,14 @@
     <url>
         <loc>http://dynamii.org/sets/kindle/</loc>
         <lastmod>2012-06-22T12:02:24+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dynamii.org/sets/photography/</loc>
+        <lastmod>2012-07-16T23:12:40+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dynamii.org/sets/swimming/</loc>
+        <lastmod>2012-07-16T22:46:38+08:00</lastmod>
     </url>
     <url>
         <loc>http://dynamii.org/sets/vimrc/</loc>
