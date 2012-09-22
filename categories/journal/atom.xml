@@ -4,7 +4,7 @@
   <title><![CDATA[Category: journal | dynamii研究所]]></title>
   <link href="http://dynamii.org/categories/journal/atom.xml" rel="self"/>
   <link href="http://dynamii.org/"/>
-  <updated>2012-09-23T00:13:06+08:00</updated>
+  <updated>2012-09-23T00:15:55+08:00</updated>
   <id>http://dynamii.org/</id>
   <author>
     <name><![CDATA[杜罗华]]></name>
@@ -27,9 +27,9 @@
 具体请参考<a href="http://www.adobe.com/cn/downloads/updates/ ">http://www.adobe.com/cn/downloads/updates/ </a></p>
 
 <p>例如，
-cs4 对应 camera raw 5.x
-cs5 对应 camera raw 6.x
-cs6 对应 camera raw 7.x</p>
+cs4 对应 camera raw 5.x<br />
+cs5 对应 camera raw 6.x<br />
+cs6 对应 camera raw 7.x<br /></p>
 
 <p>需要说明的是，PS CS4是无法升级到Camera Raw 6.x版本的。其其它的PS版本也类推。</p>
 
