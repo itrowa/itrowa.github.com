@@ -4,7 +4,7 @@
   <title><![CDATA[dynamii研究所]]></title>
   <link href="http://dynamii.org/atom.xml" rel="self"/>
   <link href="http://dynamii.org/"/>
-  <updated>2012-07-19T20:42:05+08:00</updated>
+  <updated>2012-09-23T00:13:06+08:00</updated>
   <id>http://dynamii.org/</id>
   <author>
     <name><![CDATA[杜罗华]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Photoshop版本研究笔记]]></title>
+    <link href="http://dynamii.org/2012/09/23/photoshop-version-notes/"/>
+    <updated>2012-09-23T00:06:00+08:00</updated>
+    <id>http://dynamii.org/2012/09/23/photoshop-version-notes</id>
+    <content type="html"><![CDATA[<p>好久没有更新Blog了。其实最近我一直都在考虑各种问题……做的事情也相当多。顺便，最近我准备把这大半年来搞的一些事情，甚至是老久以前干的事情，都放在Blog上做一些总结吧。首先是原来令人困惑的Photoshop版本、Adobe Camera Raw版本，以及Adobe对各种相机专有Raw格式文件支持情况的问题。</p>
+
+<p>刚刚开始用PS来解码Raw格式文件的时候，我杯具地发现不是每个PS都可以顺利打开我的尼康D3100的Raw文件的；有些版本的PS，即使下了更新包也不行，有的版本就行。Photoshop的版本号是CS3，CS4，CS5…而对应这些PS版本的Camera Raw的版本号又是怎么样的呢？一番调查后，我有了自己的结论。</p>
+
+<h2 id="section">版本号问题</h2>
+<p>Photoshop的版本号和Camera Raw的版本号是绑定的~！
+具体请参考<a href="http://www.adobe.com/cn/downloads/updates/ ">http://www.adobe.com/cn/downloads/updates/ </a></p>
+
+<p>例如，
+cs4 对应 camera raw 5.x
+cs5 对应 camera raw 6.x
+cs6 对应 camera raw 7.x</p>
+
+<p>需要说明的是，PS CS4是无法升级到Camera Raw 6.x版本的。其其它的PS版本也类推。</p>
+
+<p>而且，不是每个版本的Camera Raw都能支持到最新相机的Raw文件的，例如，Camera Raw 6.x就打不开尼康D3200的NEF文件，至少要Camera Raw 7.1才可以。（见<a href="http://www.adobe.com/support/downloads/detail.jsp?ftpID=5391">http://www.adobe.com/support/downloads/detail.jsp?ftpID=5391</a>）所以，你有一台尼康D3200，又要使用Photoshop打开照相机的Raw文件，应该使用Photoshop CS6才可以！尼玛的Adobe坑爹是不。</p>
+
+<p>我的相机是尼康D3100，支持D3100的Camera Raw版本号至少是 6.3，这意味着，如要使用Camera Raw打开D3100原版的<code>.NEF</code>文件，必须要Photoshop的版本至少是CS5.</p>
+
+<p>大家可以在<a href="http://www.adobe.com/support/downloads/product.jsp?product=106&amp;platform=Windows">http://www.adobe.com/support/downloads/product.jsp?product=106&amp;platform=Windows</a> 查看Camera Raw的各个更新版本。在这里可以查询到你的相机的Raw格式图像最先是被哪一个版本的Camera Raw支持，这样你就可以选择Photoshop的版本了。</p>
+
+<p>如果你有一台很新的相机，又想用老版本的Photoshop来处理它产生的Raw文件，那也是可以的。Adobe推出了一个DNG Converter，可以将厂商的Raw格式文件转换成Adobe公司的DNG格式，这样在老版本上的Camera Raw也能顺利打开。</p>
+
+<h2 id="camera-raw">关于Camera Raw升级：</h2>
+<p>ACR的更新将同时作用与PS和Bridge，若一格Raw文件在PS的ACR中打不开 在Bridge中同样打不开。推荐使用官方的ACR升级 而不是按网上流传的那样，直接拷贝Camera Raw.8bi，我自己试验过，Bridge根本不认可这个升级，而且这样的升级以后就无法安装PS的外挂插件了。</p>
+
+<h2 id="note">note</h2>
+<p>我坚持认为Photoshop应该安装原版的，升级补丁也要使用原版的，原来我就是使用了精简版，后来出现很多莫名其妙的错误，有一次安装了一精简版本的Photoshop，导致Camera Raw插件无法更新，后来想换用原版，结果发现原版的安不上！郁闷至极。</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[迎接数字阅读时代，Kindle Touch入手]]></title>
@@ -519,18 +556,6 @@ RSS的确是输出了最新的信息。但最新的信息一定就是你感兴�
     <id>http://dynamii.org/2012/04/04/a-video</id>
     <content type="html"><![CDATA[<p><a href="http://itrowa.diandian.com/post/2012-04-05/17737492"><img src="http://g2.ykimg.com/0100641F464D9C700D53C90161898E27C1513E-0CAE-CDC6-4DBE-4A8D5DBFE6FF" /></a></p>
 <p><p>每一个用尼康机器的人都在纠结中渡过……【元首的愤怒-D90的毁灭】<br /></p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[又开始想念WordPress了！]]></title>
-    <link href="http://dynamii.org/2012/03/31/missing-wordpress/"/>
-    <updated>2012-03-31T00:00:00+08:00</updated>
-    <id>http://dynamii.org/2012/03/31/missing-wordpress</id>
-    <content type="html"><![CDATA[<p>点点网提供的功能其实还够用吧，虽然不知怎的，总觉得点点网是个半成品，话说开发人员都在干什么呢？</p>
-<p>外来的陌生人没法在这里评论，这是点点网的一个缺点吧（当然社区性质的网站也只能这样了），Blog的意义就是交流，现在，这个交流的功能我感觉有些折扣。</p>
-<p>当初放弃WordPress是因为这玩意儿太复杂了，一不小心就可能落进一个瞎折腾的怪圈……所以我才需要换一种生活方式。在放弃WordPress加入点点之前，我也曾找过别的一些Blog程序项目，比较喜欢的有typecho吧，看起来很简洁很像一个Blog的样子，但是这个项目几乎一年多没有更新了，不知道现在的开发团队是不是太忙了啊&#8230;?</p>
-<p>脱离了WordPressN个月了，我感觉自己的状态应该比较理想了吧，我对Blog的要求很很简单，首先是快，稳定，然后呢，能找到几个适合自己的模版，我是在懒得动手修改或者是写主题了，很麻烦得。最后嘛，程序方面，功能合适就足够，WordPress那个搞法实在是太臃肿太夸张了，当年我是WordPress忠实的Fans，现在，我只能说一句，WordPress，曾经是，最好的Blog程序吧。</p>
 ]]></content>
   </entry>
   
