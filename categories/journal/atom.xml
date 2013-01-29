@@ -4,7 +4,7 @@
   <title><![CDATA[Category: journal | dynamii研究所]]></title>
   <link href="http://dynamii.org/categories/journal/atom.xml" rel="self"/>
   <link href="http://dynamii.org/"/>
-  <updated>2013-01-26T23:45:36+08:00</updated>
+  <updated>2013-01-29T22:08:59+08:00</updated>
   <id>http://dynamii.org/</id>
   <author>
     <name><![CDATA[杜罗华]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[X-Plane 10 HD Terrain Mesh介绍 & 瑞士(Switzerland)地景安装攻略]]></title>
+    <link href="http://dynamii.org/2013/01/29/x-plane-hd-terrain-mesh-scenery-switzerland-introduction/"/>
+    <updated>2013-01-29T23:07:00+08:00</updated>
+    <id>http://dynamii.org/2013/01/29/x-plane-hd-terrain-mesh-scenery-switzerland-introduction</id>
+    <content type="html"><![CDATA[<p>由于电脑配置实在太差，飞高精度模拟的插件机相当于自虐，所以我在X-Plane中基本上只飞Cessna 172这种级别的私人飞机看风景。瑞士的风光很迷人，位于峡谷中的机场也很多，对于飞行技术来说是一个小小的挑战。X-Plane中默认地景只能算是马马虎虎，要有更高品质的追求只能去找精度更高的地形数据了。</p>
+
+<p>首先下载<a href="http://www.alpilotx.net/downloads/x-plane-10-hd-scenery-mesh/">X-Plane附加的HD地景</a>，此地景系列已经覆盖到了欧洲、北美地区和太平洋的一些岛屿地带。由于实在太大了，我仅仅选择了自己非常喜欢的瑞士地区安装。有强迫症的爱好者可以全部把它们拖下来玩玩看。</p>
+
+<p>作者在页面强烈声明了此地景仅限电脑配置好的用户使用，使用后FPS可能变得非常低，最好使用64位版的X-Plane程序，而且如果你的内存不足4GB最好放弃。我的内存刚好4GB，装好后在瑞士那边飞，还没感觉到帧数有明显的下降。</p>
+
+<p>在Download一栏中找到瑞士地区的图，直接在图上点击鼠标就来到了下载页面</p>
+
+<p>我下载到的文件名是<code>x-plan10_hd_scenery+40+000.zip</code>，文件名中标明有对应于那个地区的地景坐标。</p>
+
+<p>安装非常简单，找到X-Plane主目录，在<code>Custom Scenery</code>目录中建立一个例如<code>zzz_hd_global_scenery</code>的文件夹(名称可以任意)，然后在<code>zzz_hd_global_scenery</code>文件夹中建立一个<code>Earth nav data</code>文件夹，再把下载好的压缩包解压，连同压缩包中得到的目录一起放到<code>Earth nav data</code>文件夹中。</p>
+
+<p>安装完成后目录结构应该是这样：</p>
+
+<pre><code>+ X-Plane 10 
+|	+ Custom Scenery
+|	|	+ zzz_hd_global_scenery
+|	|	|	+ Earth nav data
+|	|	|	|	+ +40+00
+|	|	|	|	|	+40+000.dsf
+|	|	|	|	|	+40+003.dsf
+|	|	|	|	|	...
+</code></pre>
+
+<p>最后是截图时间(右键在新标签页可以看大图)</p>
+
+<p><img src="https://2izyog.dm1.livefilestore.com/y1pq9yzBuwSrtA1HTdW-uOUKXUSiLJw-vTMj1Vx4unoybaWxyTihAz5zVh6V1KDPU4xA6OUGeS72Mgx4nVjaB_ZIqGmZ88GYkxq/2013-01-29-x-plane-hd-terrain-mesh-scenery-switzerland-introduction_dash8q400_3.jpg?psid=1" alt="瑞士的山谷" /></p>
+
+<p><img src="https://2izyog.dm1.livefilestore.com/y1pol5jMYa8UFstrXQ6oztSATdhl_73U8-sTL58qDNJxmEFEoPAsYV0Eif2x7C1JLaVR3a9R6D9ERdmWsvEDDu8H4pDxcqxC5xk/2013-01-29-x-plane-hd-terrain-mesh-scenery-switzerland-introduction_falcon7_2.jpg?psid=1" alt="日出时刻" /></p>
+
+<p><img src="https://2izyog.dm1.livefilestore.com/y1pq9yzBuwSrtDm9cGi3lDBtxhYp1uL7T0pIMObvdLA_FMjyA1VqfZc5Dq39G0_CRB9Xb2g3KXzW4R7uliT_K3w8mS5Z-N-5c85/2013-01-29-x-plane-hd-terrain-mesh-scenery-switzerland-introduction_falcon7_1.jpg?psid=1" alt="Falcon 7X在瑞士某机场" /></p>
+
+<p>个人感觉，也就是地形起伏更加接近真实，道路，森林地区，水的分布和定义也更加细致，色彩还是老样子，地面绿得有点不自然。X-Plane真该请个有艺术细胞的美工~</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[所谓的大作啊]]></title>
@@ -154,25 +195,6 @@ Kindle看漫画</p>
 </code></pre>
 
 <p>我好像遗漏了一个重要的问题，凭什么免费的域名在搜索引擎中的待遇就要和收费域名不同？难道使用免费域名的网站注定都是垃圾网站？而且，域名本来是为了方便访问Web站点而设计的，为什么却被赋予了“收费”这一附加属性？ICANN赚钱吗？域名为什么不能免费申请使用，而且像IP地址一样行使它该有的功能？如果域名收费是荒谬的，可能若干年后的人类回顾这段历史，他们无法理解为什么这个年代的人们要花钱来“租用”一个域名，而且大家都在做同样的事情，而没人去质疑这样做是不合理的。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[昨天结束了，明天开始了]]></title>
-    <link href="http://dynamii.org/2012/06/15/yesterday-ends-tomorrow-starts/"/>
-    <updated>2012-06-15T19:31:00+08:00</updated>
-    <id>http://dynamii.org/2012/06/15/yesterday-ends-tomorrow-starts</id>
-    <content type="html"><![CDATA[<p>3月份的开题报告，6月份的论文答辩，大学最后的时间简直就是在不知觉中就从身边溜走了，到今天为止我们毕业论文的答辩也已经全部结束了，我的答辩有幸被选出来进入了下一轮的院内答辩，但第二次的答辩我似乎有些紧张，还有个地方没讲清楚，虽然我认为我是懂的，但信息无法传达给对方，这又有什么办法呢？而且评审老师似乎对我所掌握物理知识的程度不太满意。但是站在台上讲话的锻炼机会着实不多，今天的积累也很有可能变成明天的财富。</p>
-
-<p>倍感欣慰的是，我的答辩在今天确实是结束了，否则我还不愿意继续捧起书本研究没有讲清楚的问题呢。不是偷奸耍滑，而是我再也不想继续看物理了，外面的世界非常精彩，但唯独物理这个学科，自从我上了大学后，就完全没办法点燃我的激情。至于为什么，这是想也想不透的问题，这很难用“物理很难赚钱”，“物理枯燥”等等简单的语句或是它们的组合来描述我对物理的感觉，物理这个学科，学习它，研究它，和从事它，从不同的角度来观察，都会有完全不同的感受。自然科学散发的严谨之美和对人思维的训练，带着否定和批判的观点审查一切研究结果，过着每天面对看不见摸不着的抽象概念走完人的一生，这些复杂的感觉交织在一起，那可能是比拓扭结更让人耐人寻味的东西。</p>
-
-<p>我们真的能改变世界吗？看看科学和知识的进步，现在的人类要想学习完一个学科的知识并且走到该学科的最前沿，就得从六岁开始寒窗生活，直到读完博士，像医学专业，还有悲催的物理学，这个时候，没有25岁也有30岁了，人生的大好年华已经过了一半，但也终于可以开始做有可能改变世界的事情了。但是，那个时候，人又要面临结婚繁衍后代的问题，家庭的琐事也不知道会不会成为人生的主旋律，前30年的奋斗又怎么能保证后30年的理想成就呢？</p>
-
-<p>无法想象，如果时间再过100年，一个正常人想要学完一个学科的知识并且走到前沿，会不会需要40岁才够？又或者因为教育方式的变革（例如电脑与网络的应用）和人类智力的提高，最终还是会在30岁以前学完前人所有的东西？有一点可以肯定的是，在这些基础自然科学领域，我们面对的问题已经越来越复杂了，100年前物理学的研究者还搞不清楚为什么光照在金属上就会有电子出来，但今天即使是物理学的本科生也能基本了解光电效应到底是怎么一回事了。</p>
-
-<p>不仅仅是基础自然科学，各行各业的奋斗者们都在用自己喜欢的方式改变世界。那我要追求的是什么？是属于我的改变世界的东西，还是追求适合自己生活方式？尽管想不太清楚，但一种近乎趋利避害的生物本能在潜意识中影响着我选择的方向。无需多言，便能在以后的某一天找到自己的答案。</p>
-
-<p>原来的院长半开玩笑地跟我们说，我们是一群物理学的叛徒（似乎是说，我们可以保研，可以在这里继续读完物理学的博士，但现在找工作的找工作，考研的考研，留下的不算多。）现在想起来，就算我们是叛徒，幸好我们背叛的是物理学，对抗的是你们的意识，而不是自己的心。</p>
 ]]></content>
   </entry>
   

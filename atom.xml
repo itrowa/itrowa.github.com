@@ -4,7 +4,7 @@
   <title><![CDATA[dynamii研究所]]></title>
   <link href="http://dynamii.org/atom.xml" rel="self"/>
   <link href="http://dynamii.org/"/>
-  <updated>2013-01-26T23:45:36+08:00</updated>
+  <updated>2013-01-29T22:08:59+08:00</updated>
   <id>http://dynamii.org/</id>
   <author>
     <name><![CDATA[杜罗华]]></name>
@@ -12,6 +12,115 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[X-Plane 10 HD Terrain Mesh介绍 & 瑞士(Switzerland)地景安装攻略]]></title>
+    <link href="http://dynamii.org/2013/01/29/x-plane-hd-terrain-mesh-scenery-switzerland-introduction/"/>
+    <updated>2013-01-29T23:07:00+08:00</updated>
+    <id>http://dynamii.org/2013/01/29/x-plane-hd-terrain-mesh-scenery-switzerland-introduction</id>
+    <content type="html"><![CDATA[<p>由于电脑配置实在太差，飞高精度模拟的插件机相当于自虐，所以我在X-Plane中基本上只飞Cessna 172这种级别的私人飞机看风景。瑞士的风光很迷人，位于峡谷中的机场也很多，对于飞行技术来说是一个小小的挑战。X-Plane中默认地景只能算是马马虎虎，要有更高品质的追求只能去找精度更高的地形数据了。</p>
+
+<p>首先下载<a href="http://www.alpilotx.net/downloads/x-plane-10-hd-scenery-mesh/">X-Plane附加的HD地景</a>，此地景系列已经覆盖到了欧洲、北美地区和太平洋的一些岛屿地带。由于实在太大了，我仅仅选择了自己非常喜欢的瑞士地区安装。有强迫症的爱好者可以全部把它们拖下来玩玩看。</p>
+
+<p>作者在页面强烈声明了此地景仅限电脑配置好的用户使用，使用后FPS可能变得非常低，最好使用64位版的X-Plane程序，而且如果你的内存不足4GB最好放弃。我的内存刚好4GB，装好后在瑞士那边飞，还没感觉到帧数有明显的下降。</p>
+
+<p>在Download一栏中找到瑞士地区的图，直接在图上点击鼠标就来到了下载页面</p>
+
+<p>我下载到的文件名是<code>x-plan10_hd_scenery+40+000.zip</code>，文件名中标明有对应于那个地区的地景坐标。</p>
+
+<p>安装非常简单，找到X-Plane主目录，在<code>Custom Scenery</code>目录中建立一个例如<code>zzz_hd_global_scenery</code>的文件夹(名称可以任意)，然后在<code>zzz_hd_global_scenery</code>文件夹中建立一个<code>Earth nav data</code>文件夹，再把下载好的压缩包解压，连同压缩包中得到的目录一起放到<code>Earth nav data</code>文件夹中。</p>
+
+<p>安装完成后目录结构应该是这样：</p>
+
+<pre><code>+ X-Plane 10 
+|	+ Custom Scenery
+|	|	+ zzz_hd_global_scenery
+|	|	|	+ Earth nav data
+|	|	|	|	+ +40+00
+|	|	|	|	|	+40+000.dsf
+|	|	|	|	|	+40+003.dsf
+|	|	|	|	|	...
+</code></pre>
+
+<p>最后是截图时间(右键在新标签页可以看大图)</p>
+
+<p><img src="https://2izyog.dm1.livefilestore.com/y1pq9yzBuwSrtA1HTdW-uOUKXUSiLJw-vTMj1Vx4unoybaWxyTihAz5zVh6V1KDPU4xA6OUGeS72Mgx4nVjaB_ZIqGmZ88GYkxq/2013-01-29-x-plane-hd-terrain-mesh-scenery-switzerland-introduction_dash8q400_3.jpg?psid=1" alt="瑞士的山谷" /></p>
+
+<p><img src="https://2izyog.dm1.livefilestore.com/y1pol5jMYa8UFstrXQ6oztSATdhl_73U8-sTL58qDNJxmEFEoPAsYV0Eif2x7C1JLaVR3a9R6D9ERdmWsvEDDu8H4pDxcqxC5xk/2013-01-29-x-plane-hd-terrain-mesh-scenery-switzerland-introduction_falcon7_2.jpg?psid=1" alt="日出时刻" /></p>
+
+<p><img src="https://2izyog.dm1.livefilestore.com/y1pq9yzBuwSrtDm9cGi3lDBtxhYp1uL7T0pIMObvdLA_FMjyA1VqfZc5Dq39G0_CRB9Xb2g3KXzW4R7uliT_K3w8mS5Z-N-5c85/2013-01-29-x-plane-hd-terrain-mesh-scenery-switzerland-introduction_falcon7_1.jpg?psid=1" alt="Falcon 7X在瑞士某机场" /></p>
+
+<p>个人感觉，也就是地形起伏更加接近真实，道路，森林地区，水的分布和定义也更加细致，色彩还是老样子，地面绿得有点不自然。X-Plane真该请个有艺术细胞的美工~</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[x-plane综合索引]]></title>
+    <link href="http://dynamii.org/2013/01/29/x-plane-index/"/>
+    <updated>2013-01-29T23:06:00+08:00</updated>
+    <id>http://dynamii.org/2013/01/29/x-plane-index</id>
+    <content type="html"><![CDATA[<p>近日一直关注民航模拟游戏X-Plane，感觉这个平台正日渐成熟中，装插件和飞机很方便，再也不用担心系统会被插件整崩溃了，而且X-Plane相比微软的模拟飞行在物理上更有优势。</p>
+
+<p>以后我会把搜集到的资源不断更新到这里。</p>
+
+<h2 id="section">资源、插件站点</h2>
+
+<ul>
+  <li><a href="http://www.xplanefreeware.net/">http://www.xplanefreeware.net/</a> x-plane免费软件论坛。主要是开发者在交流信息。</li>
+  <li><a href="http://forums.x-plane.org/">http://forums.x-plane.org/</a> x-plane官方交流论坛。有一个Download Manager分块，有大量的免费地景、飞机、插件、导航数据、涂装等。这也是x-plane附加软件最全的地方。</li>
+  <li><a href="http://xpfr.org/">http://xpfr.org/</a> 有不少飞机可以下载，还有大量的法国机场和少数其他国家的机场。推荐！</li>
+  <li><a href="http://xplane.cz/en/category/down/">http://xplane.cz/en/category/down/</a> 地景和飞机</li>
+  <li><a href="http://store01.prostores.com/servlet/x-planestore/StoreFront">http://store01.prostores.com/servlet/x-planestore/StoreFront</a> x-plane官方商城，本人没有在这里买过东西，所以就不多评价了。</li>
+</ul>
+
+<h2 id="section-1">自己找到的具体的资源</h2>
+
+<p>其实x-plane有很多好东西可以找得到，这里限于篇幅只介绍我认为最有价值推荐的吧 ~_~</p>
+
+<h3 id="section-2">飞机类</h3>
+
+<ul>
+  <li><a href="http://www.ixeg.net/">http://www.ixeg.net/</a> IXEG是international X-Plane Engineering Group的意思。这个团队的成员大多拥有工程背景且有实际的飞行经历。目前他们正在倾力打造让整个模拟飞行社区都为之震撼的飞机——737 Classic。</li>
+  <li><a href="http://www.x-aviation.com/catalog/take-command-p-68.html">http://www.x-aviation.com/catalog/take-command-p-68.html</a> CRJ-200飞机。付费，但是个精品。</li>
+  <li><a href="http://forums.x-plane.org/index.php?app=downloads&amp;showfile=8946">http://forums.x-plane.org/index.php?app=downloads&amp;showfile=8946</a> 精心打造的免费飞机——达索猎鹰7X，这可是世界上最奢华的公务机，售价竟然高达4300万美元。但现在，一切都是免费的！</li>
+  <li><a href="http://store01.prostores.com/servlet/x-planestore/Detail?no=436">http://store01.prostores.com/servlet/x-planestore/Detail?no=436</a>A320 Neo，JARDesign出品，个人感觉这是空客系列模拟度很高的飞机了。游戏还自带语音检查单功能? 有点贵而且无法破解，各位看着办</li>
+</ul>
+
+<p>一般来说付费飞机都不是一般的拖机，本人用的AMD 速龙64 X2 5000+开了四核还超频到了2.9GHz但是飞高精度的插件机帧数也只有20来帧。</p>
+
+<h3 id="section-3">机场类</h3>
+
+<ul>
+  <li><a href="http://forums.x-plane.org/index.php?app=downloads&amp;showfile=11725">http://forums.x-plane.org/index.php?app=downloads&amp;showfile=11725</a> 中国机场包v1.2。这是从FS2004的中国机场包转换而来，先前的1.0版有很多问题，但现在得到了一定的修正，但是1.2版删减了很多机场（主要是因为它们无法正常运行。）如果有安装1.0版的话请先删除。</li>
+</ul>
+
+<h3 id="section-4">地景类</h3>
+<ul>
+  <li><a href="http://www.opensceneryx.com">http://www.opensceneryx.com</a> 这是个通用的第三方地景库，很多附加的地景都调用了这个库的文件，因此，这个几乎成为一个必装的地景了。（默认的安装程序会在安装时下载很大的文件，所以，如果网速不是很好的话，推荐用一个熟悉的下载工具下载它们的zip包然后手动解压。）</li>
+  <li><a href="http://xplane.cz/en/2011/04/01/r2-library-knihovna-3d-objektu/">http://xplane.cz/en/2011/04/01/r2-library-knihovna-3d-objektu/</a> 名为R2的地景库。它的作用和OpenScenery相似。</li>
+  <li><a href="http://www.x-plane.su/projects/ruscenery.html">http://www.x-plane.su/projects/ruscenery.html</a> 老毛子做的RuScenery地景库。作用和上面两个相似。你很可能看不懂老毛子写的是什么东西，但谷歌娘应该可以帮到你..</li>
+  <li><a href="http://www.alpilotx.net/">http://www.alpilotx.net/</a> 一个开发站的Blog，主要是提供高清晰度的地形网格（Terrain Mesh）下载。现在他已经为Laminar Research工作并承诺把自己开发的成果最终整合到x-plane中去。</li>
+  <li><a href="http://x-plane.hu/swiss-vfr/">http://x-plane.hu/swiss-vfr/</a> 瑞士VFR地景，从FS2004的地景转过来的。</li>
+  <li><a href="http://forums.x-plane.org/index.php?app=downloads&amp;showfile=17363">http://forums.x-plane.org/index.php?app=downloads&amp;showfile=17363</a> 利用OpenStreetMap生成的全球地景，包含大部分的洲和国家。</li>
+</ul>
+
+<h3 id="section-5">图像增强</h3>
+<ul>
+  <li><a href="http://maxx-xp.hiking-pa.com/">http://maxx-xp.hiking-pa.com/</a> 这位开发者正在开发让x-plane风景变得更好的一些插件。免费付费的都有。
+其他</li>
+  <li><a href="http://www.x-fmc.com/">http://www.x-fmc.com/</a> x-FMC。免费的飞行管理计算机，用于指挥飞机的航路。</li>
+  <li><a href="http://www.fsimp.com/">http://www.fsimp.com/</a>  交通管理插件。不过貌似是给开发者用的。</li>
+  <li><a href="http://www.xsquawkbox.net/">http://www.xsquawkbox.net/</a> 这是连线飞行的软件，它可以让x-plane用户联入VATSIM（Virtual Air Traffic Simulation，虚拟航空模拟系统）中和全球的其它飞行员一起连飞，享受管制服务。</li>
+</ul>
+
+<h3 id="section-6">教程、资讯和综合类</h3>
+<ul>
+  <li><a href="http://www.simflight.cn">http://www.simflight.cn</a> simflight的中文版。提供很多模拟飞行软件的资讯，从微软模拟飞行到x-plane。一直有点费解的是，网站是机器人更新的？</li>
+  <li><a href="http://yinlei.org/">http://yinlei.org/</a> 这个Blog很不错，作者是一个航空爱好者，写了很多很有用的文章，赞！</li>
+  <li><a href="http://forums.x-plane.org/index.php?showforum=90">http://forums.x-plane.org/index.php?showforum=90</a> 发表在x-plane.org的私人驾驶执照（PPL）培训教材。注意是E文的。</li>
+</ul>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[所谓的大作啊]]></title>
@@ -45,78 +154,6 @@
 
 <p>所有的文件名和名录名都是“自我注释”(Self Documenting Filename)的，看一下文件名就能知道这是那个作品里的什么曲了。</p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[来自动漫和游戏的铃声分享[Rev]]]></title>
-    <link href="http://dynamii.org/2012/11/05/ringtones/"/>
-    <updated>2012-11-05T00:06:00+08:00</updated>
-    <id>http://dynamii.org/2012/11/05/ringtones</id>
-    <content type="html"><![CDATA[<p>（陆续更新中..）</p>
-
-<p>一些作品里面的音乐真的很美….于是自己陆陆续续截取了一些铃声。
-下载请到SkyDrive网盘：<a href="http://sdrv.ms/VlthER">http://sdrv.ms/VlthER</a></p>
-
-<p>由于铃声比较多，很杂，请看阅读一下说明来找一下自己喜欢的吧。                                                   </p>
-
-<h2 id="section">动画</h2>
-<pre><code>[铃声]fumofumo～1.mp3    //全金属狂潮fumohu作战小队晨练跑步时唱的军歌 - -"
-[铃声]K-ON!!下集预告.mp3   // k-on下集预告，据观察，这个BGM人见人爱。
-
-[铃声]一遍、死んで见る？.mp3  //阎魔爱：你想死一次吗？
-[铃声]一目连.mp3  
-[铃声]轮入道.mp3  
-[铃声]少女降臨.mp3    //放了这个BGM地狱少女就会出现！！
-
-[铃声]Honesty.mp3     //来自电波女与青春男	                                               
-[铃声]Honesty[short].mp3   		  //里面最好听的钢琴曲。
-[铃声]Os-宇宙人 (TV-SIZE).mp3  	  //OP，也叫做洗脑歌
-
-只有神知道的世界
-
-[铃声]God Only Knows.mp3           
-[铃声]God Only Knows[latter].mp3   
-[铃声]A Whole New World God Only Knows(Full Energy).mp3                     
-[铃声]A Whole New World God Only Knows.mp3  
-
-某科学的超电磁炮  
-          
-[铃声]ELISA - Dear My Friend -まだ見ぬ未来へ-.mp3     //我只是觉得这首歌很阳光..	                             
-                                                     
-魔法少女小圆
-
-&gt;[铃声]Sis puella magica!.mp3    
-[铃声]コネクト -TV MIX-.mp3       //小圆脸OP，高潮版  
-
-Fate Zero
-
-[铃声]to the beginning ～instrumental～.mp3     //FZ的OP2，Instrumental版，很燃哦
-
-其它
-
-[铃声]钉宫理惠-mail.mp3                                        
-[铃声]メグメル (off vocal ver.).mp3  	  //貌似是Clannad下集预告的BGM         
-[铃声]だんご大家族　-TV animation Ver(高潮版). -.mp3       
-[铃声]汐.mp3                     		  //游戏CLANNAD的BGM 很赞。。。    
-[铃声]余のチャームポイント[long].mp3    	  //银魂里的白痴王子BGM	                                           
-[铃声]加速世界ED2.mp3                                                 加速世界ED2开始的那一段很赞很赞	          
-[铃声]夏影.mp3                   //Air里的钢琴曲                
-</code></pre>
-
-<h2 id="section-1">电视剧</h2>
-
-<pre><code>[铃声][电车男]星球大战-帝国进行曲.mp3       //电车男里面主角的手机铃声。
-[铃声]トワイライト.mp3    	      //电车男OP
-[铃声]spirit.mp3      		    //来自医龙
-[铃声][124%][高潮]Aesthetic.mp3   //来自医龙
-</code></pre>
-
-<h2 id="section-2">游戏</h2>
-
-<pre><code>[铃声]Snake_Codec.mp3    //Snake，能听到吗？	                                                                
-[铃声]TwsSrch.wav   //你被锁定了？（我不太懂航电所以还请指正）
-</code></pre>
 ]]></content>
   </entry>
   
@@ -608,17 +645,6 @@ RSS的确是输出了最新的信息。但最新的信息一定就是你感兴�
     <content type="html"><![CDATA[<p>由于某些利益因素一般单反上的录像都有功能限制：单个视频最长只能到29分29秒，不得超过30分钟，但是最近国外的黑客破解了这个限制，现在D3100，D5100，D7000的录像时间好像不会有啥限制了~</p>
 <p>其实我更关心的是，能否在拍摄的时候手动控制光圈快门和ISO，这才是更为重要的功能啊！！</p>
 <p>via <a href="http://simeonpilgrim.com/blog/2012/03/30/nikon-d5100-video-beta-testers-wanted/comment-page-1/#comment-28912">http://simeonpilgrim.com/blog/2012/03/30/nikon-d5100-video-beta-testers-wanted/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[照片]]></title>
-    <link href="http://dynamii.org/2012/04/10/photo/"/>
-    <updated>2012-04-10T00:00:00+08:00</updated>
-    <id>http://dynamii.org/2012/04/10/photo</id>
-    <content type="html"><![CDATA[<p><p>这是肿么回事儿，为啥我一给我的PS装外挂插件就打不开Raw格式了&#8230;&#8230;.?难道是老天不让我开外挂吗&#8230;.</p></p>
-<pre><code>&lt;p&gt;&lt;img src="http://m1.img.libdd.com/farm3/93/76052584B18AF21411DA0F4AF62B9F5D_407_138.JPEG"&gt;&lt;/p&gt;
-</code></pre>
 ]]></content>
   </entry>
   
