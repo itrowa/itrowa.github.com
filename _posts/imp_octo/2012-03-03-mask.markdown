@@ -1,0 +1,11 @@
+---
+layout: post
+title: 照片
+categories:
+- Journal
+tags: []
+published: true
+comments: true
+---
+<p><p><p>额滴个神..<br /></p></p>
+    <p><img src="http://m2.img.libdd.com/farm3/47/7CD201DC37DFE802B7F8C416511EFD2F_479_389.JPEG" /></p></p>

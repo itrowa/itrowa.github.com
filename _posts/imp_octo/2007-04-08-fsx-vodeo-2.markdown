@@ -1,0 +1,16 @@
+---
+layout: post
+title: FSX 视频系列第二弹
+categories:
+- 通用航空／航模／模拟飞行
+tags: []
+published: true
+comments: true
+---
+<p><p>今天献上FSX视频第二弹。视频出自Youtube。[coolplayer width="380" height="304" autoplay="0" loop="0" charset="utf-8" download="1" mediatype=""]<br />
+<a href="http://tv.mofile.com/TB04QU1P/">Wing View</a><br />
+[/coolplayer]</p>
+这是一个空客A319降落西雅图机场16R跑道的视频。作者用DV从显示器上录下了这段视频。<br />
+视角是大家坐飞机都可能遇到的舷窗视角，在视频中大家应该能感受到飞机在气流中颠簸的那种感觉。FSX的地景依旧很好，但我估计这并不是效果全开的画面。飞机下降到约300米时穿过了一条宽阔的公路，上面还有飞驰的车辆，接着飞机以很快的速度掠过了公路。接地时，还有了一个镜头摇晃的效果，就像真正的航拍一样，给人以很真实的感觉。也许是由于视频比较模糊，我觉得自己像在看一个真飞机的录像。</p>
+
+<p>PS：最近考试接二连三，所以很忙。我就有可能暂停更新了，请见谅。</p>

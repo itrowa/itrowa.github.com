@@ -1,0 +1,20 @@
+---
+layout: post
+title: 首飞KT板双翼3D机
+categories:
+- 通用航空／航模／模拟飞行
+tags: []
+published: true
+comments: true
+---
+<p>这次暑假装了两架飞机，第一架飞机是塞斯纳，被朋友飞炸了，现在躺在家等待维修，第二架干脆弄了一架F3P的3D机，机身材料是KT板的，主要是想着便宜些，事实上组装下来也便宜不了多少，反倒花了不少时间。</p>
+
+<p><a href="http://trowa.org/wp-content/media/2011/08/20110729429.jpg"><img class="aligncenter size-full wp-image-1154" title="双翼3D机安装完成图" src="http://trowa.org/wp-content/media/2011/08/20110729429.jpg" alt="" width="1024" height="768" /></a>第一次试飞的时候，泡沫胶还没干透就拿出去了，结果可想而知....后来回来加固了一下电机座，打上泡沫胶粘合木质电机座和后面的泡沫，等待24小时后才能达到最大强度！</p>
+
+<p><a href="http://trowa.org/wp-content/media/2011/08/20110731441.jpg"><img class="aligncenter size-full wp-image-1156" title="加固了电机座！" src="http://trowa.org/wp-content/media/2011/08/20110731441.jpg" alt="" width="1024" height="768" /></a>开始的时候，是对这种板砖一样的飞机没什么好感的，但是当我亲自飞了过后，发现这样的飞机我竟然非常喜欢，毕竟是第一次接触这样灵活的机型，感觉相当刺激，其次组装的成本并不高，属于比较廉价但是能得到很多快乐的飞机！</p>
+
+<p>最后是视频！请女朋友拍的！前几次还把握不大好飞机性能，后面发现，这种3D飞机，转向使用方向舵才有效。</p>
+
+<p><object width="480" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://player.youku.com/player.php/sid/XMjkwNTI3MzMy/v.swf" /><param name="allowfullscreen" value="true" /><param name="quality" value="high" /><param name="allowscriptaccess" value="always" /><embed width="480" height="400" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XMjkwNTI3MzMy/v.swf" allowfullscreen="true" quality="high" allowscriptaccess="always" /></object></p>
+
+<p><object width="480" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://player.youku.com/player.php/sid/XMjkwNTI5NDky/v.swf" /><param name="allowfullscreen" value="true" /><param name="quality" value="high" /><param name="allowscriptaccess" value="always" /><embed width="480" height="400" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XMjkwNTI5NDky/v.swf" allowfullscreen="true" quality="high" allowscriptaccess="always" /></object></p>
