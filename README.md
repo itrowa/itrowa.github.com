@@ -1,3 +1,21 @@
+# Dynamii Lab
+
+Huang HE(杜罗华)同学的个人网站，主要用来发牢骚
+
+## Implimentation
+
+Jekyll + Github + Disqus
+
+
+
+## License
+
+- 文章和主题：[署名-非商业性使用-相同方式共享协议](http://creativecommons.org/licenses/by-nc-sa/3.0/)，转载请注明转自：dynamii.org.
+
+- 关于Jekyll Bootstrap:  MIT License 许可。
+
+=====================================================
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
