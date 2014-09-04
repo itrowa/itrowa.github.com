@@ -44,8 +44,11 @@ comments: true
 
 ![攻略成功](http://i1198.photobucket.com/albums/aa450/itrowa/KamigamiSwordArtOnlineII-061280x720x264AACSubChtJap-shot0010.jpg)
 
-スゴープレンズ越しでも、君の目が見えた。
-（尽管隔着瞄准镜，还是能看见你的眼睛啊。）
+
+
+> スゴープレンズ越しでも、君の目が見えた。<br/>
+>（尽管隔着瞄准镜，还是能看见你的眼睛啊。）
+
 
 
 啊！新一代女主角就这么被征服了，我要拿着汽油和火把祝贺祝贺~~
