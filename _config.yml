@@ -38,6 +38,8 @@ head_menu:
 head_dp_menu:
     - name:             Places
       items:
+        - name:         SNS places
+          role:         header
         - name:         新浪围脖
           url:          http://weibo.com/itrowa/
         - name:         Steam
