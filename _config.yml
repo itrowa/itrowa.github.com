@@ -50,6 +50,8 @@ head_dp_menu:
           role:         header
         - name:         "Design & Illustration & Analysis"
           url:          https://www.zhihu.com/collection/36644506
+        - name:         x-plane资源综合索引
+          url:          http://dynamii.org/2013/01/29/x-plane-index
 
 # 导航栏右方的项目.
 head_right_menu:
