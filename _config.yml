@@ -48,8 +48,8 @@ head_dp_menu:
           role:         seperator
         - name:         collection
           role:         header
-        - name:         待续..
-          url:          #
+        - name:         "Design & Illustration & Analysis"
+          url:          https://www.zhihu.com/collection/36644506
 
 # 导航栏右方的项目.
 head_right_menu:
