@@ -1,0 +1,34 @@
+body {
+  min-height: 1000px;
+  padding-top: 70px;
+}
+
+.douban-gallery {
+    margin: 60px auto 0;
+    border-top:1px #CCC solid;
+}
+
+.douban-gallery img {
+    margin: 10px;
+}
+
+.site-footer {
+    border-top: 1px #CCC solid;
+    margin-top: 90px;
+}
+
+.footer-col {
+    margin-top: 20px;
+}
+
+.post {
+    width: 900px;
+}
+
+h2.post-comment {
+    margin-top: 40px;
+}
+
+article img {
+    max-width: 100%;
+}

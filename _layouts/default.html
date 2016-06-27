@@ -1,16 +1,23 @@
----
-theme :
-  name : twitter
----
 <!DOCTYPE html>
 <html>
-<head>
-　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-　　<title>{{ page.title }}</title>
-</head>
-<body>
 
-　　{{ content }}
+  {% include head.html %}
 
-</body>
+  <body>
+
+    {% include header.html %}
+
+    <div class="wrapper">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  <!-- javascript functions  -->
+  <script src="{{ "/scripts/jquery.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/scripts/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+  {% include module/google_analytics.html %}
+
+  </body>
+
 </html>

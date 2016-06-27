@@ -1,33 +1,42 @@
 ---
-layout: home
-title: Dynamii Lab - Home
+layout: default
 ---
-{% include JB/setup %}
-
-<div id="h01">
-	<img id="hav" height="50" width="50" src="/imgs/avatar.jpg" >
-	<div id="havater-meta">
-		<p id="hname"><a href="http://t.qq.com/itrowa" title="Weibo">@itrowa</p>
-		<p id="hname-meta">
-			<a href="http://www.douban.com/people/trowa/">豆瓣</a> | 
-			<a href="http://www.flickr.com/photos/trowa_barton">Flickr</a> | 
-			acesolo<span style="display:none">~</span>@<span style="display:none">_@</span>gm<span style="display:none">~~</span>ail.<span style="display:none">....</span>com
-		</p>
-	</div>
-</div>
 
 
-<ul class="posts">
+<div class="home container">
+
+  <h1 class="page-heading">Posts</h1>
+
+<!--   <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul> -->
+
+  <ul class="posts">
   {% for post in site.posts limit:5 %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    </li>
   {% endfor %}
-</ul>
+  </ul>
 
-<p style="margin-top: 60px; border-top:1px #CCC solid;">
-			<script type="text/javascript"
-				src = 'http://www.douban.com/service/badge/trowa/?show=collection&amp;select=random&amp;n=8&amp;columns=4&amp;picsize=medium&amp;hidelogo=yes&amp;hideself=yes';>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-			</script>
-		<p>在 <strong><a href="http://www.douban.com/people/trowa/" title="浏览我的豆瓣">我的豆瓣</strong></a> 上留存有我的部分阅读历史。</p>
-		<p>到底怎么了...</p>
-</p>
+  <div class="douban-gallery">
+      <script type="text/javascript"
+        src = 'http://www.douban.com/service/badge/trowa/?show=collection&amp;select=random&amp;n=15&amp;columns=5&amp;picsize=medium&amp;hidelogo=yes&amp;hideself=yes';>
+      </script>
+
+    <p>在 <strong><a href="http://www.douban.com/people/trowa/" title="浏览我的豆瓣">我的豆瓣</strong></a> 上留存有我的部分阅读历史。</p>
+  </div>
+
+</div> <!-- home contianer -->
+
+
