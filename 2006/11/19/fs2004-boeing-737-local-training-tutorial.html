@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>FS2004：737本场飞行+ILS降落教程</title>
+  <meta name="description" content="先扯句题外话：这个Blog已经有7天没有更新了，那个爽啊~~">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.css">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="canonical" href="http://dynamii.org/2006/11/19/fs2004-boeing-737-local-training-tutorial">
+  <link rel="alternate" type="application/rss+xml" title="Dynamii Lab" href="http://dynamii.org/atom.xml">
+</head>
+
+
+  <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://dynamii.org">Dynamii Lab</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
+              
+                <li ><a href="/">Home</a></li>
+              
+            
+              
+                <li ><a href="/archive/">Archives</a></li>
+              
+            
+              
+                <li ><a href="/about/">About</a></li>
+              
+            
+
+            
+              
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                        <li class="dropdown-header">SNS places</li>
+                      
+                    
+                      
+                        <li ><a href="http://weibo.com/itrowa/">新浪围脖</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://steamcommunity.com/profiles/76561198081721002/">Steam</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://www.flickr.com/photos/trowa_barton">Flickr</a></li>
+                      
+                    
+                      
+                        <li role="separator" class="divider"></li>
+                      
+                    
+                      
+                        <li class="dropdown-header">collection</li>
+                      
+                    
+                      
+                        <li ><a href="https://www.zhihu.com/collection/36644506">Design & Illustration & Analysis</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://dynamii.org/2013/01/29/x-plane-index">x-plane资源综合索引</a></li>
+                      
+                    
+                  </ul>
+                </li>
+              
+            
+          </ul>
+          
+            <ul class="nav navbar-nav navbar-right">
+              
+                
+                  <li ><a href="/feed.xml">Feed</a></li>
+                
+              
+            </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="wrapper">
+        <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">FS2004：737本场飞行+ILS降落教程</h1>
+    <p class="post-meta"><time datetime="2006-11-19T00:00:00+08:00" itemprop="datePublished">Nov 19, 2006</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>先扯句题外话：这个Blog已经有7天没有更新了，那个爽啊~~</p>
+
+<p>好，进入正题了。这次我介绍一下用FS2004默认的波音737做本场飞行、ILS进近降落的简要方法。所谓本场飞行，就是说出发地与目的地都是在一个机场，这种飞行方式很适合用来学开飞机。ILS，就是“仪表降落系统”的英文缩写，现实世界里面的飞行员基本上都是用这套系统来进行降落的。这次飞行还将用到AP（自动驾驶）系统，这些基本上都是程序化操作，非常安全，需要手动操纵飞机的地方少之又少。好，下一步进入实际操作。</p>
+
+<p>在FS2004里面，选择“Creat a flight”。机型选择Boeing 737-400，地点选在Hong Kong Intl，机场ID是VHHH。天气，选择Fair Weather。时间，现在是10点30，那么FS里面也设成10：30好了，这样感觉真实点。下面有一个Fuel and Payload的按钮，进去后，将Fuel设定为50%，Payload设定为0。因为是飞行训练，所以既不用带很多油，也不用带那些货物之类的东西，所以待会儿降落时简直是身轻如燕。</p>
+
+<p><img class="alignnone" title="overview" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_legacy/overview.jpg" alt="飞行设置" width="800" height="600" />
+图1 设置完成后，大概是这个样子</p>
+
+<p>所有设定完成后，开始飞行。</p>
+
+<p>现在我们来到了驾驶舱里。飞机已经停到了跑道上，引擎处于慢车位。起飞前，需要对机载设备作一些简单的设置：
+<ul>
+	<li>Flaps（襟翼）： 10</li>
+	<li>灯光：全开</li>
+</ul>
+然后对AP面板设置：
+<ul>
+	<li>Altitude（巡航高度）：3000</li>
+	<li>IAS/MACH：200</li>
+	<li>F/D：On</li>
+	<li>点亮ALT指示灯</li>
+</ul>
+下面开始起飞和爬升程序。
+<ol>
+	<li>松开停机刹车。</li>
+	<li>提高引擎推力至85%N1，让飞机加速，注意观察表速的变化。</li>
+	<li>速度达到130KIAS，抬机头。150KIAS，飞机开始爬升。当飞机有一个稳定的爬升率时，收起起落架。</li>
+	<li>接通AP和A/T（自动油门），此时飞机将由机器操纵，飞机将自动爬升到我们设置的3000FT并保持这个高度。注意：此时不要再继续操纵飞机，你的任务是监视仪表，以及看穿外的风景。</li>
+	<li>190KIAS，襟翼全收。飞机爬升到3000，<span style="text-decoration: line-through;">关闭降落大灯（Ctrl+L）</span>（10000FT以下不能关闭降落灯）。此时，爬升就结束了，现在进入巡航状态。</li>
+</ol>
+这里简单解释一下这次飞行的航线：</p>
+
+<p><img class="alignnone" title="航线介绍" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_legacy/course.jpg" alt="航线介绍" width="320" height="240" /></p>
+
+<p>图2 五边航线<br />
+我们将按照上图中以红色线条画出来的航线飞行，由于飞行轨迹共有5边，所以就叫它五边飞行吧。刚才我们从香港国际机场的7L跑道起飞，所以现在还在飞第一边，现在的高度是3000，所以差不多该进入第二边了。现在飞机的磁航向是73度，向右转90度，那么转弯以后航向就应该是73+90=163。要在自动驾驶状态转弯，你可以切断AP的HDG保持模式。现在开始转弯吧。</p>
+
+<p>到了第二边,在下一步就是第三边。那么第二边改飞多长呢？理论上这没有硬性规定，基本是爱飞多长飞多长，但是为了节约时间，只飞了大约2分钟。飞够了，也差不多该转到第三边了。计算一下航向：163+90=253，转弯吧。</p>
+
+<p><img class="alignnone" title="无线电面板" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_legacy/Radio_Panel.jpg" alt="无线电面板截图" width="159" height="431" /></p>
+
+<p>图3 无线电面板</p>
+
+<p>现在我们在第三边，得做好降落的有关设置了。打开无线电面板（Shift+F2），找到NAV1，在右面把频率设为111.10（这个频率可以在VHHH的进场航图上查到，或者打开FS的Map面板，在你要的这条进近航道上点一下，ILS频率也就出来了），然后按一下中间的开关，这时右边的111.10就会跳到左边，此时Nav1导航就激活了。（如图3）</p>
+
+<p>解释一下：这个111.10是什么东西呢？这个待会儿我们要降落的7L跑道的ILS频率。在Nav1输入这个频率后，就能接收到7L跑道的进近引导信号，待会儿飞机降落时自动驾驶系统就会根据这个信号自动修正进近航道与飞机的下滑道，实现自动降落。</p>
+
+<p>好，ILS的设置到此结束，打开GPS（Shift+3）看看飞机的位置。大约飞个4-5分钟，就差不多该进入第四边了，照例，先算航向：第三边是253，所以第四边的航向是253+90=343。</p>
+
+<p>第4边，是倒数第二边了，这一边是比较重要的，特别是要把握好转向到第五边的时机。打开GPS，把图像放大一格，直到能看清楚进近航道的标示（绿色的线）。操纵飞机转向，让飞机的航道在进近航道的延长线上。</p>
+
+<p>注意观察PFD上的偏航指示。</p>
+
+<p><img class=" alignnone" title="PFD" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_legacy/PFD.jpg" alt="PFD" width="189" height="159" /></p>
+
+<p>图4 PFD: Primary Flight Display（主飞行显示器）</p>
+
+<p>在PFD的最下方和最右方有4个圆点，圆点中间还有一个长方形，此外还有紫色的三角形。这就是偏航指示，飞机接收到ILS信号后，就会显示这个偏航。下方的能指示我们的飞机偏离了进近航道多远，如果紫色三角形在长方形的左边，表示飞机在进近航道的右边，我们需要向左转来修正航道。这时，紫色三角形就会慢慢由左逐渐回中，当三角形移动到方形上的时候，飞机就在标准的航道上了。右边的下滑道指示也是一样，三角形在上，说明飞机在下滑道的下面，但此时不用往上飞来修正，因为下滑道的高度是逐渐降低的，我们只要维持现有高度就行了，飞行一会儿，三角形就会往下移，当移到长方形的位置时，飞机就在标准的下滑道上了。此时调整飞机的下滑轨迹，让三角形始终在长方形上。就这样，两个三角形都保持在正中央，飞机就能轻松地飞到跑道上。</p>
+
+<p>当然，上面的只是介绍一下ILS的使用方法，因为我们有自动驾驶仪，所以修正偏差的工作就交给计算机来完成好了。此时我们在第五边上，飞机的航道在进近航道的延长线上，但还没飞到进近航道。（如果飞到了进近航道上，就晚了。）所以PFD显示飞机在下滑道的下方，进进航道也稍有偏差。这时按下APP键，飞机就开始修正航道了。飞机左摇右摆了一会儿，总算是修正好了偏差，这时下滑道指针也开始往下移了，等它移到中间时，自动驾驶仪上的ALT灯会自动熄灭，这标志着飞机已经脱离高度保持模式，跟着ILS信号的指示开始下降了。这个时候，开始我们的降落程序吧：
+<ol>
+	<li>自动驾驶仪上，空速设为140。</li>
+	<li>打开降落灯。</li>
+	<li>放下起落架。</li>
+	<li>自动刹车：2档。</li>
+	<li>自动减速板预位（按Shift+/）。</li>
+	<li>时速到170时，放15度襟翼。</li>
+	<li>时速到160时，放20度襟翼。</li>
+	<li>时速到150时，放30度襟翼。</li>
+</ol>
+密切监视飞机的各项仪表。高度在1000时，断开自动驾驶。高度在500时，断开自动油门。注意：自动驾驶和自动油门是相对独立的，断开自动驾驶时自动油门并不会跟着被切断。</p>
+
+<p><img class="alignnone" title="近进截图" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_legacy/ILS_Approaching.jpg" alt="近进截图" width="800" height="600" />
+图5 此时高度420ft，速度150KIAS，离跑道很近了</p>
+
+<p>此时离跑道已经很近了，高度50时，稍微抬高机头，此时仰角大约3-5度;高度在20时，油门全收。飞机在跑道上平飘一会儿，然后就接地了。正常情况下是后轮先触地，在这一瞬间飞机会自动打开减速板，自动开始刹车。这时按住F2持续几秒，你会听到飞机传来巨响，这说明发动机开始反推，此时飞机急剧减速。空速到60，按F1，关闭反推和自动刹车。飞机停住后，关闭降落灯，襟翼全收，减速板收回（按/）。此时，一个标准的本场 飞行就顺利完成了（如图6）！</p>
+
+<p><img class="alignnone" title="Flight Analysis" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_legacy/Flight_Analysis.jpg" alt="Flight Analysis" width="800" height="600" /></p>
+
+<p>图6 飞行分析</p>
+
+  </div>
+
+  <h2 class="post-comment"> 评论 </h2>
+
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_developer = 1;
+        var disqus_shortname = 'dynamii'; // required: replace example with your forum shortname
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</article>
+
+    </div>
+
+    <footer class="site-footer container">
+
+  <div class="wrapper">
+      <div class="footer-col footer-col-3">
+        <p>采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="by-cc-sa 3.0" target="_blank"> 署名-非商业性使用-相同方式共享协议</a>发布.  <a href="http://dynamii.org/about" title="about dynamii lab">DYNAMII.ORG</a> Since 2006 - 2016  is powered by <a href="http://pages.github.com/" target="_blank">Github</a>.</p>
+      </div>
+    </div>
+
+</footer>
+
+
+  <!-- javascript functions  -->
+  <script src="/scripts/jquery.min.js"></script>
+  <script src="/scripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+
+</html>

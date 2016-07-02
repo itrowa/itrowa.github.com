@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>迁移到了MediaTemple</title>
+  <meta name="description" content="">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.css">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="canonical" href="http://dynamii.org/2009/11/03/migrate-to-mediatemple">
+  <link rel="alternate" type="application/rss+xml" title="Dynamii Lab" href="http://dynamii.org/atom.xml">
+</head>
+
+
+  <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://dynamii.org">Dynamii Lab</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
+              
+                <li ><a href="/">Home</a></li>
+              
+            
+              
+                <li ><a href="/archive/">Archives</a></li>
+              
+            
+              
+                <li ><a href="/about/">About</a></li>
+              
+            
+
+            
+              
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                        <li class="dropdown-header">SNS places</li>
+                      
+                    
+                      
+                        <li ><a href="http://weibo.com/itrowa/">新浪围脖</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://steamcommunity.com/profiles/76561198081721002/">Steam</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://www.flickr.com/photos/trowa_barton">Flickr</a></li>
+                      
+                    
+                      
+                        <li role="separator" class="divider"></li>
+                      
+                    
+                      
+                        <li class="dropdown-header">collection</li>
+                      
+                    
+                      
+                        <li ><a href="https://www.zhihu.com/collection/36644506">Design & Illustration & Analysis</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://dynamii.org/2013/01/29/x-plane-index">x-plane资源综合索引</a></li>
+                      
+                    
+                  </ul>
+                </li>
+              
+            
+          </ul>
+          
+            <ul class="nav navbar-nav navbar-right">
+              
+                
+                  <li ><a href="/feed.xml">Feed</a></li>
+                
+              
+            </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="wrapper">
+        <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">迁移到了MediaTemple</h1>
+    <p class="post-meta"><time datetime="2009-11-03T00:00:00+08:00" itemprop="datePublished">Nov 3, 2009</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img class="alignnone size-full wp-image-217" title="(MT)" src="http://trowa.org/wp-content/media/2009/11/black-mt-bug__42c5eac.gif" alt="(MT)" width="250" height="140" /></p>
+
+<p>今天我很高兴地宣布我已经把自己的主机迁移到了MediaTemple。没错，就是那个超级尊贵级主机。这样就再也不怕我原来的主机贩子再动<a href="http://trowa.org/archive/232.html">流氓手脚</a>了。</p>
+
+<p>由于种种原因，我在淘宝上那家Dreamhost代理商买的那主机让我感觉非常不理想，不仅不提供SSH方便管理，甚至连操作域名绑定的后台也没有，也无法管理自己的数据库，无法知道磁盘使用量（事实上我连我买的是多大的空间都无法得知），无法获晓流量状况。上次Blog变得一片空白的时候，去问他们客服，他们懒洋洋的，让我去重装，可我连清空数据库的权限都没有，更不能直接rm -rf然后重新上传文件，你要我去把服务器砸了不成？后来没办法，也给我重装了。这个年代，无法想象如此庞大的WordPress一个文件一个文件地用FTP传上去会浪费一个人多少的时间。</p>
+
+<p>我先连上去把老服器的东西打包，数据库备份好，使用<span style="text-decoration: line-through;">豪华</span>奢华级的Plesk后台面板绑定好域名，同时登录我域名的控制面板重新设定A记录，建好数据库，然后远程Shell登录，用PSFTP上传好东西，把wp-config设置好，华丽地打开首页，哇！成功了。</p>
+
+<p>再次呼吁Blogger们选购Host的时候，一定要警惕虚拟主机中的猫腻，别像我一样，买了个Dreamhost的裸机。</p>
+
+<p><img id="myFxSearchImg" style="border: medium none; position: absolute; z-index: 2147483647; opacity: 0.6; display: none;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADsElEQVR4nK2VTW9VVRSGn33OPgWpYLARbKWhQlCHTogoSkjEkQwclEQcNJEwlfgD/AM6NBo1xjhx5LyJ0cYEDHGkJqhtBGKUpm3SFii3vb2956wPB/t+9raEgSs52fuus89613rftdcNH8/c9q9++oe/Vzb5P+3McyNcfm2CcPj9af9w6gwjTwzvethx3Bx3x8xwd1wNM8dMcTNUHTfFLPnX6nVmZpeIYwf3cWD/PhbrvlPkblAzVFurKS6GmmGqqComaS+qmBoTI0Ncu3mXuGvWnrJ+ZSxweDgnkHf8ndVTdbiT3M7cQp2Z31dRTecHAfqydp4ejhwazh6Zezfnu98E1WIQwB3crEuJ2Y45PBTAQUVR9X4At66AppoEVO1Q8sgAOKJJjw6Am6OquDmvHskZ3R87gW+vlHz98zpmiqphkkRVbQtsfPTOC30lJKFbFTgp83bWh7Zx/uX1B6w3hI3NkkZTqEpBRDBRzG2AQHcwcYwEkOGkTERREbLQ/8HxJwuW7zdYrzfZ2iopy4qqEspKaDYravVm33k1R91Q69FA1VBRzFIVvXbx5AgXT44A8MWP81yfu0utIR2aVK3vfCnGrcUNxp8a7gKYKiLCvY2SUvo/aNtnM3e49ucK9S3p0aDdaT0UAVsKi2tVi6IWwNL9JvdqTdihaz79/l+u/rHMxmaJVMLkS2OoKKLWacdeE3IsSxctc2D5Qcl6vUlVVgNt+fkPPcFFmTw1xruvT7SCd7nuVhDQvECzJH90h0azRKoKFRkAmP5lKTWAGRdefoZL554FQNUxB92WvYeA5UN4PtSqwB2phKqsqMpBgAunRhFR3j49zuU3jnX8k6fHEQKXzh1jbmGDuYU6s4t1rt6socUeLLZHhYO2AHSHmzt19ihTZ48O8Hzl/AmunD/BjTvrvPfNX3hWsNpwJCvwYm+ngug4UilSCSq6k8YPtxDwfA+WRawIWFbgscDiULcCEaWqBFOlrLazurupOSHLqGnEKJAY8TwBEHumqUirAjNm52vEPPRV4p01XXMPAQhUBjcWm9QZwijwokgAeYHlHYA06KR1cT6ZvoV56pDUJQEjw0KeaMgj1hPEY4vz2A4eW0/e1qA7KtQdsxTYAG0H3iG4xyK1Y+xm7XmEPOJZDiENzLi2WZHngeOjj2Pe+sMg4GRYyLAsx7ME4FnsyTD9pr0PEc8zPGRAwKXBkYOPEd96cZRvf11g9MDe7e3R4Z4Q+vyEnn3P4t0XzK/W+ODN5/kPfRLewAJVEQ0AAAAASUVORK5CYII%3D" alt="" width="24" height="24" /></p>
+
+  </div>
+
+  <h2 class="post-comment"> 评论 </h2>
+
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_developer = 1;
+        var disqus_shortname = 'dynamii'; // required: replace example with your forum shortname
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</article>
+
+    </div>
+
+    <footer class="site-footer container">
+
+  <div class="wrapper">
+      <div class="footer-col footer-col-3">
+        <p>采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="by-cc-sa 3.0" target="_blank"> 署名-非商业性使用-相同方式共享协议</a>发布.  <a href="http://dynamii.org/about" title="about dynamii lab">DYNAMII.ORG</a> Since 2006 - 2016  is powered by <a href="http://pages.github.com/" target="_blank">Github</a>.</p>
+      </div>
+    </div>
+
+</footer>
+
+
+  <!-- javascript functions  -->
+  <script src="/scripts/jquery.min.js"></script>
+  <script src="/scripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+
+</html>

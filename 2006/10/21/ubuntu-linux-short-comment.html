@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Ubuntu Linux初装手记</title>
+  <meta name="description" content="传说中的Ubuntu6.06终于寄到了我的手中，我本来是准备玩玩LiveCD就算了的，但是Ununtu对我的诱惑实在是太大了，一不留神，这家伙就被我装到了硬盘上。">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.css">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="canonical" href="http://dynamii.org/2006/10/21/ubuntu-linux-short-comment">
+  <link rel="alternate" type="application/rss+xml" title="Dynamii Lab" href="http://dynamii.org/atom.xml">
+</head>
+
+
+  <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://dynamii.org">Dynamii Lab</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
+              
+                <li ><a href="/">Home</a></li>
+              
+            
+              
+                <li ><a href="/archive/">Archives</a></li>
+              
+            
+              
+                <li ><a href="/about/">About</a></li>
+              
+            
+
+            
+              
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                        <li class="dropdown-header">SNS places</li>
+                      
+                    
+                      
+                        <li ><a href="http://weibo.com/itrowa/">新浪围脖</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://steamcommunity.com/profiles/76561198081721002/">Steam</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://www.flickr.com/photos/trowa_barton">Flickr</a></li>
+                      
+                    
+                      
+                        <li role="separator" class="divider"></li>
+                      
+                    
+                      
+                        <li class="dropdown-header">collection</li>
+                      
+                    
+                      
+                        <li ><a href="https://www.zhihu.com/collection/36644506">Design & Illustration & Analysis</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://dynamii.org/2013/01/29/x-plane-index">x-plane资源综合索引</a></li>
+                      
+                    
+                  </ul>
+                </li>
+              
+            
+          </ul>
+          
+            <ul class="nav navbar-nav navbar-right">
+              
+                
+                  <li ><a href="/feed.xml">Feed</a></li>
+                
+              
+            </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="wrapper">
+        <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Ubuntu Linux初装手记</h1>
+    <p class="post-meta"><time datetime="2006-10-21T00:00:00+08:00" itemprop="datePublished">Oct 21, 2006</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>传说中的Ubuntu6.06终于寄到了我的手中，我本来是准备玩玩LiveCD就算了的，但是Ununtu对我的诱惑实在是太大了，一不留神，这家伙就被我装到了硬盘上。</p>
+
+<p>记得4个月前我曾经装过RedHat9，也因此把一块硬盘上的数据全部弄报废了。为了不重蹈覆辙，这次安装Ubuntu我就格外小心了，具体过程是这样的：
+<ol>
+	<li>我目前是Windows，Windows所在的主分区不能动，所以在DOS下用PQ Magic在扩展分区上开出两个逻辑分区，一个300M左右（实际应调整为物理内存的1.5倍），文件系统为Swap，另一个分区6G，文件系统为“ext3”，挂载/。其实/home， /usr等目录都应该另外开分区来分别挂载的，但为了保险起见，还是用上面的方法好些。</li>
+	<li>用Ubuntu的LiveCD光盘启动计算机，进入CD的菜单时选择“图形界面”。等加载完毕,就能使用了 。Ubuntu的界面非常漂亮，Gnome做出的GUI非常吸引我，所以我就此决定安装到硬盘上了。点击那个Install。耐心等待它加载吧。</li>
+	<li>安装分为6步，其他几步不用多说，最重要的就是选择分区的那一块。安装到第5步，程序询问“您需要如何分区”时，选择第3个选项，“手动编辑分区表”。耐心等待第5步的“准备分区”出现，这里由于在DOS里面已经用PQ Magic做好了Linux所用的分区，所以不做任何调整，直接点下一步。</li>
+	<li>这时就到了第5步的“准备挂载点”。如果不知道挂载点的知识，这里简单介绍一下：
+<strong>在Linux里面，你是看不到诸如DOS与Windows里面的C：，D：，E盘等分区的，你会看见一个以“/”开头的目录结构，紧接着就是/home，/usr，/etc等下级目录。那么这些目录的真正位置在那个分区上呢？这就要引入“挂载”的概念。</strong><strong>挂 载是将目录关联到某个分区的过程。Linux的每一个目录都可以设置它所在的物理位置。比如说Linux的顶级目录“/”，如果你在安装的时候把它挂载到 C盘（也就是Linux所称的hda1）,那么"/"目录物理意义上的位置就在C盘上了,如果把"/home"目录挂载到D盘</strong><strong>（也就是Linux所称的hda5）</strong><strong>,那么"/home"目录物理意义上的位置就会在D盘。如果你硬盘上有足够多的分区，你就能把Linux的目录分配到这些分区上去，使得Linux更易于管理。
+</strong></li>
+	<li>有了上面的知识，这一步就很容易了，左边选择要挂载的目录，右边选择这个目录的物理位置。“/”就挂载在6G的ext3分区上，而swap挂载在那个300M左右的swap分区上。</li>
+	<li>确认你的设置，开始安装。</li>
+</ol>
+安装过程比较漫长，用了大约1小时。期间Ubuntu会将GRUB设置为系统引导程序。所有安装完成后，系统提示重新起动，并且光驱自动弹出LiveCD。重新启动以后，一个崭新的OS就出现在你的眼前了。</p>
+
+<p>总的来说，我的安装是比较成功的，硬盘也没有出现任何故障。 之前的RedHat带给我的痛苦经历，这次总算没有再次上演。Ubuntu带给了我很多惊喜，它那人性化的操作，友好的界面，完善的软件管理，实在让人很难拒绝这款“For human beings”的Linux。</p>
+
+<p>再来几张图：</p>
+
+<p><a href="http://photo9.yupoo.com/20061021/165525_2006669504_zqawnatm.jpg" rel="lightbox"><img src="http://photo9.yupoo.com/20061021/165525_2006669504_m.jpg" title="screenshot" alt="screenshot" /></a></p>
+
+<p><a href="http://photo9.yupoo.com/20061021/165523_22356783_qrryexqp.jpg" rel="lightbox"><img src="http://photo9.yupoo.com/20061021/165523_22356783_m.jpg" title="screenshot" alt="screenshot" /></a></p>
+
+  </div>
+
+  <h2 class="post-comment"> 评论 </h2>
+
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_developer = 1;
+        var disqus_shortname = 'dynamii'; // required: replace example with your forum shortname
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</article>
+
+    </div>
+
+    <footer class="site-footer container">
+
+  <div class="wrapper">
+      <div class="footer-col footer-col-3">
+        <p>采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="by-cc-sa 3.0" target="_blank"> 署名-非商业性使用-相同方式共享协议</a>发布.  <a href="http://dynamii.org/about" title="about dynamii lab">DYNAMII.ORG</a> Since 2006 - 2016  is powered by <a href="http://pages.github.com/" target="_blank">Github</a>.</p>
+      </div>
+    </div>
+
+</footer>
+
+
+  <!-- javascript functions  -->
+  <script src="/scripts/jquery.min.js"></script>
+  <script src="/scripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+
+</html>

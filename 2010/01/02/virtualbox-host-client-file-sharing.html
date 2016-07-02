@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>VirtualBox如何实现虚拟机和主机的文件共享</title>
+  <meta name="description" content="最近没事情研究了一下VirtualBox，这个免费的、由Sun公司推出的虚拟机软件的确是一款非常好的工具。">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.css">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="canonical" href="http://dynamii.org/2010/01/02/virtualbox-host-client-file-sharing">
+  <link rel="alternate" type="application/rss+xml" title="Dynamii Lab" href="http://dynamii.org/atom.xml">
+</head>
+
+
+  <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://dynamii.org">Dynamii Lab</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
+              
+                <li ><a href="/">Home</a></li>
+              
+            
+              
+                <li ><a href="/archive/">Archives</a></li>
+              
+            
+              
+                <li ><a href="/about/">About</a></li>
+              
+            
+
+            
+              
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                        <li class="dropdown-header">SNS places</li>
+                      
+                    
+                      
+                        <li ><a href="http://weibo.com/itrowa/">新浪围脖</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://steamcommunity.com/profiles/76561198081721002/">Steam</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://www.flickr.com/photos/trowa_barton">Flickr</a></li>
+                      
+                    
+                      
+                        <li role="separator" class="divider"></li>
+                      
+                    
+                      
+                        <li class="dropdown-header">collection</li>
+                      
+                    
+                      
+                        <li ><a href="https://www.zhihu.com/collection/36644506">Design & Illustration & Analysis</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://dynamii.org/2013/01/29/x-plane-index">x-plane资源综合索引</a></li>
+                      
+                    
+                  </ul>
+                </li>
+              
+            
+          </ul>
+          
+            <ul class="nav navbar-nav navbar-right">
+              
+                
+                  <li ><a href="/feed.xml">Feed</a></li>
+                
+              
+            </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="wrapper">
+        <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">VirtualBox如何实现虚拟机和主机的文件共享</h1>
+    <p class="post-meta"><time datetime="2010-01-02T00:00:00+08:00" itemprop="datePublished">Jan 2, 2010</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>最近没事情研究了一下VirtualBox，这个免费的、由Sun公司推出的虚拟机软件的确是一款非常好的工具。</p>
+
+<p>在配置虚拟机中的Windows XP的时候，一切顺利，但是最大的问题就是不知道如何让虚拟机里面的XP访问我的主机上面的磁盘文件。现在我终于搞清楚了，以下是最简单的办法：</p>
+
+<p>1 点击虚拟机窗口的<strong>设备</strong>，单击“<strong>分配数据空间</strong>”：
+<img class="alignnone" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_2010/01/step1.jpg" alt="添加数据空间" width="335" height="303" /></p>
+
+<p>2 在<strong>数据空间</strong>对话框里，按键盘上的<strong>Insert键</strong>或者单击“<strong>添加</strong>”按钮：
+<img class="alignnone" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_2010/01/step2.jpg" alt="添加一个..." width="466" height="338" /></p>
+
+<p>3 在“<strong>添加数据空间</strong>”对话框中，在数据空间位置选择想共享的主机目录；“<strong>只读分配</strong>”是为了保证虚拟机不对主机上的数据进行破坏；“<strong>固定分配</strong>”能保证下次启动VirtualBox时软件自动添加这个共享目录：
+<img class="alignnone" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_2010/01/step3.jpg" alt="添加数据空间" width="322" height="226" /></p>
+
+<p>在虚拟机里系统桌面的“<strong>我的电脑</strong>”图标上点右键，选择“<strong>映射网络驱动器</strong>”，在弹出的对话框中，选择一个驱动器（例如Z:），“文件夹”一行，<br />
+填入<code>\vboxsvr</code>
+4 然后点<strong>浏览</strong>，接着就能看到刚才添加的数据空间了：
+<a href="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_2010/01/step4.jpg"><img class="alignnone" src="http://i1198.photobucket.com/albums/aa450/itrowa/blog_post_2010/01/step4.jpg" alt="继续添加" width="470" height="483" /></a>&lt;</p>
+
+<p>5 打开虚拟机上的<strong>我的电脑</strong>，就能看到共享的目录和驱动器了:)</p>
+
+  </div>
+
+  <h2 class="post-comment"> 评论 </h2>
+
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_developer = 1;
+        var disqus_shortname = 'dynamii'; // required: replace example with your forum shortname
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</article>
+
+    </div>
+
+    <footer class="site-footer container">
+
+  <div class="wrapper">
+      <div class="footer-col footer-col-3">
+        <p>采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="by-cc-sa 3.0" target="_blank"> 署名-非商业性使用-相同方式共享协议</a>发布.  <a href="http://dynamii.org/about" title="about dynamii lab">DYNAMII.ORG</a> Since 2006 - 2016  is powered by <a href="http://pages.github.com/" target="_blank">Github</a>.</p>
+      </div>
+    </div>
+
+</footer>
+
+
+  <!-- javascript functions  -->
+  <script src="/scripts/jquery.min.js"></script>
+  <script src="/scripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+
+</html>

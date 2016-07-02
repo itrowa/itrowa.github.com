@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>安全卸载Ubuntu Linux</title>
+  <meta name="description" content="Ubuntu在我的硬盘上安家已经有大约半个月了，今天我下狠手把它删除了。原因有两个：Ubuntu虽然在很多方面都做得非常人性化，但是它的优势根本不足以让我彻底舍弃Windows而转投Linux。看来桌面版的Linux，还是有很长的一段路要走。出于个人因素，我认为研究模拟飞行比研究Linux更有趣。硬盘空间刚好不够...">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.css">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="canonical" href="http://dynamii.org/2006/11/05/safe-uninstall-linux-linux">
+  <link rel="alternate" type="application/rss+xml" title="Dynamii Lab" href="http://dynamii.org/atom.xml">
+</head>
+
+
+  <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://dynamii.org">Dynamii Lab</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
+              
+                <li ><a href="/">Home</a></li>
+              
+            
+              
+                <li ><a href="/archive/">Archives</a></li>
+              
+            
+              
+                <li ><a href="/about/">About</a></li>
+              
+            
+
+            
+              
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                        <li class="dropdown-header">SNS places</li>
+                      
+                    
+                      
+                        <li ><a href="http://weibo.com/itrowa/">新浪围脖</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://steamcommunity.com/profiles/76561198081721002/">Steam</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://www.flickr.com/photos/trowa_barton">Flickr</a></li>
+                      
+                    
+                      
+                        <li role="separator" class="divider"></li>
+                      
+                    
+                      
+                        <li class="dropdown-header">collection</li>
+                      
+                    
+                      
+                        <li ><a href="https://www.zhihu.com/collection/36644506">Design & Illustration & Analysis</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://dynamii.org/2013/01/29/x-plane-index">x-plane资源综合索引</a></li>
+                      
+                    
+                  </ul>
+                </li>
+              
+            
+          </ul>
+          
+            <ul class="nav navbar-nav navbar-right">
+              
+                
+                  <li ><a href="/feed.xml">Feed</a></li>
+                
+              
+            </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="wrapper">
+        <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">安全卸载Ubuntu Linux</h1>
+    <p class="post-meta"><time datetime="2006-11-05T00:00:00+08:00" itemprop="datePublished">Nov 5, 2006</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><p>Ubuntu在我的硬盘上安家已经有大约半个月了，今天我下狠手把它删除了。原因有两个：</p><ol><li>Ubuntu虽然在很多方面都做得非常人性化，但是它的优势根本不足以让我彻底舍弃Windows而转投Linux。看来桌面版的Linux，还是有很长的一段路要走。</li><li>出于个人因素，我认为研究模拟飞行比研究Linux更有趣。硬盘空间刚好不够用，所以第一想到的就是卸载Ubuntu。</li></ol><p>好，闲话少说，回归正题。由于在这台计算机里有Windows与Linux双系统并存，所以卸载Linux的核心思想就是把系统引导权重新交给Windows，然后释放Linux所占用的系统资源。具体方法也不难，关键是最重要的两个字：安全。</p><ol><li>&nbsp;拿出XP的安装光盘，启动系统，进入故障恢复控制台。依次序键入这两个命令：<br /><span style="background-color: #ffffcc">fixboot</span><br /><span style="background-color: #ffffcc">fixmbr<br /><span style="background-color: #ffffff">命令成功完成后，重起系统。</span></span></li><li><span style="background-color: #ffffcc"><span style="background-color: #ffffff">使用PQMagic等磁盘分区管理软件（推荐使用DOS版），找到Linux所在的分区，直接删除，然后将剩余空间与Windows分区合并，或者为剩余空间重新分区。用硬盘重起到Windows。至此所有工作完成。</span></span></li></ol><p><span style="background-color: #ffffcc"><span style="background-color: #ffffff">不难看出，安全卸载Linux的步骤是先修复引导，再释放Linux占用的系统资源，这样做比先释放Linux占用的系统资源，再修复引导的方法安全许多。因为一旦修复MBR有任何闪失，还可以轻松地用Linux重新恢复MBR，但如果先把Linux删除了，进入系统的途径就少了一条，安全性也有所降低。以上方法在我的机器上没有出现任何问题，如果有疑问，可以参考Microsoft的<a href="http://support.microsoft.com/kb/307654/zh-cn">这篇支持文档</a>。</span></span></p><p>到现在，我对Linux的研究也就告一段落了，以后尝试的发行版，很有可能是Suse这款商业的Linux。</p><p><br />Linux，I&#39;ll be back!</p></p>
+
+  </div>
+
+  <h2 class="post-comment"> 评论 </h2>
+
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_developer = 1;
+        var disqus_shortname = 'dynamii'; // required: replace example with your forum shortname
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</article>
+
+    </div>
+
+    <footer class="site-footer container">
+
+  <div class="wrapper">
+      <div class="footer-col footer-col-3">
+        <p>采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="by-cc-sa 3.0" target="_blank"> 署名-非商业性使用-相同方式共享协议</a>发布.  <a href="http://dynamii.org/about" title="about dynamii lab">DYNAMII.ORG</a> Since 2006 - 2016  is powered by <a href="http://pages.github.com/" target="_blank">Github</a>.</p>
+      </div>
+    </div>
+
+</footer>
+
+
+  <!-- javascript functions  -->
+  <script src="/scripts/jquery.min.js"></script>
+  <script src="/scripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+
+</html>

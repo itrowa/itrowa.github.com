@@ -1,30 +1,708 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Dynamii Lab</title>
+    <description>杜罗华童鞋的个人网站.</description>
+    <link>http://dynamii.org/</link>
+    <atom:link href="http://dynamii.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 03 Jul 2016 01:42:16 +0800</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2016 01:42:16 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>牛津通识读本《设计，无处不在》读书笔记</title>
+        <description>&lt;p&gt;学习了两年的建筑设计，然而我可能对设计一词涵盖的内容，设计的表现形式和设计的意义知之甚少。这样一些困惑甚至能造成对设计价值、设计过程本身的疑问。因此我读了这本牛津通识读本的小册子。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img3.doubanio.com/lpic/s10204270.jpg&quot; alt=&quot;设计，无处不在&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;作者是美国的设计教授约翰·赫科斯特，退休后又返聘回香港理工大学。本书涵盖内容极广，而且对设计以超越设计本身研究的内容来进行介绍，因此设计的影响和设计的意义也得以澄清。全书很短，主要是在广度上进行铺开的。以下是全书笔记，可以勉强认为是一个缩编版。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;什么是设计？&lt;/h1&gt;
+
+&lt;p&gt;设计是人类的基本特征之一， 对人们的生活质量起到决定性的作用。 物质环境中几乎所有方面都收到他的影响，并因此得到极大的改进。&lt;/p&gt;
+
+&lt;p&gt;设计具体是指什么活动？涵盖什么领域？ 本文对设计一词滥用的背景下对其行为模式进行界定， 以建立某种结构和意义； 二是对这些模式朔本穷源，寻找这种混乱形成的原因。&lt;/p&gt;
+
+&lt;p&gt;设计：本质上定义为人类塑造自身环境的能力。 通过各种非自然存在的方式改造环境，以满足我们的需要。 除了人类以外，其它生物都不具备这种能力。 此能力在某一些方面已经形成某种固定的学科，例如建筑，土木工程，环境设计和时装设计等。 本文关注的还只是日常生活中的那些平面和立体的事物：物品，传达，环境和系统。&lt;/p&gt;
+
+&lt;p&gt;如何理解设计的多样化的表达方式？ 必须回到设计的发展史上。设计是一个不断叠加的过程，新的革命会从角色，意义和功能上代替现存事物。 但这个过程中保留下来的传统形式会被不断注入新的活力，用于新的领域。 因此对设计发展史的梳理，可以总结出一个框架，贯穿事物发展的过程。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;设计发展史&lt;/h1&gt;
+
+&lt;p&gt;最早的设计能力是什么时候开始的？在一百万年前早期人类文明中，人类就通过工具拓展手的能力了。其结果就是手工艺水平的不断发展。&lt;/p&gt;
+
+&lt;p&gt;早期人类制造的物品会借鉴自然界中已经存在的形状，另外，什么形状能满足什么目的，已经形成了固定的概念。但是，后来人类也完全开始独创（例如，发明自然界中不存在的轮子），将已有的经验提升到抽象理论的层面，这样我们能从现象得到规律，并用规律解决其它问题。 此方面的范例： 语言。&lt;/p&gt;
+
+&lt;p&gt;除了手工艺之外，人类还借助自然力，借助动物体能，风力和水力弥补体力的不足。选择优良的动植物培育以活得更高的产量。&lt;/p&gt;
+
+&lt;p&gt;从人类生活起源开始，出于个人和社会的不同需要，人们采用不同的形式和过程适应不同的环境，造成了方式和结果的多样性。 先是有固定生活方式的农业社会，然后人口集中，手工艺专业化得到了更高层次的发展。进一步，城市化吸引了许多手工艺者，他们组成联盟和协会，维持工作和管理的标准。行会的影响力最终会被各个方面瓦解。中间商、政府通过贸易和行政策略削弱行会的实力。&lt;/p&gt;
+
+&lt;p&gt;工业革命带来了规模浩大的变革，让生产者陷入了囧境。手工艺者抵制这种趋势，但制造商需要继续利用机器生产。这时候，学院派艺术家才能胜任这项工作。厂商开始委托他们对流行品味中的形式和装饰进行界定。但是艺术家对美学概念如何转换到产品中是知之甚少的。因此，制造业需要懂新技术的工程师，例如如何制造耐用的汽缸，使得它能耐受更大的压力和动力。&lt;/p&gt;
+
+&lt;p&gt;研究形式的工作者，其中一类人成为了时尚顾问，他们的工作在于不断探求能被市场接收的新概念上；第二类人是新兴的制图员，他们受雇于工厂，接收时尚顾问或者工程师的指令，为具体的生产提供专门的绘图技术。这类制图人俨然成为了设计的机器。&lt;/p&gt;
+
+&lt;p&gt;人们在不了解生产背景的情况下设计形式，造成设计和功能脱节。因此引发了对工业会社这种趋势的批判。 典型的有德国成立的包豪斯学派。他们还认为社会可以利用机器生产将艺术的力量传播到社会的不同层面。 20世纪美国的技术革命也深深改革了设计实践，引发新一轮的产品革新。汽车就是典型的例子。也有设计师希望通过工业合作实现对社会的改造。20世纪60年代日本、德国等国家通过产品设计的整体性和产品质量赢得了世界青睐。 但到了20世纪八十年代，设计上却发生了急剧的转型，人们淘汰了现代主义朴素的风格，转入到后现代主义的名下，这一时期，形式上的选择变得过剩，形式和实用性毫无关系；设计还吸取了语言学中关于符号和意义的理论，为产品设计提供理论上的支持。这些过剩的形式在意义上无法反映任何价值，但人们还是认为设计中包含的意义比任何使用目的都更为重要。&lt;/p&gt;
+
+&lt;p&gt;新兴技术带来了另一些重要的趋势，例如信息技术和弹性制造。设计师为了相应这些趋势，针对用户习惯建立整套的设计方法，在复杂系统设计上充当战略规划师的角色。然而，所有的变革都是重现的历史模式的一部分。设计史上的每一个新阶段都不是将之前的种种全部推翻，而是叠加在已有的成果之上。这有助于解释当今社会设计模式中的构成为什么会有如何众多的观念和实践方式。未来，我们会在什么程度上面临类似的变革，不得而知，但新的环境下肯定需要新的设计观念和实践。那么，这些新的设计观念，新的实践，为谁的利益服务？&lt;/p&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;重要性和实用性&lt;/h1&gt;
+
+&lt;p&gt;为了区分设计的表现形式在什么层面上影响我们的生活, 我们应该区分设计的实用性和重要性. 这可以阐明围绕”功能”问题所产生的混乱. 沙利文的观点是”形式追随功能”. 设计的功能性被广泛解释为它的实际效用.但忽略了装饰,以及意义如何通过形式去表达. 因此人类生活常常从梦想和愿望中而非从实践中活得灵感和动力.&lt;/p&gt;
+
+&lt;p&gt;20世纪的功能主义集结了反对十九世纪华丽装饰的设计理念. 凡杜斯堡和格罗皮乌斯和柯布西耶等发展的抽象几何形式的理论并声称该理论最适合标准化的工业生产.&lt;/p&gt;
+
+&lt;p&gt;但人们对规则的集合形式的追求并非仅仅在于它反映了生产方式的内在特点,而更多的是作为一种意识形态,反映了设计在工业社会中起的作用. 教条是的专断限制了形式研究的范围. 所以有必要重新定义功能. 这里功能被一分为二,即区分实用性和重要性两个方面.&lt;/p&gt;
+
+&lt;p&gt;实用性就是使用过程中的适合性.即其运作的方式,设计的实用效果范围,设计物所具有的功能. 例如菜刀的实用性主要考虑效率问题(能不能被充分握住, 是否锋利,手感好). 重要性是指菜刀变成了感官的延伸,有一种人到合一的均衡感和控制感.&lt;/p&gt;
+
+&lt;p&gt;重要性是在使用过程中形式呈现意义的方式, 或者说形式的作用和意义. 例如日本牙签为什么在后面有一个凹槽, 那样可以方便折断, 断开的小头可以作为牙签座,防止牙签使用过的那一端直接接触桌面.这和日本文化有关.&lt;/p&gt;
+
+&lt;p&gt;有的物品极端地突出实用性(电动工具, 超声波仪器..) 但更多的物品是实用性和重要性二者的混合,既注重产品的功效又注重产品的表达.&lt;/p&gt;
+
+&lt;p&gt;产品的重要性是随着时空的变化而变化的. 同样的物品在不同的时间不同的地区会有不同的意义.甲壳虫车子在法西斯时期是法西斯力量的象征, 后来到了美国则成为了可爱的爬虫.&lt;/p&gt;
+
+&lt;p&gt;文化模式都是跟随特定的文化背景, 习惯和价值观慢慢形成的. 我们需要适应现存的文化模式, 在不破坏或者不违反现存文化模式的基础上, 试着和它结合或者与之同化; 排除这些模式中不可避免的变化.  全球化理论会给企业带来一种错觉: 一个产品只需要几种固定的形式就可以了. 伊莱克斯公司生产的冰柜就使用这种策略. 但是因为欧洲有不同的文化背景, 大家强硬地拒绝美国的模式, 北欧的人们每周购物一次, 因此冷藏和冷冻空间必须相同.欧洲南部的人习惯每天购物, 因此需要小型的冰箱.&lt;/p&gt;
+
+&lt;p&gt;文化的差异使得同样的设计会被不同文化背景的人以完全不同的意义解读. 可口可乐公司进入中国市场时将其可乐定名为”嗑口蝌蜡”, 在中国意为啃蜡制的蝌蚪. 后来厂商在销售前意识到了这个问题并改名为”可口可乐”. 表示好喝又能带来快乐的意思.&lt;/p&gt;
+
+&lt;p&gt;人类将精神力量投射到客观物品上的能力异常强大, 因此学习并了解设计的重要性是非常有意义的. 后面的部分会探讨设计的结果, 将设计分类为物品, 传达, 环境, 系统和形象设计.&lt;/p&gt;
+
+&lt;h1 id=&quot;section-3&quot;&gt;物品&lt;/h1&gt;
+
+&lt;p&gt;泛指人工的各种物品. 从简单的专用产品到复杂的机械装置都属于这个范畴. 物品表达了人的生活理念。物品传达着这些理念是以各种方式，不仅仅是视觉上的， 而更是其它感官上的。（味道，触觉，感觉等等）&lt;/p&gt;
+
+&lt;p&gt;“产品设计师”和”工业设计师”可以互换, 都表示在协调技术和用户的关系的基础上设计产品形式的人。“时尚设计师”指在商业操控下，执着于从审美上区分产品形式的设计师。&lt;/p&gt;
+
+&lt;p&gt;大部分应用学科例如工程学，都有一套关于实践内容和时间行为的基本知识和理论，为任何感兴趣的人提供了以平台和起点。然而，设计面临的最大的问题之一就是缺少一个类似的基础。强调隐性知识意味着许多设计系的学生必须做重复劳动， 以非系统化的方式从操作中获取知识。比较理的调查和工作的方法反而被认为是不重要的。&lt;/p&gt;
+
+&lt;p&gt;隐性知识作为主观方法，在更强调形式差别的地方，比较适合于小型工程， 大型工程牵涉复杂的技术，需要协调各个层次之间的影响，个人直觉不一定能处理所有必然的情况。因此一个高度组织化的方法能确保所有方面都整合。一些重要的、复杂的问题可以被计算机辅助方法解决。例如例如Structured Planning（结构规划）， 被查尔斯·欧文研发。 人们将问题分解到组元，详细分析组元后，将其重新装配成为新的更富创造性的综合体。&lt;/p&gt;
+
+&lt;p&gt;物品在设计时已经被赋予了特定用途，但实际使用过程中，人们往往破坏或者颠倒设计师的愿意，将物品用于特定用途之外。这时候一些制造商就将这种特点作为自己的有利资源，他们强调用户参与，在早期以体验的形式号召用户参与，挖掘一项新设计的所有改造的潜力或者实用性。&lt;/p&gt;
+
+&lt;p&gt;设计师在当代要面临的更多挑战是不断发展的技术保持同步。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-4&quot;&gt;传达&lt;/h1&gt;
+
+&lt;p&gt;“传达”用来讨论在现代生活中使用范围很广的平面材料。设计传达活动中出现得最多的当属“平面设计师”。&lt;/p&gt;
+
+&lt;p&gt;在技术层面上，传达的一个特色是它设计的范围非常广泛，可同时指向综合化和专业化两个方向。一个具体的设计单元需要设计具有专家水平，在某种程度上与制作电影的能力要求相似。&lt;/p&gt;
+
+&lt;p&gt;插图设计也能区分很多从业人员的核心技巧。有一些行业的插图设计需要作者有专业的才能。例如利用数码技术进行创造，或者具有某个学科的专业知识（例如医学插图）。&lt;/p&gt;
+
+&lt;p&gt;传达所借助的媒介在今天经历着急剧的变化。新媒体，目前在排版和图像的形式上存在大量的问题。如何处理错综复杂的信息是重要的问题。成功的案例例如网站（亚马逊网）。&lt;/p&gt;
+
+&lt;p&gt;技术发展的一个重要结果是产生了电子商务。在这个领域，信息处理的清晰度、准确性和可理解程度非常重要。吸引用户参与进来，比请大师制作顶级的视觉效果要重要。&lt;/p&gt;
+
+&lt;p&gt;信息设计在传达中是一个高度专业化的分支，任何项目产生的数据都会成为用来决策的基础。这类信息可以通过多种形式和媒介来体现。例如天气预报。&lt;/p&gt;
+
+&lt;p&gt;与之相反，广告作为渗透传达中最特殊的领域，目的是运用文本图像的结合来推销产品和服务。广告形象是为了是物品的设计达到最大限度的视觉影响，它可以在人们看到物品之前就形成对物品的认知。 广告的无力之处在于它一边试图打造某种观念，又不能得罪特定市场中的任何人，因此广告所描述的场景大同小异，没有特色。但广告的影响力不容小觑，因为它已经成了诱导大众消费的工具。&lt;/p&gt;
+
+&lt;p&gt;在这个动荡和变化的年代，不同文化的交融是的文化领域的交换变得频繁，传达也变得大众化，迎合当地需求的小型平面设计业务就减少了。但大众更多参与到设计活动中来，以及新技术不断加强创造者和接受者之间的相互理解，对传达的未来提供了无限可能。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-5&quot;&gt;环境&lt;/h1&gt;
+
+&lt;p&gt;环境和物品、传达一样，都由形式、颜色、图案、肌理等组成，但空间和光线的表现是环境设计独有的特点。物品和传达与空间元素相互勾连，各自的功能和意义都得到了加强。环境还为活动提供了框架，它能深刻改变使用模式和行为模式，改变家庭生活、工作、休闲和一系列商业投资的前景。&lt;/p&gt;
+
+&lt;p&gt;环境分为内环境和外环境。外环境在其它学科领域内起着支配作用，例如建筑业、城市和区域规划，园艺。对于内环境而言，例如室内设计，方法和专业智能跨度就很广。一类设计师关注空间内部的装饰性设计和内部摆设，利用现有的家具和材料，以期获得整体上的审美效果。这些设计多是将现存的元素合成，而不是基于基本原理进行的创作。也有一些室内设计专筑原创的空间概念、规划和有特殊用途的特殊设备。&lt;/p&gt;
+
+&lt;p&gt;环境设计是唯一一个可以让大量的人参与决策的实践领域。例如家庭环境是我们设计的主要空间，人们可以按照自己的意愿进行设计。&lt;/p&gt;
+
+&lt;p&gt;每个社会在处理家居环境是都有一系列独特的方式，因此从中归纳出一个固定的范式很困难。而且在不同的文化和地域下，这些方式都有很大的差异。例如美国可支配的住宅面积很多，所以不需要考虑功能性设备的细节问题。日本的家庭面积就很小，必须在有限空间内考虑家居的每个细节。&lt;/p&gt;
+
+&lt;p&gt;接下来就是通过大量的实例讲述环境设计给企业，社会，个人带来的影响。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-6&quot;&gt;形象设计&lt;/h1&gt;
+
+&lt;p&gt;为个人或者组织、甚至是国家创造一个独特的影响和意义。就个人而言，个人形象商业化趋势席卷全球。一个人可以隶属一种文化，也同时隶属于另一种或者多种文化。 为追寻更好的生活方式，大量移民涌入富裕国家，同时技术的发展能使得移民能与远方的家乡文化保持联系，增强了他们最初的身份意识。&lt;/p&gt;
+
+&lt;p&gt;二战后许多国家需要寻找各自的符号来宣告新的建立的政权。&lt;/p&gt;
+
+&lt;p&gt;国家形象的设计会引发民众的争论，例如英国电话亭撤换原有设计导致民愤，民意认为新的电话亭样式完全改变了了英国的固有形象。&lt;/p&gt;
+
+&lt;p&gt;跨文化设计面临的困境就是判断何种程度内的文化身份是固定的，或者文化身份能改变到何种程度。对于产品而言，理解文化差异对设计的影响很重要。对于洗衣机来说，在印度需要增加防缠绕功能，因为当地人会用它来清晰十八英寸长的莎丽，在巴西要增加浸泡功能，因为当地人认为只有清洗钱泡一泡才能洗净衣服。如果忽视文化身份，会得到惨痛的代价。 但，1.我们有大量的机会去确认任何具体环境下应该如何进行设计。2.全球性市场的渗透换气了我们对地球身份确认感的需要。&lt;/p&gt;
+
+&lt;p&gt;形象设计的整体性和优秀的形象设计能让公司在公众得到更加正面的回馈；但是光靠形象设计却不能让公司大获成功，因为市场对企业的视觉形象的认可是建立在对产品质量、使用和服务的承诺之上的。&lt;/p&gt;
+
+&lt;p&gt;企业形象和意向之间可以出现混淆。形象对公司而言，是有力而且必要的。意向是公司传达给顾客的，表达了公司希望被顾客了解的方式，形象是客户体验了公司所传达的信息后的实际情况。只有两者协调一致时，才有可能谈到企业的整体性。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-7&quot;&gt;系统&lt;/h1&gt;
+
+&lt;p&gt;之所以关注系统，是因为现代生活越来越复杂，元素之间存在许多结合和交叠，从而影响整体绩效。 系统可以理解为由一群相互影响、相互关联或者相互依赖的元素构成的一个综合体。在系统中，不同的元素可以用功能相连的方式连起来（运输系统）；通过结构或者渠道的共同网络连起来（银行、电信系统），等等。&lt;/p&gt;
+
+&lt;p&gt;历史告诉我们，新技术出现之处，人们还是会倾向于用已有的形式来定义。汽车在之前是“无马车厢”，到后来才有了系统方法，建立了公路，维护站，加油站，信息系统等。&lt;/p&gt;
+
+&lt;p&gt;任何系统的效率都取决于其整体一致性，用户能够通过统一的标准找出解决问题的方法，避免不必要的问题。例子：地铁信息图。&lt;/p&gt;
+
+&lt;p&gt;关于设计领域的系统方法。 在全球化背景下，如何让产品符合不同品味的具体要求？这其中伴随了一个从生产标准产品到生产标准部件的转换过程。 早起的生产模式中只有在生产大量标准化产品时才能达到最高效率，这样的方式在面临简单的变动是都会让程序变得十分复杂。 后来，通过系统方法， 把产品范畴的核心元素转化为标准化部件，这样就实现了大批量定制。 组模单元的应用，使得灵活配置得到进一步的发展。产品的整体结构被分解成了若干基本部件和转换部件。这些部件按照标准组模单元分组，进而命名为可选性附加元件，使得系列产品大量涌现。不同的不见运用于不同的配置方案，生成一系列能适应不同市场需求的产品。 因此随着模块系统的建立，公司的重心就转向了整体系统概念内的程序设计。这方面的例子有乐高积木，它从标准的木块几何形式中发掘出了大量可行的变体。&lt;/p&gt;
+
+&lt;p&gt;模块系统仅有是不扩展，能得到产品平台的概念。为满足基本的功能性目的，这些平台把模块和不见组合在了一起。基于此平台，能迅速开发和制造多种产品配件。例子：1979年索尼出产的随身听，他兼有基本功能模块和高级功能模块。平台概念+通用组件和生产过程是其成功的基础。福特公司1995年的长期改组计划吸收了平台理论，此后公司开发车辆类型是基于平台的，而不是为特殊市场生产特定车辆，这样可以减少研发费用。平台话生产方法使得福特公司能提供最廉价、最高速生产服务的地方制造元件。&lt;/p&gt;
+
+&lt;p&gt;总之系统方法解决了生产效率和按需定制的愿望之间的矛盾。设计师遇到的更大挑战在与如何是人造系统与自然界中已经存在了数万年的生态环境和谐共存。作者认为，不要以个人利益为前提进行系统设计，而要在对系统各部分运作了解的基础上，以适当的仿真和方法从根本上解决问题，因为设计是经济和社会这个大系统下的一个子系统，而且在这些背景下，它不是独立运行的。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-8&quot;&gt;语境&lt;/h1&gt;
+
+&lt;p&gt;来自三个语境的影响与设计实践有关：专业设计机构（或设计师本身），大部分的设计实践所处的商业语境，以及国家政策。&lt;/p&gt;
+
+&lt;p&gt;设计从未作为一个主要职业发展过，它并不像建筑、法律或者医学那样有自律的权利，可以控制准入和实践的级别。但许多国家已成立专业的设计团体，这些团体提供专业化服务，或者对每个人的设计能力进行分类目录，这样来提高设计行业对政府、工业、新闻界和公众带来的影响。&lt;/p&gt;
+
+&lt;p&gt;设计机构的在提交成果时，会对自己的作品发表声明，也会对实践活动的标准提出建议。设计师出于个人兴趣爱好进行的试验和探索是维持其创作动机所必需的。但设计师很少只为自己工作，设计活动中哪些可以被接收，哪些可行或者哪些令人满意，主要是由客户或者雇主决定的。 因此设计师要了解商业政策和活动。&lt;/p&gt;
+
+&lt;p&gt;设计在企业中可以是一个独立的职能部门，也可以隶属工程部、销售管理部或者研发部。设计实际的运行方式取决于不同机构内的固有方法，也依赖于个性和习惯性行为。设计可能是种数只能部门，也可能被分散到机构的各个部门；设计在不同的公司可以被明显地区分为长期解决方案或者短期解决方案；在许多连锁经营企业内，设计是公司形象和协调标准保持统一的主要手段之一。 设计在具体操作的管理层面上更加混乱。各个机构特定的历史和设计师的个性对于理解设计在他们各自活动中所扮演的角色都起到了至关重要的作用。&lt;/p&gt;
+
+&lt;p&gt;设计意识和其它竞争力相互结合成为了决定公司存亡的核心竞争力的一部分。有的公司是一开始就强调高准备设计和传达的的，有的则是在面对危机时才产生的。&lt;/p&gt;
+
+&lt;p&gt;设计也可能在公司中失势。设计在一些公司中可能被外包，这减少了公司开支，但是公司的设计却不是可以持续发展的，而持续发展的设计能承载公司独特的观念。还有的地方，设计师为了提高个人影响力，成立自己的公司。&lt;/p&gt;
+
+&lt;p&gt;在国家层面上，许多政府为了宏观设计政策的发展把宣传设计作为一个国家提高工业竞争而指定的经济计划的重要因素。即设计被视为经济和贸易目标的一部分。发展技术和设计，使其成为国家竞争力，进而取得经济利益，这是否能作为一个国家的国力和国家的特点，正受到质疑。&lt;/p&gt;
+
+&lt;p&gt;作为一个例子，英国很早完成了工业革命，但发过的产品依靠出众的设计风格仍然能和英国抗衡。后来英国在议会上就提出建立设计与制造特选委员会，其结果是英国诞生了许多设计学习，然而接下来十年里教育系统输出专业设计师的质量并不理想。 后来英国政府又建立了工业设计委员会，但这个机构的运营也是完全失败的，因为英国成品贸易上仍是赤字。总体来看这类设计机构的实际运行通常收到政治气候的变化影响，也需要外部条件的支持。&lt;/p&gt;
+
+&lt;p&gt;另一个例子：日本和美国对待设计的态度完全不同。美国的经济思维认为设计是表面的、无关紧要的东西，很容易会被国外同行剽窃，政府不予资助。但是日本在二战后，国际贸易与工业部（MITI）的早起政策就积极推广设计，具体表现在从国外聘请了接触的设计师小组，派遣有才华的年轻人去美国和欧洲接收培训，后来设计很快融入到开发过程中。在90年代MITI仍然把设计当成国民经济的意向战略性资源。日本的经济地位和生活标准都得到了显著的提高。&lt;/p&gt;
+
+&lt;p&gt;既然设计如此重要，那么设计是如何被人们接受的？媒体如何描述设计和经济文化生活之间的关系？&lt;/p&gt;
+
+&lt;h1 id=&quot;section-9&quot;&gt;未来&lt;/h1&gt;
+
+&lt;p&gt;设计活动的范围是不断变化的、在技术、市场和文化中意义深远的变革影响设计活动的方式。 旧形式、就秩序和新生事物的关系是如何的？ 作者认为，设计的发展是依靠新生事物对已有模式进行补充，进而概念它的功能和关系，而非简单的新旧置换。&lt;/p&gt;
+
+&lt;p&gt;已有的设计方法和理念将在未来继续发展。计算机作为一个工具会对设计有深刻乃至革命性的影响。例如虚拟现实对设计的模拟。但传统的制图仍然是不可取代的技巧。设计也朝着跨专业的方向发展，设计活动需要运用多种形式的技巧。&lt;/p&gt;
+
+&lt;p&gt;视机构的不同，设计师承担的角色也不尽相同，有的设计师实际上执行的他人提出的想法，另一些则对产品的功能和形式进行原创性的重新界定。&lt;/p&gt;
+
+&lt;p&gt;另外一方面，设计师可以分为形式制定者和形式提供者。前者设计的形式不运行任何变异，要么被用户接收，要么被用户拒绝，后者利用信息技术和强大的微型系统为用户提供改造形式和系统的方法，以实现用户不同的目的，例如芯片、精密的软件。这两种职能都是我们需要的。&lt;/p&gt;
+
+&lt;p&gt;设计活动中所渗透的价值观念往往不是用户决定的，而是商业公司决定的。&lt;/p&gt;
+
+&lt;p&gt;了解设计作品中指向的群体很重要。有的群体在发达国家，生活水平高，信息化程度高。有的国家贫穷，设计需要解决的问题在于改善贫困、改善教育设施，减少失业问题；关注老年人口的需求等等。但在基本实用性完善的基础上，机构就会开始关注“体验设计”。&lt;/p&gt;
+
+&lt;p&gt;当所有人的基本需求都被满足后，全世界会不会都开始追求过度消费？ 从这个意义上，设计不仅仅是一种靠设计师指定方针的行为，它反映的是在持续发展的基础上社会认可的生活质量。&lt;/p&gt;
+
+&lt;p&gt;日常生活中执行技术操作的各个具体层面都是由设计师设计的，这些设计体现的价值范围包括生成利润、为人们提供服务，协调各种生态问题。设始终是塑造我们生活的决定性因素。我们赖以生存的环境、身边的物品和传达的方方面面都或多或少收到了设计的影响。我们必须明白设计的表现形式表面上由我们做主，但实际上大部分情况下都与我们没有什么关系。只有当我们对设计都有充分的了解并认定它对每个人都至关重要时，人类在设计方面的潜力才会被逐渐发掘出来。&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 02 Jul 2016 17:59:00 +0800</pubDate>
+        <link>http://dynamii.org/2016/07/02/notes-on-design-a-very-short-introduction</link>
+        <guid isPermaLink="true">http://dynamii.org/2016/07/02/notes-on-design-a-very-short-introduction</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>SICP及编程笔记(1):</title>
+        <description>&lt;p&gt;2014年12月, 我在知乎上发现一本被大家广为推荐的书, 叫做《计算机机程序的构造和解释》（SICP）。当时的我决定还是要正儿八经地学习一些编程知识，于是搜索了许多程序领域的入门书籍， 发现SICP和UC Berkeley的课程CS61A好评较高，且思想相近，一个选用较为“古老的”scheme语言，一个注使用较为工程化的python语言，我想正好可以学习这些经典思想怎么在现代化语言上运用，于是便断断续续地开始学习。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/BkhAdpW.jpg&quot; alt=&quot;SICP&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;以下的内容都是我在断断续续学习SICP，python，和其它编程语言时慢慢总结的一些想法，这里进行一个大概的总结，作为笔记放于此处。&lt;/p&gt;
+
+&lt;p&gt;SICP是一本内容不深但是覆盖面很广的书籍，前三章花了很少的篇幅就讲了从函数式编程，计算模型，环境模型，基本的数据结构，到抽象数据类型，面向对象，并发，流式计算等概念，极大程度开阔了我的眼界。全书的思想，虽然涉及面广泛，但都是统一在“软件工程”的框架下进行叙述的，所谓的编程活动，其实就是清晰地给现实世界或者人的头脑中的某个过程进行建模的活动，我们看到的无论是命令行程序，GUI软件，还是游戏，抑或数值计算，其实都逃不开这个很大的概念。&lt;/p&gt;
+
+&lt;p&gt;前三章我读了大部分的内容，其中有一些部分是通过观看CS61A的讲课完成的，我觉得和SICP重复，就没有读SICP的对应部分，习题也选做了不少。这本书的习题安排的方式很有趣，习题和正文穿插进行，大部分习题其实都是读了正文的介绍后，自己想要进一步思考或者实现的部分，习题就给进一步提出来了。不过读这本书和做习题真不是一件轻松的事，不仅要花费大量的时间，头脑也要清醒，有时候一节的习题一做就是一下午，真不愧为“时间黑洞”。让人感慨，编程不易！&lt;/p&gt;
+
+&lt;h1 id=&quot;statement--expression&quot;&gt;statement （语句）&amp;amp; expression（表达式）&lt;/h1&gt;
+&lt;p&gt;第一章定义了许多编程语言中十分重要的术语，这些术语都是可以跨语言使用的。第一个概念就是statement和expression.&lt;/p&gt;
+
+&lt;p&gt;statement（语句）	任何用来被执行的代码，包括了表达式。
+    # python:
+    x = 1
+    pass
+    return None&lt;/p&gt;
+
+&lt;p&gt;expression（表达式）	用来被规约到一个值		
+    # python
+    3 + 5
+    ;; scheme
+    (+ 5 2)
+    (+)
+    1
+    (define a 2)
+    a&lt;/p&gt;
+
+&lt;p&gt;scheme中没有statement的概念，而所有的语句其实都可以看作表达式，因为scheme中所有的表达式都有对应的值。这就体现了scheme函数式编程的本质。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;表达式&lt;/h1&gt;
+
+&lt;p&gt;scheme中的表达式分为如下几种：
+ - 自求值
+ - 变量(identifier)
+ - 组合式
+ - 特殊形式&lt;/p&gt;
+
+&lt;p&gt;每一种都有不同的求值方式。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;组合式&lt;/h2&gt;
+
+&lt;p&gt;组合式：用括号括起来，第一个元素叫做operator(运算符)，剩余的元素都叫做operand(运算对象). 对组合式求值，只需要将operator和operand进行求值，得到过程和实际参数，然后将过程应用到实际参数上，这个过程是递归进行的。规约到最后，就会只剩下3种最基础的求值元素：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;数&lt;/li&gt;
+  &lt;li&gt;内部operator的名字，例如&lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;cons&lt;/code&gt;等过程名，对应着机器序列，如果对+求值只会返回一段字符串，目的是告诉你这是一个过程。&lt;/li&gt;
+  &lt;li&gt;其它名字，对应的是在环境中所关联的对象。例如#f, 等等.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在其它语言里，采用类似求值方法的语句叫做函数调用式(call expression).&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;特殊形式&lt;/h2&gt;
+
+&lt;p&gt;scheme中有许多和组合式长得一样的表达式，也是用括号括起来的，不过它们的求值规则和组合式求值可不一样，因此也不是组合式。例如&lt;code class=&quot;highlighter-rouge&quot;&gt;(define a 2)&lt;/code&gt;并不是将&lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;应用到过程&lt;code class=&quot;highlighter-rouge&quot;&gt;define&lt;/code&gt;上。这种表达式在scheme中称为“特殊形式”(special form). 需要说明的是，每一种特殊形式都有自己的求值规则，或是会对环境造成影响。&lt;/p&gt;
+
+&lt;p&gt;定义表达式
+(define a 2)&lt;/p&gt;
+
+&lt;p&gt;变量?
+a&lt;/p&gt;
+
+&lt;p&gt;条件表达式
+(if (= a 2) #t #f)&lt;/p&gt;
+
+&lt;p&gt;lambda表达式
+(lambda (x) (* x x))&lt;/p&gt;
+
+&lt;p&gt;let表达式
+…&lt;/p&gt;
+
+&lt;p&gt;等等。scheme里的特殊形式屈指可数，但其它语言的特殊形式相当多。就拿python这种易学的语言来说，特殊形式竟然多达&lt;a href=&quot;https://docs.python.org/3/reference/grammar.html&quot;&gt;110种&lt;/a&gt;。我个人认为特殊形式多一点是有好处的，多出来的特殊形式往往是语言内建的语法糖，基本都是被语言设计者千锤百炼挑出来的， 能很大程度上提高编程的效率。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-3&quot;&gt;给计算对象命名&lt;/h1&gt;
+
+&lt;p&gt;scheme允许给对象命名，这是构造抽象的最基本的方式。 然而，你还能给一个复杂的过程命名，这样只需要一个简单的名字就能代表一个相当复杂的过程。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(define a 2)
+x = 2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;给函数命名，对比一下和python, javascript的命名方式：&lt;/p&gt;
+
+&lt;p&gt;scheme:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(define sqrt (lambda (x) (* x x)))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;python:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def sqrt(x):
+	return x * x
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;javascript:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var sqrt = function(x){
+	return x * x;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;可发现javascript实际上最能体现和scheme一样的概念：过程是一个计算对象，通过命名的方式把它和一个变量绑定起来。python就不大容易看得出来这种感觉。&lt;/p&gt;
+
+&lt;h1 id=&quot;first-class-function&quot;&gt;first-class function&lt;/h1&gt;
+&lt;p&gt;事实上，第一章的核心的要点是：将过程（函数）当成一种抽象单元进行编程。所以选用了scheme这种语言来进行讲解。概括地说，scheme将过程提到了很重要的地位（叫做first-class function），特权包括：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;可以用变量命名一个过程；&lt;/li&gt;
+  &lt;li&gt;可以作为另一个过程的参数；&lt;/li&gt;
+  &lt;li&gt;可以返回一个过程, 而不是一个值；&lt;/li&gt;
+  &lt;li&gt;可以包含在数据结构中。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这使得这门语言的描述能力极其惊人。&lt;/p&gt;
+
+&lt;p&gt;1.3节讲了好多例子，现实从一开始的折半区间法求方程的根来讲解如何分解计算为一系列子过程，然后讲到求函数的不动点，然后利用不动点来求数的平方根，又中途引入了“平滑阻尼”技术加快收敛速度，后面又讲了一个牛顿法求方程的根；无论是“平滑阻尼的不动点程序”，还是“牛顿法”求根的程序，其本质还是是从一个函数出发，找出这个函数在某种变换（从&lt;code class=&quot;highlighter-rouge&quot;&gt;f(x)&lt;/code&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;变换为&lt;/code&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;(x+f(x)/2&lt;/code&gt;,或者&lt;code class=&quot;highlighter-rouge&quot;&gt;f(x)&lt;/code&gt;变换为&lt;code class=&quot;highlighter-rouge&quot;&gt;Df(x)&lt;/code&gt;）下的不动点，所以又可以把这种普遍性的思想表述为这一节最后的过程：即&lt;code class=&quot;highlighter-rouge&quot;&gt;fixed-point-of-transform&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;高阶函数是一种威力强大的表达方式，SICP第二章用它构造数据结构；第三章实现了面向对象的“对象”，实现了“按需计算”的数据对象，此外高阶函数还广泛运用于其它方面，例如软件工程常用的“回调函数”。以后有时间再写吧。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Jun 2016 00:31:00 +0800</pubDate>
+        <link>http://dynamii.org/2016/06/06/programming-notes-1</link>
+        <guid isPermaLink="true">http://dynamii.org/2016/06/06/programming-notes-1</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>刀剑神域2期GGO期中随感，提前恭贺桐子收获后宫一枚</title>
+        <description>&lt;p&gt;本以为我会一点点随着年龄增长而逐渐对动画这种中二的东西慢慢失去兴趣，没想到…… 一个人对ACG的同步率不是看年龄来的，而是看基因来的！ 就这样，尽管前段时间复习备考，现在踏入了研究生阶段，我还是对动画如此痴迷……&lt;/p&gt;
+
+&lt;p&gt;于是无可救药的我就这样很自然的发现了新番宇宙神作SAO，并且在第一期结束后，一边揣摩着NervGear的感觉一边感伤动画的完结中，迎来了这个系列的第二期GGO。GGO里面亚丝娜彻底路人化，桐子的角色则变得一身长发，故事则成了网瘾少年桐人，接受某政府官员高薪委托，调查GGO中能在虚拟世界开枪杀死现实玩家的神秘人“Death Gun”，顺便攻略GGO的新妹子主角诗乃……&lt;/p&gt;
+
+&lt;p&gt;既然故事到现在走到一半，没读过小说的我也可以大概猜个故事的走向，大概就是“桐人和死枪拼个你死我活，诗乃在游戏中终于得到了救赎”吧，但更具体的细节果然还是只能由脑洞超大的原作者川原砾来填充了，作为观众，我要做的看来也只是慢慢分析回味已经发生的剧情……吧？&lt;/p&gt;
+
+&lt;p&gt;桐人似乎有与生俱来的把妹天赋，当然，这和主角光环多少有点关系——否则怎么解释一进GGO就遇到诗乃妹子的BUG？&lt;/p&gt;
+
+&lt;p&gt;但在我看来桐人之所以如此吸引女孩子，还是那外挂级别的游戏技术，还有那张无辜可爱的脸吧~&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1198.photobucket.com/albums/aa450/itrowa/KamigamiSwordArtOnlineII-041280times720x264AACSubChtJap-shot0005.jpg&quot; alt=&quot;卖萌的桐人&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1198.photobucket.com/albums/aa450/itrowa/KamigamiSwordArtOnlineII-041280times720x264AACSubChtJap-shot0001.jpg&quot; alt=&quot;诗乃笑了&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;诗乃应该是在游戏中封闭自己的内心的，她的目的就是通过GGO（而不是吃药）治疗自己在现实中对枪械的恐惧感，虽然我还是不大明白为什么在游戏中变得最强就能治好现实中怕枪的毛病，但姑且还是承认诗乃还是在用自己特有的方式在战斗吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1198.photobucket.com/albums/aa450/itrowa/KamigamiSwordArtOnlineII-041280times720x264AACSubChtJap-shot0008.jpg&quot; alt=&quot;神躲避&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1198.photobucket.com/albums/aa450/itrowa/KamigamiSwordArtOnlineII-041280times720x264AACSubChtJap-shot0007.jpg&quot; alt=&quot;神躲避&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1198.photobucket.com/albums/aa450/itrowa/KamigamiSwordArtOnlineII-041280times720x264AACSubChtJap-shot0007_2.jpg&quot; alt=&quot;神躲避&quot; /&gt;
+桐人展示了自己BUG一般的网游技术，博得诗乃好感&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1198.photobucket.com/albums/aa450/itrowa/KamigamiSwordArtOnlineII-051280x720x264AACSubChtJap-shot0002.jpg&quot; alt=&quot;性别被发现&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;性别被发现，吃了一巴掌，但好歹事情已经到这个点上了，桐人在这里主动摊牌，还是能挽回一点点好感度吧&lt;/p&gt;
+
+&lt;p&gt;展现出柔软脆弱的一面，这样诗乃会觉得桐子的人性变得复杂而又产生了好奇心吧&lt;/p&gt;
+
+&lt;p&gt;半决赛，诗乃vs桐人，诗乃一直试着很小心，很小心地，在GGO中垒筑的强大内心，在这一战被摧毁得粉碎。那个独行的，少言的，野猫般狂野外表的Sinon的内心，在这一刻终于解构，和那个三次元世界中的朝田诗乃的是同一个人了。&lt;/p&gt;
+
+&lt;p&gt;仔细将这里再看一遍，这里动画的描写，尤其是心理描写还是非常有意思的。第一集动画花了很长篇幅来渲染Sinon在GGO中优秀的表现，和高超的技术，但在这里一向弹无虚发沉着冷静的Sinon却在这里乱了阵脚，当然一方面，Sinon看到桐子就有点心头小鹿乱撞了，但更重要的是，Sinon的对手，可是SAO生还者中的最顶级玩家啊。技术的强大终究还是敌不过心理的强大，最终硬派的Sinon还是变成软妹子了~软都连腰都直不起了~你们两真会配合啊&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1198.photobucket.com/albums/aa450/itrowa/KamigamiSwordArtOnlineII-061280x720x264AACSubChtJap-shot0010.jpg&quot; alt=&quot;攻略成功&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;スゴープレンズ越しでも、君の目が見えた。&lt;br /&gt;
+（尽管隔着瞄准镜，还是能看见你的眼睛啊。）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;啊！新一代女主角就这么被征服了，我要拿着汽油和火把祝贺祝贺~~&lt;/p&gt;
+
+&lt;p&gt;这里绝对是全剧的一大看点，虽然完全潜行设备好像魔法一样，把现实和虚拟世界的两人完全隔开，但是，无论是虚拟世界还是现实世界，角色的灵魂始终是同一个。诗乃的强大并不是因为技术强大，而是为了克服她的枪械恐惧症为目的的强大，就算拿到BoB冠军恐怕对拯救她的枪械恐惧症也于事无补，或者反过来说，正是因为这份强大是虚伪的，诗乃才会在此败给桐人吧。诗乃的内心世界充分展露时，剧情离高潮也就不远了。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Aug 2014 21:26:00 +0800</pubDate>
+        <link>http://dynamii.org/2014/08/29/GGO-mid-report</link>
+        <guid isPermaLink="true">http://dynamii.org/2014/08/29/GGO-mid-report</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>满25周岁记</title>
+        <description>&lt;p&gt;1&lt;/p&gt;
+
+&lt;p&gt;不知不觉自己来到地球生活已经是第25个年头了，从小到大一直玩玩耍耍，我行我素，以至于到了今天也没有在哪行做出什么能让自己看上眼的东西，但是，这几年来，包括大学四年来，我觉得最大的收获是，我大概能了解以后的世界是什么样了，找到了自己想要成为什么样的人，以及能成为什么样的人，以后的生活终于可以有个指路牌了。&lt;/p&gt;
+
+&lt;p&gt;我最近几年来对我影响最大的书，还是克里斯•安德森 (Chris Anderson) 的《创客：新工业革命》。要说这本书的内容，那绝对是洗脑性质的，但是当我真正走入作者的思维后，我发现他说的不仅真的很正确，而且新一代的革命正在今天上演着，也影响着现在的我。&lt;/p&gt;
+
+&lt;p&gt;我自己知道我是个酷爱设计也非常喜欢技术和开放的新理念的人，大学的前几年我都在疯狂地和电脑打交道，本以为我最终想要去和计算机干一辈子了，但是，一想起自己的设计只能在屏幕上戛然而止，那是多么让人扫兴的事啊！网页是如此，编程又何尝不是这样？给人以美的享受的东西，最终还是应该放到现实环境中，而计算机程序最终也应该是解决人在现实中遇到的问题而被设计出来的，换句话说，在计算机中创作的东西，最终还是要回到现实服务的。《新工业革命》的论点终于让我找出了为什么自己不愿投入IT行业的根本原因，因为我们最终生活在3D的实体世界中啊！&lt;/p&gt;
+
+&lt;p&gt;如果设计的东西不是程序，不是网站，而是实实在在的物件，哪怕它刚开始只是计算机中的3D模型和简单的程序，但是它最终还是要走出屏幕，变成真正的实体！这就是我想要的！再回到电脑中，以前我仔细研究过的linux系统，编程语言，代码。。。不都是为了这一环而服务的吗？所以在理解这一点后，我便有了自己真正的、成熟的目标了，那便是在掌握了数字世界的使用方法后，重新回到现实世界中！&lt;/p&gt;
+
+&lt;p&gt;在互联网如此发达的时代，我们获取信息的成本已经非常低廉了。不论想要学习什么，都可以在最快的时间内在公开发布的资源中找到相关的信息。这真是一个伟大的进步，这种进步本身最先在IT这个领域中显示出来，创造这一先进手段的便是IT技术本身，所以关于IT的内容是最容易在互联网上传播的。这种分享，协作，开放的精神影响了一代整天和计算机交道的人，而且使这一代人和上一代靠传统方式成长学习起来的人产生了较大的思维差距。&lt;/p&gt;
+
+&lt;p&gt;开放的精神越来越广，数字世界的发展原来越成熟。如果要设计一个酷玩意儿，以前设计只能在纸上画，现在完全实现了数字化，就拿Solidworks来说，不仅能画出机械的平面，透视图，更能进行各种动态的模拟，仿真，最重要的是，这些东西全是数字化的，可以借助互联网广泛传播，而且现在获取信息和人与人沟通的成本已经非常低了，其结果是几十年前的车库极客们，工程师们，想做点什么好东西的爱好者们，迫切想学习的学生们，不用自己躲在自己的旮旯里，而是可以轻松获取更多的idea，更方便的参与它人的idea了，相信这些能极大程度加速我们身边的技术进步。典型的例子是，开源的linux，开源的浏览器，开源的3D打印机。在互联网的时代，想一想，这种浪潮之下，还会有什么东西继续开源？&lt;/p&gt;
+
+&lt;p&gt;2&lt;/p&gt;
+
+&lt;p&gt;今年我要正式让建筑成为我的职业了。在现实世界的工程中，在中国的现在这个时代，有什么东西是我真正感兴趣的那种，最后生成实物的“设计”，而且又是现在的中国市场最需要的呢？我想目前还是建筑。建筑是我在高中很懵懂的时候就非常想做，而且大学时代完全放弃学习了的东西，现在是最关键的机会，抓住它，让它成为我的职业。值得一提的是，现代的建筑设计也已经完全数字化了，但我感觉建筑行业真是个十分保守的行业，设计师的相互交流还是没能像那些已经走在前面的行业一样，有革命性的变化。只是，现在，已经走在前面了的技术或许可以帮助建筑设计做得更好。现在已经有很廉价的3D打印机了，要推敲设计，要塑造形体，快速实现一个想法，应该更加方便，我也十分期待又有什么洗脑般的东西能够变革一下这个行业。或许是3D打印建筑？真不好说。&lt;/p&gt;
+
+&lt;p&gt;3&lt;/p&gt;
+
+&lt;p&gt;2012年注册了我注册了我的&lt;a href=&quot;http://steamcommunity.com/profiles/76561198081721002/&quot;&gt;steam账号&lt;/a&gt;，总琢磨着买两款自己最喜欢的游戏有空好好玩。可结果是，好多游戏都没好好玩，就连我最喜欢的模拟飞行也没有好好玩。活了这么多年了，什么类型的游戏没玩过？什么花样没见过？我想一定是我已经看腻了在屏幕面前千篇一律毫无激情的创意，所以觉得无趣。话说回来，我的飞行摇杆Z轴已经正式报废了，尽管以前我还认真维修过，而且认真分享了维修经验(&lt;a href=&quot;http://dynamii.org/2012/02/23/repair-my-cyborg-x/&quot;&gt;http://dynamii.org/2012/02/23/repair-my-cyborg-x/&lt;/a&gt;)，可是，这个厂家的工程师就是可以把这种让人开心体验航空工业可靠性、高性能和稳定性的接口——飞行摇杆设计成一两年就报废的垃圾玩具，真是让人大为窝火。摇杆现在已经根本不是什么神秘的，高技术含量的东西了，而连老牌外设厂生产的东西都如此让人不满意，只要有信心，我们完全可以自己造一个摇杆，而且网上有数不清的资料可以供参考。或许下个星期天，无聊得透顶，手又特别痒，可以考虑动手做一个？&lt;/p&gt;
+
+&lt;p&gt;4&lt;/p&gt;
+
+&lt;p&gt;生命苦短，折腾不止。为了让自己的人生更快乐，我还是来列一下今后三年的计划吧。我应该拥有什么能力？不不不，这样列举，非常空泛抽象，不宜实现，应该写我应该做一件什么样的事，如果那件事都能做成，那相应的能力肯定是没问题了&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2014年 拥有自己的第一台3D打印机（它可以快速实现设计想法，也能为建筑设计服务）&lt;/li&gt;
+  &lt;li&gt;2015年 拥有自己的CNC雕刻机，（机电一体化实践）&lt;/li&gt;
+  &lt;li&gt;2016年 且做出自己的无人机（加工制造和工程设计的大一统实现）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;远期目标是做一架飞机自己驾驶。这不是很疯狂，毕竟现在连飞机设计都&lt;a href=&quot;http://makerplane.org/&quot;&gt;开源&lt;/a&gt;了&lt;/p&gt;
+
+&lt;p&gt;当然，这些都是业余爱好，关于主业建筑，当然有更详细的计划。。。&lt;/p&gt;
+
+&lt;p&gt;完。&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 11 May 2014 21:26:00 +0800</pubDate>
+        <link>http://dynamii.org/2014/05/11/living-for-25-years-log</link>
+        <guid isPermaLink="true">http://dynamii.org/2014/05/11/living-for-25-years-log</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>X-Plane 10 HD Terrain Mesh介绍 &amp; 瑞士(Switzerland)地景安装攻略</title>
+        <description>&lt;p&gt;由于电脑配置实在太差，飞高精度模拟的插件机相当于自虐，所以我在X-Plane中基本上只飞Cessna 172这种级别的私人飞机看风景。瑞士的风光很迷人，位于峡谷中的机场也很多，对于飞行技术来说是一个小小的挑战。X-Plane中默认地景只能算是马马虎虎，要有更高品质的追求只能去找精度更高的地形数据了。&lt;/p&gt;
+
+&lt;p&gt;首先下载&lt;a href=&quot;http://www.alpilotx.net/downloads/x-plane-10-hd-scenery-mesh/&quot;&gt;X-Plane附加的HD地景&lt;/a&gt;，此地景系列已经覆盖到了欧洲、北美地区和太平洋的一些岛屿地带。由于实在太大了，我仅仅选择了自己非常喜欢的瑞士地区安装。有强迫症的爱好者可以全部把它们拖下来玩玩看。&lt;/p&gt;
+
+&lt;p&gt;作者在页面强烈声明了此地景仅限电脑配置好的用户使用，使用后FPS可能变得非常低，最好使用64位版的X-Plane程序，而且如果你的内存不足4GB最好放弃。我的内存刚好4GB，装好后在瑞士那边飞，还没感觉到帧数有明显的下降。&lt;/p&gt;
+
+&lt;p&gt;在Download一栏中找到瑞士地区的图，直接在图上点击鼠标就来到了下载页面&lt;/p&gt;
+
+&lt;p&gt;我下载到的文件名是&lt;code class=&quot;highlighter-rouge&quot;&gt;x-plan10_hd_scenery+40+000.zip&lt;/code&gt;，文件名中标明有对应于那个地区的地景坐标。&lt;/p&gt;
+
+&lt;p&gt;安装非常简单，找到X-Plane主目录，在&lt;code class=&quot;highlighter-rouge&quot;&gt;Custom Scenery&lt;/code&gt;目录中建立一个例如&lt;code class=&quot;highlighter-rouge&quot;&gt;zzz_hd_global_scenery&lt;/code&gt;的文件夹(名称可以任意)，然后在&lt;code class=&quot;highlighter-rouge&quot;&gt;zzz_hd_global_scenery&lt;/code&gt;文件夹中建立一个&lt;code class=&quot;highlighter-rouge&quot;&gt;Earth nav data&lt;/code&gt;文件夹，再把下载好的压缩包解压，连同压缩包中得到的目录一起放到&lt;code class=&quot;highlighter-rouge&quot;&gt;Earth nav data&lt;/code&gt;文件夹中。&lt;/p&gt;
+
+&lt;p&gt;安装完成后目录结构应该是这样：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+ X-Plane 10 
+|	+ Custom Scenery
+|	|	+ zzz_hd_global_scenery
+|	|	|	+ Earth nav data
+|	|	|	|	+ +40+00
+|	|	|	|	|	+40+000.dsf
+|	|	|	|	|	+40+003.dsf
+|	|	|	|	|	...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;最后是截图时间(右键在新标签页可以看大图)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://2izyog.dm1.livefilestore.com/y1pq9yzBuwSrtA1HTdW-uOUKXUSiLJw-vTMj1Vx4unoybaWxyTihAz5zVh6V1KDPU4xA6OUGeS72Mgx4nVjaB_ZIqGmZ88GYkxq/2013-01-29-x-plane-hd-terrain-mesh-scenery-switzerland-introduction_dash8q400_3.jpg?psid=1&quot; alt=&quot;瑞士的山谷&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://2izyog.dm1.livefilestore.com/y1pol5jMYa8UFstrXQ6oztSATdhl_73U8-sTL58qDNJxmEFEoPAsYV0Eif2x7C1JLaVR3a9R6D9ERdmWsvEDDu8H4pDxcqxC5xk/2013-01-29-x-plane-hd-terrain-mesh-scenery-switzerland-introduction_falcon7_2.jpg?psid=1&quot; alt=&quot;日出时刻&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://2izyog.dm1.livefilestore.com/y1pq9yzBuwSrtDm9cGi3lDBtxhYp1uL7T0pIMObvdLA_FMjyA1VqfZc5Dq39G0_CRB9Xb2g3KXzW4R7uliT_K3w8mS5Z-N-5c85/2013-01-29-x-plane-hd-terrain-mesh-scenery-switzerland-introduction_falcon7_1.jpg?psid=1&quot; alt=&quot;Falcon 7X在瑞士某机场&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;个人感觉，也就是地形起伏更加接近真实，道路，森林地区，水的分布和定义也更加细致，色彩还是老样子，地面绿得有点不自然。X-Plane真该请个有艺术细胞的美工~&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Jan 2013 23:07:00 +0800</pubDate>
+        <link>http://dynamii.org/2013/01/29/x-plane-hd-terrain-mesh-scenery-switzerland-introduction</link>
+        <guid isPermaLink="true">http://dynamii.org/2013/01/29/x-plane-hd-terrain-mesh-scenery-switzerland-introduction</guid>
+        
+        
+        <category>journal</category>
+        
+      </item>
+    
+      <item>
+        <title>x-plane综合索引</title>
+        <description>&lt;p&gt;近日一直关注民航模拟游戏X-Plane，感觉这个平台正日渐成熟中，装插件和飞机很方便，再也不用担心系统会被插件整崩溃了，而且X-Plane相比微软的模拟飞行在物理上更有优势。&lt;/p&gt;
+
+&lt;p&gt;以后我会把搜集到的资源不断更新到这里。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;资源、插件站点&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.xplanefreeware.net/&quot;&gt;http://www.xplanefreeware.net/&lt;/a&gt; x-plane免费软件论坛。主要是开发者在交流信息。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://forums.x-plane.org/&quot;&gt;http://forums.x-plane.org/&lt;/a&gt; x-plane官方交流论坛。有一个Download Manager分块，有大量的免费地景、飞机、插件、导航数据、涂装等。这也是x-plane附加软件最全的地方。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://xpfr.org/&quot;&gt;http://xpfr.org/&lt;/a&gt; 有不少飞机可以下载，还有大量的法国机场和少数其他国家的机场。推荐！&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://xplane.cz/en/category/down/&quot;&gt;http://xplane.cz/en/category/down/&lt;/a&gt; 地景和飞机&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://store01.prostores.com/servlet/x-planestore/StoreFront&quot;&gt;http://store01.prostores.com/servlet/x-planestore/StoreFront&lt;/a&gt; x-plane官方商城，本人没有在这里买过东西，所以就不多评价了。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;自己找到的具体的资源&lt;/h2&gt;
+
+&lt;p&gt;其实x-plane有很多好东西可以找得到，这里限于篇幅只介绍我认为最有价值推荐的吧 ~_~&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;飞机类&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ixeg.net/&quot;&gt;http://www.ixeg.net/&lt;/a&gt; IXEG是international X-Plane Engineering Group的意思。这个团队的成员大多拥有工程背景且有实际的飞行经历。目前他们正在倾力打造让整个模拟飞行社区都为之震撼的飞机——737 Classic。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.x-aviation.com/catalog/take-command-p-68.html&quot;&gt;http://www.x-aviation.com/catalog/take-command-p-68.html&lt;/a&gt; CRJ-200飞机。付费，但是个精品。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://forums.x-plane.org/index.php?app=downloads&amp;amp;showfile=8946&quot;&gt;http://forums.x-plane.org/index.php?app=downloads&amp;amp;showfile=8946&lt;/a&gt; 精心打造的免费飞机——达索猎鹰7X，这可是世界上最奢华的公务机，售价竟然高达4300万美元。但现在，一切都是免费的！&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://store01.prostores.com/servlet/x-planestore/Detail?no=436&quot;&gt;http://store01.prostores.com/servlet/x-planestore/Detail?no=436&lt;/a&gt;A320 Neo，JARDesign出品，个人感觉这是空客系列模拟度很高的飞机了。游戏还自带语音检查单功能? 有点贵而且无法破解，各位看着办&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一般来说付费飞机都不是一般的拖机，本人用的AMD 速龙64 X2 5000+开了四核还超频到了2.9GHz但是飞高精度的插件机帧数也只有20来帧。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;机场类&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://forums.x-plane.org/index.php?app=downloads&amp;amp;showfile=11725&quot;&gt;http://forums.x-plane.org/index.php?app=downloads&amp;amp;showfile=11725&lt;/a&gt; 中国机场包v1.2。这是从FS2004的中国机场包转换而来，先前的1.0版有很多问题，但现在得到了一定的修正，但是1.2版删减了很多机场（主要是因为它们无法正常运行。）如果有安装1.0版的话请先删除。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;地景类&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.opensceneryx.com&quot;&gt;http://www.opensceneryx.com&lt;/a&gt; 这是个通用的第三方地景库，很多附加的地景都调用了这个库的文件，因此，这个几乎成为一个必装的地景了。（默认的安装程序会在安装时下载很大的文件，所以，如果网速不是很好的话，推荐用一个熟悉的下载工具下载它们的zip包然后手动解压。）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://xplane.cz/en/2011/04/01/r2-library-knihovna-3d-objektu/&quot;&gt;http://xplane.cz/en/2011/04/01/r2-library-knihovna-3d-objektu/&lt;/a&gt; 名为R2的地景库。它的作用和OpenScenery相似。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.x-plane.su/projects/ruscenery.html&quot;&gt;http://www.x-plane.su/projects/ruscenery.html&lt;/a&gt; 老毛子做的RuScenery地景库。作用和上面两个相似。你很可能看不懂老毛子写的是什么东西，但谷歌娘应该可以帮到你..&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.alpilotx.net/&quot;&gt;http://www.alpilotx.net/&lt;/a&gt; 一个开发站的Blog，主要是提供高清晰度的地形网格（Terrain Mesh）下载。现在他已经为Laminar Research工作并承诺把自己开发的成果最终整合到x-plane中去。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://x-plane.hu/swiss-vfr/&quot;&gt;http://x-plane.hu/swiss-vfr/&lt;/a&gt; 瑞士VFR地景，从FS2004的地景转过来的。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://forums.x-plane.org/index.php?app=downloads&amp;amp;showfile=17363&quot;&gt;http://forums.x-plane.org/index.php?app=downloads&amp;amp;showfile=17363&lt;/a&gt; 利用OpenStreetMap生成的全球地景，包含大部分的洲和国家。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;图像增强&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://maxx-xp.hiking-pa.com/&quot;&gt;http://maxx-xp.hiking-pa.com/&lt;/a&gt; 这位开发者正在开发让x-plane风景变得更好的一些插件。免费付费的都有。
+其他&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.x-fmc.com/&quot;&gt;http://www.x-fmc.com/&lt;/a&gt; x-FMC。免费的飞行管理计算机，用于指挥飞机的航路。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fsimp.com/&quot;&gt;http://www.fsimp.com/&lt;/a&gt;  交通管理插件。不过貌似是给开发者用的。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.xsquawkbox.net/&quot;&gt;http://www.xsquawkbox.net/&lt;/a&gt; 这是连线飞行的软件，它可以让x-plane用户联入VATSIM（Virtual Air Traffic Simulation，虚拟航空模拟系统）中和全球的其它飞行员一起连飞，享受管制服务。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;教程、资讯和综合类&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.simflight.cn&quot;&gt;http://www.simflight.cn&lt;/a&gt; simflight的中文版。提供很多模拟飞行软件的资讯，从微软模拟飞行到x-plane。一直有点费解的是，网站是机器人更新的？&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://yinlei.org/&quot;&gt;http://yinlei.org/&lt;/a&gt; 这个Blog很不错，作者是一个航空爱好者，写了很多很有用的文章，赞！&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://forums.x-plane.org/index.php?showforum=90&quot;&gt;http://forums.x-plane.org/index.php?showforum=90&lt;/a&gt; 发表在x-plane.org的私人驾驶执照（PPL）培训教材。注意是E文的。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 29 Jan 2013 23:06:00 +0800</pubDate>
+        <link>http://dynamii.org/2013/01/29/x-plane-index</link>
+        <guid isPermaLink="true">http://dynamii.org/2013/01/29/x-plane-index</guid>
+        
+        
+        <category>docs</category>
+        
+      </item>
+    
+      <item>
+        <title>所谓的大作啊</title>
+        <description>&lt;p&gt;好不容易闲下来，刚刚才在本本上重新配置好了Octopress编译环境，万岁~&lt;/p&gt;
+
+&lt;p&gt;对于一个刚刚买了独立显卡又恰逢放假的年轻人来说，他可能会迫不及待地想要玩一些现在的大作，这样才会显得与潮流同步，或是与时俱进，这似乎没什么问题，前段的我就是这么想的。在下载了几十G的游戏准备大干一场后，我发现自己正在干的事情可能完全没有什么趣味性可言，每次都是下载相同玩法的游戏，在机械般的接受着来自游戏的世界观和剧情后，通了一周目，最后在一丝腻味的感情中删掉。&lt;/p&gt;
+
+&lt;p&gt;大作，就是大众的游戏，每个人对游戏品味的追求是有极大的差别，就像喜欢战地3的玩家无法理解为什么武装突袭这种渣画质竟然也有人玩得不亦乐乎。满足大众的需求显然是不可能的，那最现实的办法是让大家都稍微不喜欢来换取多数人基本喜欢。平均的品味意味着平庸的品味，平庸的品味，那就是毫无品味。这听起来很夸张，但如果大家喜欢的都是同一个东西，那这件东西还有什么独特性可言？过去一段时间，游戏一直激发着人类想象力的极限，直到最近几年，大多数游戏都在画质上狠下功夫，在游戏性上却没有什么根本的创新。或许提升建模精度和改善游戏外观是花时间和钱就可以实现的，但是一款伟大的游戏却需要策划人聪明绝顶的头脑和超强的思维创新能力以及独特的品味。而这些太难看到了。&lt;/p&gt;
+
+&lt;p&gt;前面写得太夸张了。我今天才下了战地3呢。我是认为，真正触动心弦的游戏可能往往不是这些传统意义上的主流快餐文化，所以以后我还是稍稍远离这些大作吧，看看steam上的新出大作们，个个贵得离谱，至少是我这样的阶级目前还无法承受的。&lt;/p&gt;
+
+&lt;p&gt;顺带一提，目前登陆steam平台的游戏有呈井喷之势，前段时间我下载了一个steam客户端，感到使用体验非常好，而且有很多经典老游戏(一般是2010年前发售的游戏)也登录了steam平台，价格十分便宜(小于10美元)，并且支持支付宝。我已经买了一个来玩了，是simbin出的赛车游戏RACE07和DLC GTR Evolution，这样自己就可以没事跑跑纽堡林这些赛道。此游戏用画面来衡量它的品质是非常浮浅的行为，如果拥有高精度的游戏手柄或者方向盘，又喜欢真正赛道上紧张的节奏和驾驶方式，simbin的系列应该是PC上不错的选择，车辆动力学没有什么让人值得怀疑的地方，比赛的模式很丰富，基本就是和显示比赛遵循同样的流程。即使是一个人和电脑比赛也很有趣，电脑行车绝不会横冲直撞，而是无碰撞的超车，现实里面的车子根本经不起磕磕碰碰，所以驾驶赛车猛踩油门时心里没有哪个时候是不捏着一把汗的。这些都是极品飞车这些竞速游戏没法带来的东西。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Jan 2013 23:06:00 +0800</pubDate>
+        <link>http://dynamii.org/2013/01/26/majority-games</link>
+        <guid isPermaLink="true">http://dynamii.org/2013/01/26/majority-games</guid>
+        
+        
+        <category>journal</category>
+        
+      </item>
+    
+      <item>
+        <title>来自动漫和游戏的铃声分享[Rev]</title>
+        <description>&lt;p&gt;（陆续更新中..）&lt;/p&gt;
+
+&lt;p&gt;动新DVD里面送的铃声实在是弱爆了，如果谁真的用了那些铃声，恐怕只会吓着别人，所以还是来用我截取的铃声吧。&lt;/p&gt;
+
+&lt;p&gt;自制铃声-感动你全家：&lt;a href=&quot;http://sdrv.ms/VlthER&quot;&gt;http://sdrv.ms/VlthER&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;所有的文件名和名录名都是“自我注释”(Self Documenting)的，文件名包含了有关歌曲的所有信息。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 05 Nov 2012 00:06:00 +0800</pubDate>
+        <link>http://dynamii.org/2012/11/05/ringtones</link>
+        <guid isPermaLink="true">http://dynamii.org/2012/11/05/ringtones</guid>
+        
+        <category>ringtongs</category>
+        
+        <category>download</category>
+        
+        <category>acg</category>
+        
+        
+        <category>docs</category>
+        
+      </item>
+    
+      <item>
+        <title>Photoshop版本研究笔记</title>
+        <description>&lt;p&gt;好久没有更新Blog了。其实最近我一直都在考虑各种问题……做的事情也相当多。顺便，最近我准备把这大半年来搞的一些事情，甚至是老久以前干的事情，都放在Blog上做一些总结吧。首先是原来令人困惑的Photoshop版本、Adobe Camera Raw版本，以及Adobe对各种相机专有Raw格式文件支持情况的问题。&lt;/p&gt;
+
+&lt;p&gt;刚刚开始用PS来解码Raw格式文件的时候，我杯具地发现不是每个PS都可以顺利打开我的尼康D3100的Raw文件的；有些版本的PS，即使下了更新包也不行，有的版本就行。Photoshop的版本号是CS3，CS4，CS5…而对应这些PS版本的Camera Raw的版本号又是怎么样的呢？一番调查后，我有了自己的结论。&lt;/p&gt;
+
+&lt;p&gt;##版本号问题
+Photoshop的版本号和Camera Raw的版本号是绑定的~！
+具体请参考&lt;a href=&quot;http://www.adobe.com/cn/downloads/updates/ &quot;&gt;http://www.adobe.com/cn/downloads/updates/ &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;例如，
+cs4 对应 camera raw 5.x&lt;br /&gt;
+cs5 对应 camera raw 6.x&lt;br /&gt;
+cs6 对应 camera raw 7.x&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;需要说明的是，PS CS4是无法升级到Camera Raw 6.x版本的。其其它的PS版本也类推。&lt;/p&gt;
+
+&lt;p&gt;而且，不是每个版本的Camera Raw都能支持到最新相机的Raw文件的，例如，Camera Raw 6.x就打不开尼康D3200的NEF文件，至少要Camera Raw 7.1才可以。（见&lt;a href=&quot;http://www.adobe.com/support/downloads/detail.jsp?ftpID=5391&quot;&gt;http://www.adobe.com/support/downloads/detail.jsp?ftpID=5391&lt;/a&gt;）所以，你有一台尼康D3200，又要使用Photoshop打开照相机的Raw文件，应该使用Photoshop CS6才可以！尼玛的Adobe坑爹是不。&lt;/p&gt;
+
+&lt;p&gt;我的相机是尼康D3100，支持D3100的Camera Raw版本号至少是 6.3，这意味着，如要使用Camera Raw打开D3100原版的&lt;code class=&quot;highlighter-rouge&quot;&gt;.NEF&lt;/code&gt;文件，必须要Photoshop的版本至少是CS5.&lt;/p&gt;
+
+&lt;p&gt;大家可以在&lt;a href=&quot;http://www.adobe.com/support/downloads/product.jsp?product=106&amp;amp;platform=Windows&quot;&gt;http://www.adobe.com/support/downloads/product.jsp?product=106&amp;amp;platform=Windows&lt;/a&gt; 查看Camera Raw的各个更新版本。在这里可以查询到你的相机的Raw格式图像最先是被哪一个版本的Camera Raw支持，这样你就可以选择Photoshop的版本了。&lt;/p&gt;
+
+&lt;p&gt;如果你有一台很新的相机，又想用老版本的Photoshop来处理它产生的Raw文件，那也是可以的。Adobe推出了一个DNG Converter，可以将厂商的Raw格式文件转换成Adobe公司的DNG格式，这样在老版本上的Camera Raw也能顺利打开。&lt;/p&gt;
+
+&lt;p&gt;##关于Camera Raw升级：
+ACR的更新将同时作用与PS和Bridge，若一格Raw文件在PS的ACR中打不开 在Bridge中同样打不开。推荐使用官方的ACR升级 而不是按网上流传的那样，直接拷贝Camera Raw.8bi，我自己试验过，Bridge根本不认可这个升级，而且这样的升级以后就无法安装PS的外挂插件了。&lt;/p&gt;
+
+&lt;p&gt;##note
+我坚持认为Photoshop应该安装原版的，升级补丁也要使用原版的，原来我就是使用了精简版，后来出现很多莫名其妙的错误，有一次安装了一精简版本的Photoshop，导致Camera Raw插件无法更新，后来想换用原版，结果发现原版的安不上！郁闷至极。&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 23 Sep 2012 00:06:00 +0800</pubDate>
+        <link>http://dynamii.org/2012/09/23/photoshop-version-notes</link>
+        <guid isPermaLink="true">http://dynamii.org/2012/09/23/photoshop-version-notes</guid>
+        
+        
+        <category>journal</category>
+        
+      </item>
+    
+      <item>
+        <title>迎接数字阅读时代，Kindle Touch入手</title>
+        <description>&lt;p&gt;##缘起##&lt;/p&gt;
+
+&lt;p&gt;我对E-ink电子墨水屏幕垂涎已久。这是一种可以媲美纸质印刷效果的显示技术，E-ink不仅非常省电，光线下柔和而富有美感的文字让我们看到了未来电子屏幕完全取代纸质书籍的可能性。但是直到最近几年E-ink才真正走入日常，成为人人都能支付的消费品。&lt;/p&gt;
+
+&lt;p&gt;Amazon是业界领先的电子商务公司，也是最大的电子书阅读器供应商。在平板电脑满天飞的市场环境中，Amazon公司不跟随现在的“流行趋势”，而是坚持开发了一款比平板电脑更适合阅读的便携式设备，这无疑是要冒风险的。幸好，看来人们对于阅读的需求还是非常旺盛的，Kindle逐渐变得流行，Kindle的各种资源也日渐丰富，Kindle在发展了4代后，到现在已经比较成熟，对于任何一个喜欢阅读的人来说，现在购买Kindle的时机已经到来。&lt;/p&gt;
+
+&lt;p&gt;##今天的Kindle##&lt;/p&gt;
+
+&lt;p&gt;现在市售的最新版Kindle分为6寸和9寸两种。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6寸&lt;/strong&gt;的Kindle是Kindle Touch和Kindle 4，前者是触摸屏，而且有两倍于Kindle 4的存储容量(4GB)，而且续航时间更长，支持的东西也更多&lt;a href=&quot;http://i54.tinypic.com/28a42o8.jpg&quot;&gt; ^&lt;/a&gt;。Kindle Touch的售价比Kindle Touch高出了折合软妹币大概￥200元，但我认为这是值得的，在购买了Touch之后我丝毫没有后悔我的选择，触屏很方便，续航时间也很满意。事实上第一次充电完成后过了14天电量才快要耗尽，我我还用Kindle wifi接收过至少20本电子书，用电脑传了20本书，阅读了30万字内容，听了1小时音乐。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9寸&lt;/strong&gt;的Kindle是Kindle DX。Kindle DX和B5大小的笔记本差不多大，不太方便携带，但是由于页面尺寸快接近A4了，很适合看扫描版的PDF，这对于经常阅读学术文献的人来说是重要的。这个尺寸的阅读器同样很适合看漫画。其实对于消费者来说，真正不选择Kindle DX的原因是价格，它太贵了。仅因为这一点就足以让很多人选择6寸的Kindle。&lt;/p&gt;
+
+&lt;p&gt;Kindle Touch的尺寸是6英寸，加上屏幕边框，它大概和我的A6活页本差不多大。我做了个档案袋，里面贴上防震的气泡材料和屏幕布，然后把Kindle装到里面，和活页本放在一起，意外地和谐！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://public.bay.livefilestore.com/y1pRY2eS0M7WTZ3f2Z99vfOX-DoiPVt94XebRMXekBFFsy3_dkIsQrbKV9B9XJZyv7aJ3t041yJhR9FWBxvnrz8Aw/DSC_0012-2.jpg?psid=1&quot; alt=&quot;Kindle生活照&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kindle很薄，有时候不知道该用手拿哪个地方，反倒是屏幕边框很大，而且屏幕是凹陷进边框的（现代智能手机的屏幕和边框是一样高的），稍稍有些不快。我我真心希望Kindle可以把边框做得更窄一点，阅读器本身更厚一点也可以，这样说不定更方便携带，握持感也会更好。&lt;/p&gt;
+
+&lt;p&gt;Kindle的屏幕是值得详细研究的地方。Kindle Touch的PPI达到了167PPI&lt;a href=&quot;http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Amazon&quot;&gt; ^&lt;/a&gt;。这是什么概念？我可以列举一下同时代几种典型便携设备的PPI：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Kindle&lt;/strong&gt; —— 167PPI&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;iPhone 4&lt;/strong&gt;	—— 326PPI&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nokia 5800&lt;/strong&gt; —— 231PPI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kindle的PPI不够高，换句话说，Kindle的显示屏还比不上诺基亚5800来得细腻。在实际阅读中，仔细看是能看到字符的锯齿的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://public.bay.livefilestore.com/y1pRY2eS0M7WTZmTKE1YtHZRwquuv3JD5JznPckjns0z9Y-Q6GXrpD5hopuzgzIfVPFRYQeipQIWQ7X9EY9Bc9Srw/Kindle%E5%B1%8F%E5%B9%95%E7%9A%84%E9%94%AF%E9%BD%BF.jpg?psid=1&quot; alt=&quot;Kindle屏幕放大图&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;真心希望Kindle能在下一代产品继续提高分辨率，E-ink屏幕确实能达到媲美纸质书籍的质感，但是如果PPI不够高，这种效果就会打一点折扣。还好日常阅读中我感觉它的细腻程度已经非常好了，但是看漫画的时候屏幕不够细腻的缺点就会显现。&lt;/p&gt;
+
+&lt;p&gt;##Kindle的文档格式##&lt;/p&gt;
+
+&lt;p&gt;Kindle支持得最好的格式是&lt;code class=&quot;highlighter-rouge&quot;&gt;.azw&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;.mobi&lt;/code&gt;。这两种是Amazon阅读器官方的格式。这两种格式的书籍在阅读时能够调整字体大小（PDF则不然）。更有目录，章节等页面，非常棒。&lt;/p&gt;
+
+&lt;p&gt;Kindle最有优势的一点是它的推送功能。每一个在Amazon上成功注册了的Kindle用户会得到一个专属电子邮件地址，以后有要想读的资料可以直接以附件的方式发送到这个邮箱，如果用户的Kindle打开了wifi(或3G)，Amazon可以把这些东西推送到Kindle上。文件可以是大多数的文档格式，如果是&lt;code class=&quot;highlighter-rouge&quot;&gt;.doc&lt;/code&gt;等不支持的格式，Amazon会自动转换为Kindle兼容的&lt;code class=&quot;highlighter-rouge&quot;&gt;.mobi&lt;/code&gt;格式。&lt;/p&gt;
+
+&lt;p&gt;最让人又爱又恨的项目是用Kindle看漫画。6寸屏本来只能对应32开的漫画书籍，但是现在大部分的漫画是16开版的，除了缩小以外没有更好的办法，但因为Kindle的PPI本来就不高，用Kindle读漫画变成了一种挑战。大部分的漫画一般都会被玩家使用软件转换为PDF格式后发到Kindle上。Kindle支持PDF格式，不过，功能就要差得多。显示屏周围有大大的边框，6寸的屏幕本来已经不大了，再加上屏幕，能显示内容的区域就捉襟见肘了。要求不高的话，是可以看的。在网友、程序员和众多黑客的努力下，看漫画已经有了一些较好的方案，包括&lt;a href=&quot;http://www.duokan.com/&quot;&gt;多看&lt;/a&gt;、&lt;a href=&quot;http://www.hi-pda.com/forum/viewthread.php?tid=898291&quot;&gt;Komic&lt;/a&gt;、&lt;a href=&quot;http://www.douban.com/group/topic/27777558/&quot;&gt;越狱系统后修改边距&lt;/a&gt;等。但最终还是因为屏幕过小和PPI不够高，漫画中一些细小的字看起来仍然是吃力的，再加上漫画在扫描、缩图时所用的重采样算法等关系，要在电子书上得到完美的漫画阅读体验是不大可能的，如有空我将详细写一下Kindle看漫画的心得。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://public.bay.livefilestore.com/y1pnBxOhCm9IivZHhTJorq6Wu41zvi39mYPLENizv44XAMuRqN-D8P217pK4Ws1F3u4xmqp23aYq3rGhlKsDevX8w/Kindle%E7%9C%8B%E6%BC%AB%E7%94%BB.jpg?psid=1&quot; alt=&quot;Kindle看漫画&quot; /&gt;&lt;br /&gt;
+Kindle看漫画&lt;/p&gt;
+
+&lt;p&gt;一般情况下，阅读书籍大家都会选用&lt;code class=&quot;highlighter-rouge&quot;&gt;.mobi&lt;/code&gt;等格式，阅读PDF主要还是为了看扫描版的书籍和漫画。另外，PDF是不支持全文搜索的（待考证）。还有，Kindle也不能对文字内容的PDF重新排版，如果默认的页面比较大，那就只有慢慢上下左右翻动好几次才能看完一页。但是，Kindle Touch对PDF对文字渲染的效果我感觉还是非常不错的，PDF还可以内嵌字体，这比单一字体的&lt;code class=&quot;highlighter-rouge&quot;&gt;.mobi&lt;/code&gt;棒多了，实际应用中对PDF的不满意主要还在看漫画和扫描版PDF的时候。&lt;/p&gt;
+
+&lt;p&gt;##Kindle Touch的娱乐项目##&lt;/p&gt;
+
+&lt;p&gt;Kindle Touch可以插上耳机听朗读（TTS），听mp3，用Kindle 4的同学就没这个福气了。Touch的音质还非常不错，我认为和我现在用的诺基亚5800是一个级别的，能和中档的mp3播放器平起平坐了。但是别指望Kindle能替代mp3播放器。E-ink屏幕的刷新速度是非常慢的，不要指望能有流畅的屏幕反馈，而且Kindle的mp3功能仅仅支持播放和暂停，显示基本的标题和歌手，其它功能是没有的。&lt;/p&gt;
+
+&lt;p&gt;Kindle Touch还带有一个网络浏览器，不过同样不要指望它能有流畅的屏幕反馈。&lt;/p&gt;
+
+&lt;p&gt;##越狱##&lt;/p&gt;
+
+&lt;p&gt;从上面的介绍可以看出，Amazon的Kindle，或者说制造Kindle的Amazon，还是非常封闭的，至少从Kindle对PDF的支持就能看出Amazon对于开放还缺乏一定的诚意，这对于某些用户和黑客们是无法忍受的。他们动手破解了Kindle并往里面塞进各种各样的附加功能，Kindle也变得更加好用了。&lt;/p&gt;
+
+&lt;p&gt;大家推荐的越狱方案1是多看。这是国人做的一个增强型系统，安装完成以后Kindle相当于拥有了两套系统，一套原版系统，另一套是多看系统。多看支持直接看漫画压缩包，也完美解决了边距问题，对PDF的支持也相当棒，但是不支持Amazon的官方推送，（但多看自己也弄了一套推送服务）而且据说字体渲染要差原版系统一些。我没有试过，就不妄言了。&lt;/p&gt;
+
+&lt;p&gt;另一种就是自己越狱取得权限，然后自己按需求安装增强软件，有PDF阅读软件，字体替换，屏保替换，等等等。目前为止我也没有尝试过越狱，或许有一天PDF让我抓狂的话，我会考虑的。&lt;/p&gt;
+
+&lt;p&gt;##最后##&lt;/p&gt;
+
+&lt;p&gt;电子信息带来的变革太大了，手机淘汰了手表，日历，mp3和PDA，以后或许还要淘汰照相机，数码相片淘汰了胶片，如今摆在我们面前的Kindle应该就是要淘汰书本的电子产品。电子书比传统书籍的优势太明显了，它们不占体积，可以随身携带，提取书中的内容更加方便，虽然现在阅读设备还没法像纸质书籍那样随意允许人们在页面上写写画画作注释，阅读器的翻页和导航也还是个问题（&lt;a href=&quot;http://www.ifanr.com/87993&quot;&gt; ^&lt;/a&gt;，&lt;a href=&quot;http://www.ifanr.com/94533&quot;&gt; ^^&lt;/a&gt;），但电子书阅读器总体上还是在往一个好的方向发展，至少它现在就能替代一些诸如漫画、杂志、报纸、非教科书类的传统书籍了。&lt;/p&gt;
+
+&lt;p&gt;阅读器和平板电脑也有非常大的区别。电子书代表的是对阅读的专注，平板电脑强调的是全能。有iPad和Kindle两种产品放在我的面前，问我愿意买哪一种？就算不考虑价格，我仍然会选择Kindle，因为Kindle有那个E-ink的屏幕。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Jun 2012 11:01:00 +0800</pubDate>
+        <link>http://dynamii.org/2012/06/22/my-kindle-touch</link>
+        <guid isPermaLink="true">http://dynamii.org/2012/06/22/my-kindle-touch</guid>
+        
+        
+        <category>journal</category>
+        
+      </item>
+    
   </channel>
 </rss>

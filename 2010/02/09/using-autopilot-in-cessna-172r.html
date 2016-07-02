@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>在FS2004中使用Cessna 172R的自动驾驶仪</title>
+  <meta name="description" content="在飞行使用自动驾驶仪是一件非常令人惬意的事情，因为它将飞行员有限的精力得到了大大的解放，使得我们在驾驶飞机的时候不用再紧张地手握操纵杆来完成诸如“保持高度2500”、“保持航向134”等等枯燥而乏味的操作了。在一次航线飞行中飞机往往要跟踪很多VOR导航台、完成很多ATC的高度要求、速度要求，航向要求等，降落时还要...">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.css">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="canonical" href="http://dynamii.org/2010/02/09/using-autopilot-in-cessna-172r">
+  <link rel="alternate" type="application/rss+xml" title="Dynamii Lab" href="http://dynamii.org/atom.xml">
+</head>
+
+
+  <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://dynamii.org">Dynamii Lab</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
+              
+                <li ><a href="/">Home</a></li>
+              
+            
+              
+                <li ><a href="/archive/">Archives</a></li>
+              
+            
+              
+                <li ><a href="/about/">About</a></li>
+              
+            
+
+            
+              
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                        <li class="dropdown-header">SNS places</li>
+                      
+                    
+                      
+                        <li ><a href="http://weibo.com/itrowa/">新浪围脖</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://steamcommunity.com/profiles/76561198081721002/">Steam</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://www.flickr.com/photos/trowa_barton">Flickr</a></li>
+                      
+                    
+                      
+                        <li role="separator" class="divider"></li>
+                      
+                    
+                      
+                        <li class="dropdown-header">collection</li>
+                      
+                    
+                      
+                        <li ><a href="https://www.zhihu.com/collection/36644506">Design & Illustration & Analysis</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://dynamii.org/2013/01/29/x-plane-index">x-plane资源综合索引</a></li>
+                      
+                    
+                  </ul>
+                </li>
+              
+            
+          </ul>
+          
+            <ul class="nav navbar-nav navbar-right">
+              
+                
+                  <li ><a href="/feed.xml">Feed</a></li>
+                
+              
+            </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="wrapper">
+        <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">在FS2004中使用Cessna 172R的自动驾驶仪</h1>
+    <p class="post-meta"><time datetime="2010-02-09T00:00:00+08:00" itemprop="datePublished">Feb 9, 2010</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>在飞行使用自动驾驶仪是一件非常令人惬意的事情，因为它将飞行员有限的精力得到了大大的解放，使得我们在驾驶飞机的时候不用再紧张地手握操纵杆来完成诸如“保持高度2500”、“保持航向134”等等枯燥而乏味的操作了。在一次航线飞行中飞机往往要跟踪很多VOR导航台、完成很多ATC的高度要求、速度要求，航向要求等，降落时还要跟踪ILS信号，更糟糕的是整个飞行过程中飞行员不仅要处理好这些东西，嘴里还要叽歪叽歪和ATC说个不停，副驾驶也要来瞎搅和，还要注意其它的灰机，要是没有自动驾驶接管一些简单的任务，恐怕飞行员的脑子是双核的都不够！</p>
+
+<p>FS2004的插件飞机Flight 1 Cessna 172R Skyhawk里面模拟了一台KAP140 型号的自动驾驶仪，利用它能完成以下功能：
+<ol>
+	<li>水平导航，例如<strong>航向保持</strong>、跟踪<strong>VOR航道</strong>或者<strong>GPS路点（waypoint）</strong>、跟踪<strong>ILS</strong>的<strong>LOC信号</strong>，这样开飞机时就不用死盯着VOR指示器上可怜的CDI指针来保持航道了，也不用再为了保持一个特定航向而精疲力竭了，自动驾驶会掌管好飞机的水平位置和方向，你要做的就是监视好这些仪表。</li>
+	<li>垂直导航，例如<strong>高度保持</strong>，ILS降落中的GS信号。</li>
+	<li>速度控制？开玩笑，这玩意儿是没有的，这么便宜的飞机就将就点吧</li>
+</ol>
+在C172飞机里面，自动驾驶仪是装在了这个位置：</p>
+
+<p><a href="http://trowa.org/wp-content/media/2010/02/where-is-AP.jpg"><img title="自动驾驶仪" src="http://trowa.org/wp-content/media/2010/02/where-is-AP.jpg" alt="" width="460" height="344" /></a></p>
+
+<p>在模拟飞行中，可以按<strong>Shift+2</strong>打开机载导航设备面板，就能使用自动驾驶仪了。让我们先来看看它长的什么样：</p>
+
+<p><a href="http://trowa.org/wp-content/media/2010/02/c172自动驾驶仪图.jpg"><img title="c172自动驾驶仪图" src="http://trowa.org/wp-content/media/2010/02/c172自动驾驶仪图.jpg" alt="" width="446" height="106" /></a></p>
+
+<p>自动驾驶仪的主要按钮与功能如下：</p>
+
+<p>1.总开关：<span style="color: #008000;"><strong>1按钮</strong></span>接通/切断自动驾驶仪。<strong>所有的自动驾驶仪都有一个“预设”的概念</strong>：那就是在使用自动驾驶仪前，先在机器里面设置好想要的高度、航向等，确认无误后，再行接通自动驾驶仪，而不是先接通了再去手忙脚乱设置参数。</p>
+
+<p>2.高度保持：<span style="color: #008000;"><strong>2</strong></span>显示自动驾驶仪所选择的高度。当按下<span style="color: #008000;"><strong>3</strong></span>时，自动驾驶仪就会激活并且使飞机爬升/下降到这个高度，高度选择可以用<span style="color: #008000;"><strong>4旋钮</strong></span>，此外还能指定一个垂直速率（使用<span style="color: #008000;"><strong>5</strong></span>），选好的垂直速率会在<span style="color: #008000;"><strong>6</strong></span>显示。</p>
+
+<p><a href="http://trowa.org/wp-content/media/2010/02/heading-sel.jpg"><img class="alignright size-full wp-image-554" style="margin: 10px;" title="航向选择" src="http://trowa.org/wp-content/media/2010/02/heading-sel.jpg" alt="" width="70" height="66" /></a>3.航向保持：使用航向保持模式时，首先要在航向指示器使用航向选择器（那个橙色的游标）选择一个航向，然后回到自动驾驶仪，猛击<span style="color: #008000;"><strong>7</strong></span>，飞机就会保持此特定的航向。再按一次<strong><span style="color: #008000;">7</span></strong>还会进入ROL模式。<strong>航向保持模式在自动驾驶里面是非常重要的，因为ATC会冷不防叫你“改变航向至XXX”之类的命令，如果使用自动驾驶仪的话，直接扭一下航向选择器就能轻松完成这些动作了。</strong></p>
+
+<p>4.跟踪VOR或者ILS：调整好VOR或者ILS导航台的频率并激活时，点击<span style="color: #008000;"><strong>8</strong></span>可以跟踪VOR信号，点击<span style="color: #008000;"><strong>9</strong></span>可以跟踪LOC和GS信号。</p>
+
+<p><a href="http://trowa.org/wp-content/media/2010/02/NAV-GPS-sel1.jpg"><img class="alignright size-full wp-image-553" style="margin: 10px;" title="NAV/GPS选择器" src="http://trowa.org/wp-content/media/2010/02/NAV-GPS-sel1.jpg" alt="" width="211" height="136" /></a>5.跟踪GPS路点：当使用GPS导航时，在飞机主面板拨动“Nav/GPS开关”激活GPS模式，自动驾驶仪就可以跟踪GPS的路点，而不是VOR信号了。</p>
+
+<p>自动驾驶仪还有个反向航路进近模式（<span style="color: #008000;"><strong>按钮10</strong></span>），这种模式下定位信标的指示是和正常情况下是相反的，这个用得很少。</p>
+
+<p>Cessna 172R飞机上的自动驾驶仪功能差不多就是以上所说的，虽然简单但是很实用，学会了它，以后大型客机的自动驾驶仪学习起来就要容易些。有了自动驾驶仪的帮助，进行长距离长时间的航线飞行应该不会太累了。</p>
+
+  </div>
+
+  <h2 class="post-comment"> 评论 </h2>
+
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_developer = 1;
+        var disqus_shortname = 'dynamii'; // required: replace example with your forum shortname
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</article>
+
+    </div>
+
+    <footer class="site-footer container">
+
+  <div class="wrapper">
+      <div class="footer-col footer-col-3">
+        <p>采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="by-cc-sa 3.0" target="_blank"> 署名-非商业性使用-相同方式共享协议</a>发布.  <a href="http://dynamii.org/about" title="about dynamii lab">DYNAMII.ORG</a> Since 2006 - 2016  is powered by <a href="http://pages.github.com/" target="_blank">Github</a>.</p>
+      </div>
+    </div>
+
+</footer>
+
+
+  <!-- javascript functions  -->
+  <script src="/scripts/jquery.min.js"></script>
+  <script src="/scripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+
+</html>

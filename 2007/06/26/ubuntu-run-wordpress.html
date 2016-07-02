@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>在Ubuntu桌面上跑WordPress</title>
+  <meta name="description" content="即使是在本机上建WordPress测试站点，我也希望有个标准的LAMP平台。我原本以为在最标准的Linux上搭WordPress不是件容易的事，哪知道装了Ubuntu后，亲自装下来，才发现这一切都是如此简单。除了下载的时间，整个安装配置过程甚至还不到2分钟……">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.css">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="canonical" href="http://dynamii.org/2007/06/26/ubuntu-run-wordpress">
+  <link rel="alternate" type="application/rss+xml" title="Dynamii Lab" href="http://dynamii.org/atom.xml">
+</head>
+
+
+  <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://dynamii.org">Dynamii Lab</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
+              
+                <li ><a href="/">Home</a></li>
+              
+            
+              
+                <li ><a href="/archive/">Archives</a></li>
+              
+            
+              
+                <li ><a href="/about/">About</a></li>
+              
+            
+
+            
+              
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                        <li class="dropdown-header">SNS places</li>
+                      
+                    
+                      
+                        <li ><a href="http://weibo.com/itrowa/">新浪围脖</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://steamcommunity.com/profiles/76561198081721002/">Steam</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://www.flickr.com/photos/trowa_barton">Flickr</a></li>
+                      
+                    
+                      
+                        <li role="separator" class="divider"></li>
+                      
+                    
+                      
+                        <li class="dropdown-header">collection</li>
+                      
+                    
+                      
+                        <li ><a href="https://www.zhihu.com/collection/36644506">Design & Illustration & Analysis</a></li>
+                      
+                    
+                      
+                        <li ><a href="http://dynamii.org/2013/01/29/x-plane-index">x-plane资源综合索引</a></li>
+                      
+                    
+                  </ul>
+                </li>
+              
+            
+          </ul>
+          
+            <ul class="nav navbar-nav navbar-right">
+              
+                
+                  <li ><a href="/feed.xml">Feed</a></li>
+                
+              
+            </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="wrapper">
+        <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">在Ubuntu桌面上跑WordPress</h1>
+    <p class="post-meta"><time datetime="2007-06-26T00:00:00+08:00" itemprop="datePublished">Jun 26, 2007</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>即使是在本机上建WordPress测试站点，我也希望有个标准的LAMP平台。我原本以为在最标准的Linux上搭WordPress不是件容易的事，哪知道装了Ubuntu后，亲自装下来，才发现这一切都是如此简单。除了下载的时间，整个安装配置过程甚至还不到2分钟……</p>
+
+<p><em>参考资料：<a href="http://www.osxcn.com/ubuntu/ubuntu-feisty-fawn-server.html">http://www.osxcn.com/ubuntu/ubuntu-feisty-fawn-server.html</a> </em></p>
+
+<p>1、打开新立得软件包管理器，－编辑 －使用任务分组标记软件包 －勾选 LAMP Server，如下图：</p>
+
+<p><a href="http://photo8.yupoo.com/20070626/162831_644175898_vzewfhpt.jpg"><img title="screenshot" src="http://photo8.yupoo.com/20070626/162831_644175898_m.jpg" alt="screenshot" width="240" height="180" /></a></p>
+
+<p>2、到客厅泡杯茶或者找点游戏消磨时间。</p>
+
+<p>3、启用 mod_rewrite 模块</p>
+
+<p>sudo a2enmod rewrite</p>
+
+<p>4、配置 apache2.conf</p>
+
+<p>sudo gedit /etc/apache2/apache2.conf</p>
+
+<p>去掉 AddHandler cgi-script .cgi 前的注释 “#”。</p>
+
+<p>然后在任意地方添加这么一段：<br />
+&lt;Virtualhost localhost&gt;<br />
+DocumentRoot /var/www/<br />
+&lt;Directory /&gt;<br />
+Options FollowSymLinks<br />
+AllowOverride all<br />
+&lt;/Directory&gt;<br />
+&lt;Directory /var/www/cgi-bin/&gt;<br />
+Options ExecCGI<br />
+&lt;/Directory&gt;<br />
+&lt;/Virtualhost&gt;</p>
+
+<p>重启服务器<br />
+sudo /etc/init.d/apache2 restart</p>
+
+<p>搞定。</p>
+
+<p>以后服务器会随Ubuntu的启动而自动启动。</p>
+
+<p>接下来安装WordPress：</p>
+
+<p>将解压的WordPress目录放到/var/www（假设是/var/www/wordpress/），再到http://localhost/phpmyadmin/建个数据库（用户名root，密码为空），然后配置一下WordPress的config文件，接着再到http://localhost/wordpress/wp-admin/install.php，怎么样，一个很熟悉的界面呈现在电脑屏幕前了～</p>
+
+  </div>
+
+  <h2 class="post-comment"> 评论 </h2>
+
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_developer = 1;
+        var disqus_shortname = 'dynamii'; // required: replace example with your forum shortname
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</article>
+
+    </div>
+
+    <footer class="site-footer container">
+
+  <div class="wrapper">
+      <div class="footer-col footer-col-3">
+        <p>采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="by-cc-sa 3.0" target="_blank"> 署名-非商业性使用-相同方式共享协议</a>发布.  <a href="http://dynamii.org/about" title="about dynamii lab">DYNAMII.ORG</a> Since 2006 - 2016  is powered by <a href="http://pages.github.com/" target="_blank">Github</a>.</p>
+      </div>
+    </div>
+
+</footer>
+
+
+  <!-- javascript functions  -->
+  <script src="/scripts/jquery.min.js"></script>
+  <script src="/scripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+
+</html>
